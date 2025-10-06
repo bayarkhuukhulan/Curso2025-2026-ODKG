@@ -37,6 +37,74 @@
     </p>
   </header>
 
+  <!-- === COORDENADAS DE UNIS === -->
+  <section id="coordenadas">
+    <h2>Coordenadas_Universidades_de_Espana.csv</h2>
+    <h3>Dataset Analysis</h3>
+    <p><strong>Name:</strong> Universidades de España</p>
+    <p><strong>Description:</strong> This dataset provides the geographical coordinates (latitude and longitude) of Spanish universities, along with their institutional names and unique identifiers.</p>
+
+    <h3>Schema and Fields</h3>
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Description</th>
+                <th>Data Type</th>
+                <th>Value Range</th>
+                <th>Example Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>X</td>
+                <td>Longitude coordinate of the university location (in decimal degrees)</td>
+                <td>Float</td>
+                <td>-9.0 – 4.0</td>
+                <td>-3.92017372420796</td>
+            </tr>
+            <tr>
+                <td>Y</td>
+                <td>Latitude coordinate of the university location (in decimal degrees)</td>
+                <td>Float</td>
+                <td>35.0 – 44.0</td>
+                <td>40.3714974338577</td>
+            </tr>
+            <tr>
+                <td>OBJECTID_1</td>
+                <td>Internal unique identifier (duplicate of OBJECTID)</td>
+                <td>Integer</td>
+                <td>1 – N</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>OBJECTID</td>
+                <td>Primary identifier for the record in the spatial dataset</td>
+                <td>Integer</td>
+                <td>1 – N</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Texto</td>
+                <td>Name of the university corresponding to the given coordinates</td>
+                <td>String</td>
+                <td></td>
+                <td>Universidad Europea CEES</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3>Licensing</h3>
+    <p><strong>Publisher:</strong> Esri España Contenidos</p>
+    <p><strong>Rightsholder:</strong> Esri España Contenidos</p>
+    <p><strong>License:</strong> Acceso libre y gratuito</p>
+    
+    <h3>Source</h3>
+    <p><strong>URL:</strong> <a href="https://hub.arcgis.com/datasets/7698bfcee79142918ed0f040505adfc0_0/explore" target="_blank">
+     ArcGIS Hub - Universidades de España</a></p>
+  </section>
+
   <!-- === ANDALUCIA === -->
   <section id="andalusia">
     <h2>Andalucia_NotasdeCorte_2024.csv</h2>
@@ -75,7 +143,7 @@
 
   <!-- === ARAGÓN === -->
   <section id="aragon">
-    <h2>Andalucia_NotasdeCorte_2024.csv</h2>
+    <h2>Aragon_NotasDecorte_2023.csv</h2>
     <h3>Dataset Analysis</h3>
     <p><strong>Name:</strong> Aragonese Universities — Admission Grades 2023</p>
     <p><strong>Description:</strong> This dataset provides admission information for the University of Zaragoza. It includes admission quotas, access categories (general, disability, older students, athletes, etc.), and the cut-off grades for different adjudication rounds. The data corresponds to the 2023 academic year.</p>
@@ -183,6 +251,359 @@
     <h3>Source</h3>
     <p><strong>URL:</strong> <a href="https://opendata.aragon.es/datos/catalogo/dataset/oai-zaguan-unizar-es-129780" target="_blank">
     Notas de corte de adjudicación definitivas de julio y septiembre. Todos los cupos. Curso 2023-2024. Universidad de Zaragoza </a></p>
+  </section>
+
+  <!-- === ASTURIAS === -->
+  <section id="asturias">
+    <h2>Asturias_listaestudios.csv</h2>
+    <h3>Dataset Analysis</h3>
+    <p><strong>Name:</strong> Lista Estudios en Universidad de Oviedo</p>
+    <p><strong>Description:</strong> This dataset lists discontinued university degree programs (titulaciones extinguidas) formerly offered by University of Oviedo. It includes information such as academic level, branch of knowledge, administrative status, and publication details in the Official State Gazette (B.O.E.).</p>
+
+    <h3>Schema and Fields</h3>
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Description</th>
+                <th>Data Type</th>
+                <th>Value Range</th>
+                <th>Example Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Código</td>
+                <td>Official program code assigned by the education authorities</td>
+                <td>String</td>
+                <td>Numeric identifier (7 digits)</td>
+                <td>1001000</td>
+            </tr>
+            <tr>
+                <td>Título</td>
+                <td>Name of the academic degree or qualification</td>
+                <td>String</td>
+                <td></td>
+                <td>Arquitecto</td>
+            </tr>
+            <tr>
+                <td>Universidad</td>
+                <td>University or group of universities offering the degree</td>
+                <td>String</td>
+                <td>{Universidad de Oviedo, Varias Universidades, (Conjunto)}</td>
+                <td>Varias Universidades</td>
+            </tr>
+            <tr>
+                <td>Nivel académico</td>
+                <td>Educational level or cycle of the program</td>
+                <td>String</td>
+                <td>{Ciclo Corto, Ciclo Largo, Segundo Ciclo de Ciclo Largo}</td>
+                <td>Ciclo Corto</td>
+            </tr>
+            <tr>
+                <td>Rama</td>
+                <td>Branch of knowledge associated with the degree</td>
+                <td>String</td>
+                <td>{Ingeniería y Arquitectura, Ciencias Sociales y Jurídicas, Ciencias de la Salud, Artes y Humanidades}</td>
+                <td>Ingeniería y Arquitectura</td>
+            </tr>
+            <tr>
+                <td>Ámbito</td>
+                <td>Specific academic or professional domain (if available)</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>Official status of the degree (e.g., active, discontinued, published)</td>
+                <td>String</td>
+                <td>{Autorizado por Comunidad Aut&oacute;noma, Publicado en B.O.E.s}</td>
+                <td>Publicado en B.O.E.</td>
+            </tr>
+            <tr>
+                <td>Detalle</td>
+                <td>Additional notes or clarifications about the program’s status</td>
+                <td>String</td>
+                <td>{(TITULACIÓN RENOVADA), (TITULACIÓN RENOVADA POR ACREDITACIÓN INSTITUCIONAL), (TITULACIÓN EXTINGUIDA)}</td>
+                <td>(TITULACIÓN EXTINGUIDA)</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3>Licensing</h3>
+    <p><strong>Publisher:</strong> Registro de Universidades, Centros y Títulos (RUCT)</p>
+    <p><strong>Rightsholder:</strong> Ministerio de Ciencia, Innovación y Universidades</p>
+    <p><strong>License:</strong> <a href="https://www.boe.es/boe/dias/2008/09/25/pdfs/A38854-38857.pdf">Carácter público y de registro administrativo</a></p>
+    
+    <h3>Source</h3>
+    <p><strong>URL:</strong> <a href="https://www.educacion.gob.es/ruct/consultaestudios.action?actual=estudios" target="_blank">
+    Sección títulos - Estudios</a></p>
+  </section>
+
+  <!-- === ISLAS BALEARES === -->
+  <section id="islasbaleares">
+    <h2>IslasBaleares_listaestudios.csv</h2>
+    <h3>Dataset Analysis</h3>
+    <p><strong>Name:</strong> Lista Estudios en Universidad de Islas Baleares</p>
+    <p><strong>Description:</strong> This dataset lists discontinued university degree programs (titulaciones extinguidas) formerly offered by University of Islas Baleares. It includes information such as academic level, branch of knowledge, administrative status, and publication details in the Official State Gazette (B.O.E.).</p>
+
+    <h3>Schema and Fields</h3>
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Description</th>
+                <th>Data Type</th>
+                <th>Value Range</th>
+                <th>Example Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Código</td>
+                <td>Official degree code assigned by the Ministry of Education or academic authorities</td>
+                <td>String</td>
+                <td>7-digit numeric identifier</td>
+                <td>5067000</td>
+            </tr>
+            <tr>
+                <td>Título</td>
+                <td>Name of the university degree (qualification title)</td>
+                <td>String</td>
+                <td></td>
+                <td>Arquitecto Técnico</td>
+            </tr>
+            <tr>
+                <td>Universidad</td>
+                <td>University or consortium of universities that offered the degree</td>
+                <td>String</td>
+                <td></td>
+                <td>Varias Universidades</td>
+            </tr>
+            <tr>
+                <td>Nivel académico</td>
+                <td>Academic level or study cycle of the program</td>
+                <td>String</td>
+                <td>{Ciclo Corto, Ciclo Largo, Segundo Ciclo de Ciclo Largo}</td>
+                <td>Ciclo Corto</td>
+            </tr>
+            <tr>
+                <td>Rama</td>
+                <td>Knowledge branch associated with the degree</td>
+                <td>String</td>
+                <td>{Ingeniería y Arquitectura, Ciencias Sociales y Jurídicas, Ciencias de la Salud, Artes y Humanidades}</td>
+                <td>Ingeniería y Arquitectura</td>
+            </tr>
+            <tr>
+                <td>Ámbito</td>
+                <td>Specific academic or professional area (if applicable)</td>
+                <td>String</td>
+                <td></td>
+                <td>Derecho y especialidades jurídicas</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>Official administrative status of the qualification (as published in B.O.E.)</td>
+                <td>String</td>
+                <td>{Publicado en B.O.E., Autorizado por Comunidad Aut&oacute;noma}</td>
+                <td>Publicado en B.O.E.</td>
+            </tr>
+            <tr>
+                <td>Detalle</td>
+                <td>Additional remarks or contextual information about the program’s discontinuation</td>
+                <td>String</td>
+                <td>{(TITULACIÓN RENOVADA), (TITULACIÓN RENOVADA POR ACREDITACIÓN INSTITUCIONAL), (TITULACIÓN EXTINGUIDA)}</td>
+                <td>(TITULACIÓN EXTINGUIDA)</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3>Licensing</h3>
+    <p><strong>Publisher:</strong> Registro de Universidades, Centros y Títulos (RUCT)</p>
+    <p><strong>Rightsholder:</strong> Ministerio de Ciencia, Innovación y Universidades</p>
+    <p><strong>License:</strong> <a href="https://www.boe.es/boe/dias/2008/09/25/pdfs/A38854-38857.pdf">Carácter público y de registro administrativo</a></p>
+    
+    <h3>Source</h3>
+    <p><strong>URL:</strong> <a href="https://www.educacion.gob.es/ruct/consultaestudios.action?actual=estudios" target="_blank">
+    Sección títulos - Estudios</a></p>
+  </section>
+
+  <!-- === CANARIAS === -->
+  <section id="canarias">
+    <h2>Canarias_listaestudios.csv</h2>
+    <h3>Dataset Analysis</h3>
+    <p><strong>Name:</strong> Lista Estudios en Universidad de La Palma de Gran Canarias</p>
+    <p><strong>Description:</strong> This dataset lists discontinued university degree programs (titulaciones extinguidas) formerly offered by various Spanish universities. It includes information such as academic level, branch of knowledge, administrative status, and publication details in the Official State Gazette (B.O.E.).</p>
+
+    <h3>Schema and Fields</h3>
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Description</th>
+                <th>Data Type</th>
+                <th>Value Range</th>
+                <th>Example Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Código</td>
+                <td>Official program code assigned by the education authorities</td>
+                <td>String</td>
+                <td>Numeric identifier (7 digits)</td>
+                <td>1001000</td>
+            </tr>
+            <tr>
+                <td>Título</td>
+                <td>Name of the academic degree or qualification</td>
+                <td>String</td>
+                <td></td>
+                <td>Arquitecto</td>
+            </tr>
+            <tr>
+                <td>Universidad</td>
+                <td>University or group of universities offering the degree</td>
+                <td>String</td>
+                <td>{Universidad de Las Palmas de Gran Canaria, Varias Universidades, (Conjunto)}</td>
+                <td>Varias Universidades</td>
+            </tr>
+            <tr>
+                <td>Nivel académico</td>
+                <td>Educational level or cycle of the program</td>
+                <td>String</td>
+                <td>{Ciclo Corto, Ciclo Largo, Segundo Ciclo de Ciclo Largo}</td>
+                <td>Ciclo Corto</td>
+            </tr>
+            <tr>
+                <td>Rama</td>
+                <td>Branch of knowledge associated with the degree</td>
+                <td>String</td>
+                <td>{Ingeniería y Arquitectura, Ciencias Sociales y Jurídicas, Ciencias de la Salud, Artes y Humanidades}</td>
+                <td>Ingeniería y Arquitectura</td>
+            </tr>
+            <tr>
+                <td>Ámbito</td>
+                <td>Specific academic or professional domain (if available)</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>Official status of the degree (e.g., active, discontinued, published)</td>
+                <td>String</td>
+                <td></td>
+                <td>Publicado en B.O.E.</td>
+            </tr>
+            <tr>
+                <td>Detalle</td>
+                <td>Additional notes or clarifications about the program’s status</td>
+                <td>String</td>
+                <td>{(TITULACIÓN A EXTINGUIR), (TITULACIÓN RENOVADA)}</td>
+                <td>(TITULACIÓN EXTINGUIDA)</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3>Licensing</h3>
+    <p><strong>Publisher:</strong> Registro de Universidades, Centros y Títulos (RUCT)</p>
+    <p><strong>Rightsholder:</strong> Ministerio de Ciencia, Innovación y Universidades</p>
+    <p><strong>License:</strong> <a href="https://www.boe.es/boe/dias/2008/09/25/pdfs/A38854-38857.pdf">Carácter público y de registro administrativo</a></p>
+    
+    <h3>Source</h3>
+    <p><strong>URL:</strong> <a href="https://www.educacion.gob.es/ruct/consultaestudios.action?actual=estudios" target="_blank">
+    Sección títulos - Estudios</a></p>
+  
+    <h2>Canarias_listaestudios2.csv</h2>
+    <h3>Dataset Analysis</h3>
+    <p><strong>Name:</strong> Lista Estudios en Universidad de La Laguna (Canarias)</p>
+    <p><strong>Description:</strong> This dataset lists discontinued university degree programs (titulaciones extinguidas) formerly offered by University of La Laguna. It includes information such as academic level, branch of knowledge, administrative status, and publication details in the Official State Gazette (B.O.E.).</p>
+
+    <h3>Schema and Fields</h3>
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Description</th>
+                <th>Data Type</th>
+                <th>Value Range</th>
+                <th>Example Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Código</td>
+                <td>Official degree code assigned by the Ministry of Education or academic authorities</td>
+                <td>String</td>
+                <td>7-digit numeric identifier</td>
+                <td>5067000</td>
+            </tr>
+            <tr>
+                <td>Título</td>
+                <td>Name of the university degree (qualification title)</td>
+                <td>String</td>
+                <td></td>
+                <td>Arquitecto Técnico</td>
+            </tr>
+            <tr>
+                <td>Universidad</td>
+                <td>University or consortium of universities that offered the degree</td>
+                <td>String</td>
+                <td></td>
+                <td>Varias Universidades</td>
+            </tr>
+            <tr>
+                <td>Nivel académico</td>
+                <td>Academic level or study cycle of the program</td>
+                <td>String</td>
+                <td>{Ciclo Corto, Ciclo Largo, Segundo Ciclo de Ciclo Largo}</td>
+                <td>Ciclo Corto</td>
+            </tr>
+            <tr>
+                <td>Rama</td>
+                <td>Knowledge branch associated with the degree</td>
+                <td>String</td>
+                <td>{Ingeniería y Arquitectura, Ciencias Sociales y Jurídicas, Ciencias de la Salud, Artes y Humanidades}</td>
+                <td>Ingeniería y Arquitectura</td>
+            </tr>
+            <tr>
+                <td>Ámbito</td>
+                <td>Specific academic or professional area (if applicable)</td>
+                <td>String</td>
+                <td></td>
+                <td>Derecho y especialidades jurídicas</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>Official administrative status of the qualification (as published in B.O.E.)</td>
+                <td>String</td>
+                <td>{Publicado en B.O.E., Autorizado por Comunidad Aut&oacute;noma}</td>
+                <td>Publicado en B.O.E.</td>
+            </tr>
+            <tr>
+                <td>Detalle</td>
+                <td>Additional remarks or contextual information about the program’s discontinuation</td>
+                <td>String</td>
+                <td>{(TITULACIÓN RENOVADA), (TITULACIÓN RENOVADA POR ACREDITACIÓN INSTITUCIONAL), (TITULACIÓN EXTINGUIDA)}</td>
+                <td>(TITULACIÓN EXTINGUIDA)</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3>Licensing</h3>
+    <p><strong>Publisher:</strong> Registro de Universidades, Centros y Títulos (RUCT)</p>
+    <p><strong>Rightsholder:</strong> Ministerio de Ciencia, Innovación y Universidades</p>
+    <p><strong>License:</strong> <a href="https://www.boe.es/boe/dias/2008/09/25/pdfs/A38854-38857.pdf">Carácter público y de registro administrativo</a></p>
+    
+    <h3>Source</h3>
+    <p><strong>URL:</strong> <a href="https://www.educacion.gob.es/ruct/consultaestudios.action?actual=estudios" target="_blank">
+    Sección títulos - Estudios</a></p>
   </section>
 
   <!-- === CANTABRIA === -->
