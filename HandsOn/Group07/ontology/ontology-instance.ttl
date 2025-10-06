@@ -1,0 +1,57 @@
+@base <https://linkeduniversities.es/> .
+@prefix lude: <https://linkeduniversities.es/vocab/> .
+@prefix id:   <https://linkeduniversities.es/id/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+
+# University
+lude:unizara
+    rdfs:label "Universidad de Zaragoza"^^xsd:string ;
+    geo:long "-0.896589039248726"^^xsd:float ;
+    geo:lat  "41.6421016648685"^^xsd:float ;
+    lude:hasFaculty lude:unizara-inf ;
+    # optional alignment to Wikidata (replace with the correct URI if known)
+    lude:sameAsWikidata <https://www.wikidata.org/wiki/Q633561> ;
+    .
+
+# Faculty
+lude:unizara-inf
+    rdfs:label "Escuela de Ingeniería y Arquitectura"^^xsd:string ;
+    lude:locatedIn lude:zaragoza ;
+    .
+
+# City / Place
+lude:zaragoza
+    rdfs:label "Zaragoza"^^xsd:string ;
+    lude:sameAsWikidata <https://www.wikidata.org/wiki/Q10305> ;
+    .
+
+# Degree
+lude:arquitec
+    rdfs:label "Grado en Arquitectura Técnica"^^xsd:string ;
+    lude:ectsCredits "240"^^xsd:decimal ;
+    lude:branch "Ingeniería y Arquitectura"^^xsd:string ;
+    lude:sameAsWikidata <https://www.wikidata.org/entity/Q16255517> ;
+    .
+
+# Programm Offer
+lude:fund-instal-2023 ;
+    rdfs:label "Fundamentos de las instalaciones"^^xsd:string ;
+    lude:academicYear "2023"^^xsd:string ;
+    lude:teachingModality "Presencial"^^xsd:string ;
+    lude:seatsAvailable "45"^^xsd:integer ;
+    lude:offeredBy lude:unizara ;
+    lude:deliveredAt lude:unizara-inf ;
+    lude:aboutDegree lude:arquitec ;
+    lude:hasCutoff lude:admis-arquitec ;
+    .
+
+# Admissions cutoff instance
+lude:admis-arquitec
+    lude:score "5"^^xsd:decimal ;
+    lude:adjudicationRound "definitiva_2"^^xsd:string ;
+    lude:admissionPathway "general"^^xsd:string ;
+    lude:updateDate "2025-01-05"^^xsd:date ;
+    .
