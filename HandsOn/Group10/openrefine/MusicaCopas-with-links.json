@@ -2000,5 +2000,273 @@
     "newColumnName": "cityWikidata2",
     "columnInsertIndex": 23,
     "description": "Crear la columna cityWikidata2 en el índice 23 basada en la columna cityWikidata usando la expresión grel:\"https://www.wikidata.org/wiki/\"+value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "neigborhoodWikidata2",
+    "newColumnName": "neighborhoodWikidata2",
+    "description": "Renombra la columna neigborhoodWikidata2 a neighborhoodWikidata2"
+  },
+   {
+    "op": "core/column-rename",
+    "oldColumnName": "neighborhodWikidata",
+    "newColumnName": "neighborhoodWikidata",
+    "description": "Renombra la columna neighborhodWikidata a neighborhoodWikidata"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhoodName2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q75135432",
+        "name": "administrative quarter in Barcelona"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column neighborhoodName2 to type Q75135432"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhoodName2",
+    "similarValue": "Sarrià-Sant Gervasi",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3321657",
+      "name": "Sant Gervasi-la Bonanova",
+      "types": [
+        "Q75135432",
+        "Q123705"
+      ],
+      "score": 60
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Sant Gervasi-la Bonanova (Q3321657) para las celdas que contienen \"Sarrià-Sant Gervasi\" en la columna neighborhoodName2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhoodName2",
+    "similarValue": "Sant Pere",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3826875",
+      "name": "Sant Pere",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Sant Pere (Q3826875) para las celdas que contienen \"Sant Pere\" en la columna neighborhoodName2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "neighborhoodName2",
+          "expression": "value",
+          "columnName": "neighborhoodName2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sant Andreu",
+                "l": "Sant Andreu"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhoodName2",
+    "similarValue": "Sant Andreu",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1650230",
+      "name": "Sant Andreu",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Sant Andreu (Q1650230) para las celdas que contienen \"Sant Andreu\" en la columna neighborhoodName2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "neighborhoodWikidata",
+    "description": "Eliminar columna neighborhoodWikidata"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "neighborhoodWikidata2",
+    "description": "Eliminar columna neighborhoodWikidata2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "neighborhoodName2",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "neighborhoodWikidata",
+    "columnInsertIndex": 10,
+    "description": "Crear la columna neighborhoodWikidata en el índice 10 basada en la columna neighborhoodName2 usando la expresión grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "neighborhoodWikidata",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+value",
+    "onError": "set-to-blank",
+    "newColumnName": "neighborhoodWikidata2",
+    "columnInsertIndex": 11,
+    "description": "Crear la columna neighborhoodWikidata2 en el índice 11 basada en la columna neighborhoodWikidata usando la expresión grel:\"https://www.wikidata.org/wiki/\"+value"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "neighborhoodName2",
+          "expression": "value",
+          "columnName": "neighborhoodName2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sarrià-Sant Gervasi",
+                "l": "Sarrià-Sant Gervasi"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhoodName2",
+    "similarValue": "Sarrià-Sant Gervasi",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1765582",
+      "name": "Sarrià-Sant Gervasi",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Sarrià-Sant Gervasi (Q1765582) para las celdas que contienen \"Sarrià-Sant Gervasi\" en la columna neighborhoodName2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "neighborhoodName2",
+          "expression": "value",
+          "columnName": "neighborhoodName2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sarrià-Sant Gervasi",
+                "l": "Sarrià-Sant Gervasi"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "neighborhoodName2",
+    "similarValue": "Sarrià-Sant Gervasi",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1765582",
+      "name": "Sarrià-Sant Gervasi",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Sarrià-Sant Gervasi (Q1765582) para las celdas que contienen \"Sarrià-Sant Gervasi\" en la columna neighborhoodName2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "neighborhoodWikidata",
+    "description": "Eliminar columna neighborhoodWikidata"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "neighborhoodWikidata2",
+    "description": "Eliminar columna neighborhoodWikidata2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "neighborhoodName2",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "neighborhoodWikidata",
+    "columnInsertIndex": 9,
+    "description": "Crear la columna neighborhoodWikidata en el índice 9 basada en la columna neighborhoodName2 usando la expresión grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "neighborhoodWikidata",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\"+value",
+    "onError": "set-to-blank",
+    "newColumnName": "neighborhoodWikidata2",
+    "columnInsertIndex": 10,
+    "description": "Crear la columna neighborhoodWikidata2 en el índice 10 basada en la columna neighborhoodWikidata usando la expresión grel:\"https://www.wikidata.org/wiki/\"+value"
   }
 ]

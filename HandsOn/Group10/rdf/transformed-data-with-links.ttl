@@ -5373,497 +5373,457 @@
   ns:districtId 1;
   ns:districtName "Ciutat Vella";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q941385> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10> a ns:District;
   ns:districtId 10;
   ns:districtName "Sant Martí";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q250935> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2> a ns:District;
   ns:districtId 2;
   ns:districtName "Eixample";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q64124> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3> a ns:District;
   ns:districtId 3;
   ns:districtName "Sants-Montjuïc";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753075> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/4> a ns:District;
   ns:districtId 4;
   ns:districtName "Les Corts";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q959944> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/5> a ns:District;
   ns:districtId 5;
   ns:districtName "Sarrià-sant Gervasi";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1765582> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/6> a ns:District;
   ns:districtId 6;
   ns:districtName "Gràcia";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q852697> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7> a ns:District;
   ns:districtId 7;
   ns:districtName "Horta-Guinardó";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1771488> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8> a ns:District;
   ns:districtId 8;
   ns:districtName "Nou Barris";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1641049> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/9> a ns:District;
   ns:districtId 9;
   ns:districtName "Sant Andreu";
   ns:hasCity <http://www.barnabikes.org/ODKG/handsOn/group10/resource/City/Barcelona>;
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/districtWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1650230> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/1> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/1>;
   ns:neighborhoodId 1;
   ns:neighborhoodName "El Raval";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1758503> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/10> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>;
   ns:neighborhoodId 10;
   ns:neighborhoodName "Sant Antoni";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q720994> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/11> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>,
     <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3>;
   ns:neighborhoodId 11;
   ns:neighborhoodName "El Poble-sec";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q980253> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/12> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3>;
   ns:neighborhoodId 12;
   ns:neighborhoodName "La Marina Del Prat Vermell";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3596095> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/13> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3>;
   ns:neighborhoodId 13;
   ns:neighborhoodName "La Marina De Port";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3751076> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/14> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3>;
   ns:neighborhoodId 14;
   ns:neighborhoodName "La Font De La Guatlla";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3750859> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/15> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3>;
   ns:neighborhoodId 15;
   ns:neighborhoodName "Hostafrancs";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3750929> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/16> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3>;
   ns:neighborhoodId 16;
   ns:neighborhoodName "La Bordeta";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3753110> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/17> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3>;
   ns:neighborhoodId 17;
-  ns:neighborhoodName "Sants - Badal";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  ns:neighborhoodName "Sants-Badal";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3596096> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/18> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/3>;
   ns:neighborhoodId 18;
-  ns:neighborhoodName "Sants";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  ns:neighborhoodName "Sants", "Sants-Badal";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3596096> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/19> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>,
     <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/4>;
   ns:neighborhoodId 19;
   ns:neighborhoodName "Les Corts";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3296693> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/2> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/1>,
     <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>;
   ns:neighborhoodId 2;
   ns:neighborhoodName "El Barri Gòtic";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q17154> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/20> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/4>;
   ns:neighborhoodId 20;
   ns:neighborhoodName "La Maternitat I Sant Ramon";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3297056> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/21> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/4>;
   ns:neighborhoodId 21;
   ns:neighborhoodName "Pedralbes";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2562684> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/23> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/4>,
     <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/5>;
   ns:neighborhoodId 23;
-  ns:neighborhoodName "Sarrià";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  ns:neighborhoodName "Sarrià", "Sarrià-Sant Gervasi";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1765582> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/24> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/5>;
   ns:neighborhoodId 24;
   ns:neighborhoodName "Les Tres Torres";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3297896> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/25> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/5>;
   ns:neighborhoodId 25;
   ns:neighborhoodName "Sant Gervasi - La Bonanova";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3321657> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/26> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/5>;
   ns:neighborhoodId 26;
   ns:neighborhoodName "Sant Gervasi - Galvany";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3389521> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/27> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/5>;
   ns:neighborhoodId 27;
   ns:neighborhoodName "El Putxet I El Farró";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3321805> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/28> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/6>;
   ns:neighborhoodId 28;
   ns:neighborhoodName "Vallcarca I Els Penitents";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2057331> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/3> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/1>;
   ns:neighborhoodId 3;
   ns:neighborhoodName "La Barceloneta";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q377070> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/30> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/6>;
   ns:neighborhoodId 30;
   ns:neighborhoodName "La Salut";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3320699> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/31> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/6>;
   ns:neighborhoodId 31;
   ns:neighborhoodName "La Vila De Gràcia";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2741611> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/32> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/6>;
   ns:neighborhoodId 32;
   ns:neighborhoodName "El Camp D'en Grassot I Gràcia Nova";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2994821> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/33> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7>;
   ns:neighborhoodId 33;
   ns:neighborhoodName "El Baix Guinardó";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3297875> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/35> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7>;
   ns:neighborhoodId 35;
   ns:neighborhoodName "El Guinardó";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3045547> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/36> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7>;
   ns:neighborhoodId 36;
   ns:neighborhoodName "La Font D'en Fargues";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3297889> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/37> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7>;
   ns:neighborhoodId 37;
   ns:neighborhoodName "El Carmel";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3319498> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/39> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7>;
   ns:neighborhoodId 39;
   ns:neighborhoodName "Sant Genís Dels Agudells";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3298510> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/4> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/1>;
   ns:neighborhoodId 4;
-  ns:neighborhoodName "Sant Pere, Santa Caterina I La Ribera";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  ns:neighborhoodName "Sant Pere", "Sant Pere, Santa Caterina I La Ribera";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3826875> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/41> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7>;
   ns:neighborhoodId 41;
   ns:neighborhoodName "La Vall D'hebron";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3298492> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/42> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7>;
   ns:neighborhoodId 42;
   ns:neighborhoodName "La Clota";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3320857> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/43> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/7>;
   ns:neighborhoodId 43;
   ns:neighborhoodName "Horta";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q15225338> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/44> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 44;
   ns:neighborhoodName "Vilapicina I La Torre Llobeta";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3320806> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/45> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 45;
   ns:neighborhoodName "Porta";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3750558> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/46> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 46;
   ns:neighborhoodName "El Turó De La Peira";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q524311> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/48> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 48;
   ns:neighborhoodName "La Guineueta";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2736697> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/49> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 49;
   ns:neighborhoodName "Canyelles";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3751386> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/5> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>;
   ns:neighborhoodId 5;
   ns:neighborhoodName "El Fort Pienc";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2107762> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/50> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 50;
   ns:neighborhoodName "Les Roquetes";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1627690> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/51> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 51;
   ns:neighborhoodName "Verdun";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3750551> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/52> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 52;
   ns:neighborhoodName "La Prosperitat";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3750926> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/53> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 53;
   ns:neighborhoodName "La Trinitat Nova";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3750932> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/55> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/8>;
   ns:neighborhoodId 55;
   ns:neighborhoodName "Ciutat Meridiana";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3320722> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/57> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/9>;
   ns:neighborhoodId 57;
   ns:neighborhoodName "La Trinitat Vella";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6746220> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/58> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/9>;
   ns:neighborhoodId 58;
   ns:neighborhoodName "Baró De Viver";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1425291> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/59> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/9>;
   ns:neighborhoodId 59;
   ns:neighborhoodName "El Bon Pastor";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3319496> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/6> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>;
   ns:neighborhoodId 6;
   ns:neighborhoodName "La Sagrada Família";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2470217> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/60> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/9>;
   ns:neighborhoodId 60;
   ns:neighborhoodName "Sant Andreu";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1650230> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/61> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/9>;
   ns:neighborhoodId 61;
   ns:neighborhoodName "La Sagrera";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3773462> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/62> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/9>;
   ns:neighborhoodId 62;
   ns:neighborhoodName "El Congrés I Els Indians";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3813818> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/63> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/9>;
   ns:neighborhoodId 63;
   ns:neighborhoodName "Navas";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3813816> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/64> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 64;
   ns:neighborhoodName "El Camp De L'arpa Del Clot";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3294602> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/65> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 65;
   ns:neighborhoodName "El Clot";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2979686> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/66> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>,
     <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>;
   ns:neighborhoodId 66;
   ns:neighborhoodName "El Parc I La Llacuna Del Poblenou";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3294440> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/67> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/1>,
     <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 67;
   ns:neighborhoodName "La Vila Olímpica Del Poblenou";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1167101> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/68> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 68;
   ns:neighborhoodName "El Poblenou";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1404773> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/69> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 69;
   ns:neighborhoodName "Diagonal Mar I El Front Marítim Del Poblenou";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2736444> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/7> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>;
   ns:neighborhoodId 7;
   ns:neighborhoodName "La Dreta De L'eixample";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1904302> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/70> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 70;
   ns:neighborhoodName "El Besòs I El Maresme";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2390761> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/71> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 71;
   ns:neighborhoodName "Provençals Del Poblenou";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6273541> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/72> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 72;
   ns:neighborhoodName "Sant Martí De Provençals";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3773169> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/73> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/10>;
   ns:neighborhoodId 73;
   ns:neighborhoodName "La Verneda I La Pau";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q542473> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/8> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>;
   ns:neighborhoodId 8;
   ns:neighborhoodName "L'antiga Esquerra De L'eixample";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q3291762> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/9> a ns:Neighborhood;
   ns:hasDistrict <http://www.barnabikes.org/ODKG/handsOn/group10/resource/District/2>;
   ns:neighborhoodId 9;
   ns:neighborhoodName "La Nova Esquerra De L'eixample";
-  <http://www.w3.org/2002/07/owl#sameAs> <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neigborhoodWikidata2>,
-    <http://www.barnabikes.org/ODKG/handsOn/group10/mappings/neighborhoodWikidata2> .
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1026658> .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/41.35169_2.13554>
   a ns:StreetAddress;
@@ -6674,11 +6634,11 @@
   ns:postCode 8001 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/41.38261_2.16563>
+  a ns:StreetAddress;
   ns:addressName "JOAQUÍN COSTA";
   ns:addressNumber 39;
   ns:addressType "CARRER";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/1>;
-  a ns:StreetAddress;
   ns:latitude "41.38261"^^xsd:float;
   ns:longitude "2.16563"^^xsd:float;
   ns:postCode 8001 .
@@ -6723,9 +6683,9 @@
   ns:postCode 8003 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/41.38310_2.18119>
-  a ns:StreetAddress;
   ns:addressName "DELS ABAIXADORS";
   ns:addressNumber 6;
+  a ns:StreetAddress;
   ns:addressType "CARRER";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/4>;
   ns:latitude "41.38310"^^xsd:float;
@@ -7929,10 +7889,10 @@
   ns:postCode 8036 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/41.39235_2.16784>
+  a ns:StreetAddress;
   ns:addressName "PAU CLARIS";
   ns:addressNumber 120;
   ns:addressType "CARRER";
-  a ns:StreetAddress;
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/7>;
   ns:latitude "41.39235"^^xsd:float;
   ns:longitude "2.16784"^^xsd:float;
@@ -7978,8 +7938,8 @@
   ns:postCode 8036 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/41.39281_2.14569>
-  a ns:StreetAddress;
   ns:addressName "DIAGONAL";
+  a ns:StreetAddress;
   ns:addressNumber 477;
   ns:addressType "AVINGUDA";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/8>;
@@ -9185,9 +9145,9 @@
   ns:postCode 8005 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_02da30ca>
+  a ns:StreetAddress;
   ns:addressName "MINERIA";
   ns:addressNumber 30;
-  a ns:StreetAddress;
   ns:addressType "CARRER";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/13>;
   ns:latitude "41.36492"^^xsd:float;
@@ -9225,14 +9185,14 @@
   ns:postCode 8025 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_044647e6>
-  a ns:StreetAddress;
   ns:addressName "GOMBAU";
   ns:addressNumber 24;
   ns:addressType "CARRER";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/4>;
   ns:latitude "41.38724"^^xsd:float;
   ns:longitude "2.17930"^^xsd:float;
-  ns:postCode 8003 .
+  ns:postCode 8003;
+  a ns:StreetAddress .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_05821a7f>
   a ns:StreetAddress;
@@ -10479,14 +10439,14 @@
   ns:postCode 8018 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_45775ba6>
-  a ns:StreetAddress;
   ns:addressName "PABLO IGLESIAS";
   ns:addressNumber 21;
   ns:addressType "CARRER";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/52>;
   ns:latitude "41.44338"^^xsd:float;
   ns:longitude "2.18130"^^xsd:float;
-  ns:postCode 8016 .
+  ns:postCode 8016;
+  a ns:StreetAddress .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_46318a9e>
   a ns:StreetAddress;
@@ -11696,8 +11656,8 @@
   ns:postCode 8039 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_7c8d7d1b>
-  ns:addressName "GAVÀ";
   a ns:StreetAddress;
+  ns:addressName "GAVÀ";
   ns:addressNumber 1;
   ns:addressType "CARRER";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/16>;
@@ -11736,13 +11696,13 @@
   ns:postCode 8003 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_7d7857b6>
-  a ns:StreetAddress;
   ns:addressName "FRANCESC CAMBÓ";
   ns:addressNumber 10;
   ns:addressType "AVINGUDA";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/4>;
   ns:latitude "41.38556"^^xsd:float;
   ns:longitude "2.17732"^^xsd:float;
+  a ns:StreetAddress;
   ns:postCode 8003 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_7d923446>
@@ -12950,8 +12910,8 @@
   ns:postCode 8004 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_be8d1b31>
-  ns:addressName "FRA JUNÍPER SERRA";
   a ns:StreetAddress;
+  ns:addressName "FRA JUNÍPER SERRA";
   ns:addressNumber 53;
   ns:addressType "CARRER";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/59>;
@@ -14196,14 +14156,14 @@
   ns:postCode 8005 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_f4953768>
+  a ns:StreetAddress;
   ns:addressName "RAMON TURRÓ";
   ns:addressNumber 292;
   ns:addressType "CARRER";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/69>;
   ns:latitude "41.40385"^^xsd:float;
   ns:longitude "2.20842"^^xsd:float;
-  ns:postCode 8005;
-  a ns:StreetAddress .
+  ns:postCode 8005 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_f4d0318a>
   a ns:StreetAddress;
@@ -14244,13 +14204,13 @@
   ns:postCode 8042 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_f79c2028>
-  a ns:StreetAddress;
   ns:addressName "DE GARCIA FÀRIA";
   ns:addressNumber 21;
   ns:addressType "PASSEIG";
   ns:hasNeighborhood <http://www.barnabikes.org/ODKG/handsOn/group10/resource/Neighborhood/69>;
   ns:latitude "41.40065"^^xsd:float;
   ns:longitude "2.21019"^^xsd:float;
+  a ns:StreetAddress;
   ns:postCode 8005 .
 
 <http://www.barnabikes.org/ODKG/handsOn/group10/resource/StreetAddress/station_f802dc20>

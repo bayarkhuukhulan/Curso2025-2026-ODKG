@@ -63,12 +63,12 @@
             rr:parentTriplesMap <#CityTriplesMap>
         ]
     ];
-     rr:predicateObjectMap [
-        rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
-        rr:objectMap [
-            rr:template "districtWikidata2";
-            rr:termType rr:IRI ]
-    ] .
+    rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
+    rr:objectMap [
+        rml:reference "districtWikidata2"; # Use the column value directly
+        rr:termType rr:IRI ]
+] .
     
    
 
@@ -109,7 +109,7 @@
      rr:predicateObjectMap [
         rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
         rr:objectMap [
-            rr:template "neigborhoodWikidata2";
+            rml:reference "neighborhoodWikidata2"; # Se usa la referencia a la columna
             rr:termType rr:IRI ]
     ] .
 
@@ -205,12 +205,12 @@
             rr:parentTriplesMap <#CityTriplesMap>
         ]
     ];
-    rr:predicateObjectMap [
-        rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
-        rr:objectMap [
-            rr:template "districWikidata2";
-            rr:termType rr:IRI ]
-    ] .
+   rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
+    rr:objectMap [
+        rml:reference "districtWikidata2"; # Use the column value directly
+        rr:termType rr:IRI ]
+] .
 
 # --- 2. TriplesMap para Neighborhood (desde Estaciones) ---
 <#NeighborhoodTriplesMap_Stations> a rr:TriplesMap;
@@ -244,10 +244,10 @@
             ]
         ]
     ];
-     rr:predicateObjectMap [
+    rr:predicateObjectMap [
         rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
         rr:objectMap [
-            rr:template "neighborhoodWikidata2";
+            rml:reference "neighborhoodWikidata2"; # Se usa la referencia a la columna
             rr:termType rr:IRI ]
     ] .
 
