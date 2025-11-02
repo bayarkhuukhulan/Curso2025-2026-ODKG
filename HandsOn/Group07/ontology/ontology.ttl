@@ -92,11 +92,11 @@ lude:code a owl:DatatypeProperty ;
 
 lude:codeCif a owl:DatatypeProperty ;
     rdfs:label "code cif" ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 lude:codeSac a owl:DatatypeProperty ;
     rdfs:label "code sac" ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 lude:councilOfUniversitiesReportDate a owl:DatatypeProperty ;
     rdfs:label "council of universities report date" ;

@@ -197,7 +197,7 @@
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "data/academic_level-updated.csv";
+		rml:source "data/academic_level-updated-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -234,6 +234,16 @@
 			a rr:ObjectMap;
 			rml:reference "AcademicLevelID";
 		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:sameAsWikidata;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_academiclevel";
+		];
 	].
 
 
@@ -241,7 +251,7 @@
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "data/ambit-otros.csv";
+		rml:source "data/ambit-otros-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -277,6 +287,16 @@
 		rr:objectMap [
 			a rr:ObjectMap;
 			rml:reference "id";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:sameAsWikidata;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_ambit";
 		];
 	].
 
@@ -333,7 +353,7 @@
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "data/universidades-updated.csv";
+		rml:source "data/universidades-updated-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -449,6 +469,16 @@
 		rr:objectMap [
 			a rr:ObjectMap;
 			rml:reference "Year of Publication";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:sameAsWikidata;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_university";
 		];
 	].
 
