@@ -2783,53 +2783,110 @@
         </section>
 
 <section class="grid cols-2" id="name-spacing">
-  <div class="resource-container" style="width: 750px;">
+  <div class="resource-container" style="width: 650px;">
     <h2>Name Spacing</h2>
 
     <h3>Domain</h3>
-    <a href =http://spanishuniversities.data.es>http://spanishuniversities.data.es</a>
+    <a href =https://spanishuniversities.data.es>https://spanishuniversities.data.es</a>
 
     <h3>Paths</h3>
     <div class="path-container">
       <div>
-        <strong>Path:</strong>
-        <a href="http://spanishuniversities.data.es/lude/">
-          http://spanishuniversities.data.es/lude/
-        </a>
-      </div>
-      <div>
         <strong>Ontology:</strong>
-        <a href="http://spanishuniversities.data.es/lude/ontology/">
-          http://spanishuniversities.data.es/lude/ontology/
+        <a href="https://spanishuniversities.data.es/lude/ontology#">
+          https://spanishuniversities.data.es/lude/ontology/#
         </a>
       </div>
       <div>
-        <strong>Data:</strong>
-        <a href="http://spanishuniversities.data.es/lude/resource/">
-          http://spanishuniversities.data.es/lude/resource/
+        <strong>Resource:</strong>
+        <a href="https://spanishuniversities.data.es/lude/resource/">
+          https://spanishuniversities.data.es/lude/resource/
         </a>
       </div>
       <div>
-        <strong>Class:</strong>
-        <a href="http://spanishuniversities.data.es/lude/ontology/[ontologyName]#[className]">
-          http://spanishuniversities.data.es/lude/ontology/[ontologyName]#[className]
+        <strong>Individuals:</strong>
+        <a href="https://spanishuniversities.data.es/lude/resource/{individualType}/{id}">
+          https://spanishuniversities.data.es/lude/resource/{individualType}/{id}
         </a>
       </div>
       <div>
-        <strong>Property:</strong>
-        <a href="http://spanishuniversities.data.es/lude/ontology/[ontologyName]#[propertyName]">
-          http://spanishuniversities.data.es/lude/ontology/[ontologyName]#[propertyName]
+        <strong>Data Properties:</strong>
+        <a href="https://spanishuniversities.data.es/lude/ontology#{dataProperty}">
+          https://spanishuniversities.data.es/lude/ontology/#{dataProperty}
         </a>
       </div>
       <div>
-        <strong>Individual:</strong>
-        <a href="http://spanishuniversities.data.es/lude/resource/[className]#[identifier]">
-          http://spanishuniversities.data.es/lude/resource/[className]#[identifier]
+        <strong>Relations:</strong>
+        <a href="https://spanishuniversities.data.es/lude/ontology#{relationType}">
+          https://spanishuniversities.data.es/lude/ontology/#{relationType}
         </a>
       </div>
     </div>
 
-</div>
+
+
+<h3>Connections Between Classes</h3>
+<table class="tbl">
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Domain</th>
+      <th>Range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>hasAddress</strong></td>
+      <td>University</td>
+      <td>Address</td>
+    </tr>
+
+    <tr>
+      <td><strong>locatedInMunicipality</strong></td>
+      <td>Address</td>
+      <td>Municipality</td>
+    </tr>
+
+    <tr>
+      <td><strong>partOfProvince</strong></td>
+      <td>Municipality</td>
+      <td>Province</td>
+    </tr>
+
+    <tr>
+      <td><strong>partOfAutonomousCommunity</strong></td>
+      <td>Province</td>
+      <td>AutonomousCommunity</td>
+    </tr>
+
+    <tr>
+      <td><strong>offers</strong></td>
+      <td>University</td>
+      <td>Degree</td>
+    </tr>
+
+    <tr>
+      <td><strong>hasFaculty</strong></td>
+      <td>University</td>
+      <td>Faculty</td>
+    </tr>
+
+    <tr>
+      <td><strong>hasKnowledgeArea</strong></td>
+      <td>Degree</td>
+      <td>KnowledgeArea</td>
+    </tr>
+
+    <tr>
+      <td><strong>hasAcademicLevel</strong></td>
+      <td>Degree</td>
+      <td>AcademicLevel</td>
+    </tr>
+  </tbody>
+</table>
+
+
+  </div>
 </section>
 
 
