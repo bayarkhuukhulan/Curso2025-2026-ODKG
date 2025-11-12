@@ -1,5 +1,5 @@
-@prefix id: <https://spanishuniversitites.data/id/lude/>.
-@prefix lude: <https://spanishuniversitites.data/ontology/lude#>.
+@prefix id: <http://spanishuniversities.data.es/lude/resource/>.
+@prefix lude: <http://spanishuniversities.data.es/lude/ontology#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
@@ -28,7 +28,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/University/{UniversityID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -195,7 +195,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/University/{UniversityID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -231,7 +231,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/Address/{AddressID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Address/{AddressID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -291,7 +291,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/Municipality/{MunicipalityID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Municipality/{MunicipalityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -340,7 +340,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/Province/{ProvinceID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Province/{ProvinceID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -389,7 +389,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/AutonomousCommunity/{AutonomousCommunityID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/AutonomousCommunity/{AutonomousCommunityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -424,7 +424,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/KnowledgeArea/{id}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/KnowledgeArea/{id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -459,7 +459,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/AcademicLevel/{AcademicLevelID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/AcademicLevel/{AcademicLevelID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -494,7 +494,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/Degree/{DegreeID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -579,7 +579,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/Degree/{DegreeID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -664,7 +664,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversitites.data/id/lude/Degree/{DegreeID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
