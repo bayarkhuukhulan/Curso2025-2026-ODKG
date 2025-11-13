@@ -1,5 +1,5 @@
-@prefix lude: <https://linkeduniversities.es/vocab/>.
-@prefix ex: <https://linkeduniversities.es/resource/>.
+@prefix lude: <http://spanishuniversities.data.es/lude/ontology#>.
+@prefix id: <http://spanishuniversities.data.es/lude/resource/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
@@ -27,7 +27,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://linkeduniversities.es/resource/Degree/{DegreeID}";
+		rr:template "ex:Degree/{DegreeID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -127,7 +127,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://linkeduniversities.es/resource/AcademicLevel/{AcademicLevelID}";
+		rr:template "ex:AcademicLevel/{AcademicLevelID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -171,7 +171,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://linkeduniversities.es/resource/KnowledgeArea/{id}";
+		rr:template "ex:KnowledgeArea/{id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -215,7 +215,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://linkeduniversities.es/resource/Faculty/{FacultyID}";
+		rr:template "ex:Faculty/{FacultyID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -259,7 +259,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://linkeduniversities.es/resource/University/{UniversityID}";
+		rr:template "ex:University/{UniversityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
