@@ -6,7 +6,7 @@
 @prefix formats: <http://www.w3.org/ns/formats/> .
 @prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
 @prefix id: <http://spanishuniversities.data.es/lude/resource/> .
-@prefix lude: <http://spanishuniversities.data.es/lude/ontology/#> .
+@prefix lude: <http://spanishuniversities.data.es/lude/ontology#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rev: <http://purl.org/stuff/rev#> .
@@ -42,6 +42,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f1eadeb74d857ff24c552ed47301ff25>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5916077";
   rdfs:label "INGENIERÍA ELÉCTRICA + INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/034a9b7f6d1793fc019f2f5f0bf504b6>
@@ -49,6 +50,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e2b088dbebb69c9651ad27b33fa52053>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q162817";
   rdfs:label "ESTUDIOS DE ASIA ORIENTAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/037d1bc2f45e46aa39e2ece05697861e>
@@ -64,6 +66,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/674b765218481d6f65c7ab0d4c1f3e59>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q9418";
   rdfs:label "PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/042c777c3b4a4b48b540451d938cb930>
@@ -71,6 +74,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/3197b85d83342874b4cea8f57dd73a9c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q80083";
   rdfs:label "HUMANIDADES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/045de0f5b8ab454f510a0a756fa8867b>
@@ -79,6 +83,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/50e8c45296f44d1aace820e8cc1c4aa2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q43035";
   rdfs:label "INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/059400de95854f41e0c0308826dbfe77>
@@ -87,6 +92,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/d7066ef4cba78326e4229af628b01da7>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q188847";
   rdfs:label "CIENCIAS AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/061a1a4b01786d841aec806869ed20b4>
@@ -95,6 +101,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/fed7f5c4dc21412058b437f161fe435b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q420";
   rdfs:label "BIOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/067efd6bc0f4425a3b3ce7b27142038e>
@@ -104,6 +111,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/f717872ca90fe394c82fe6383867a31b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11030";
   rdfs:label "PERIODISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/06813069ea23a57e1f635a6373a5aaf3>
@@ -144,6 +152,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/5a9af90cce4502dbe45176ba5430a373>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5468734";
   rdfs:label "TRABAJO SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/07f4a7d1a6f0618998e6e0a69169ef7d>
@@ -160,6 +169,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c9f47eb2970393ef162343a340a00202>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1803786";
   rdfs:label "INGENIERÍA DE LA ENERGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/08ed10ccd6e35d037562117023b96be5>
@@ -176,6 +186,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/995ff0abf688410d4cb35701954eaf8a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q395";
   rdfs:label "MATEMÁTICAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/09e5c2d348868759c9428832def87578>
@@ -224,6 +235,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/df88edd4343e30eed247f1c914a16eec>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3755147";
   rdfs:label "COMUNICACIÓN AUDIOVISUAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/0e66d29e464425159cff86841b967e2c>
@@ -232,6 +244,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e2b088dbebb69c9651ad27b33fa52053>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5468734";
   rdfs:label "TRABAJO SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/0ec94c403cfab35c6e0f9fa69cd4b69c>
@@ -240,6 +253,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1b130ba5e9da6f2a29092794451d4597>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2329";
   rdfs:label "QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/0f0c661eb88c19649c791530b789042b>
@@ -248,6 +262,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/aa1591361dd6e58561fa6faaf922d4f0>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1137608";
   rdfs:label "GESTIÓN Y ADMINISTRACIÓN PÚBLICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1084510b5258588bd9a6efde1ebb634e>
@@ -255,6 +270,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/da9ed27a3a6c0508d2176a371b06ecec>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q9418";
   rdfs:label "PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/10b0c887cca173c2c74465c3855938fa>
@@ -278,6 +294,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/da795256f385e8a3148767b397f2c294>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7922";
   rdfs:label "PEDAGOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1238cdd0d9ec9f8d859aa87feac802be>
@@ -294,6 +311,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/da795256f385e8a3148767b397f2c294>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1572493";
   rdfs:label "EDUCACIÓN SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/14dbf4135543c0889715361e2e061c26>
@@ -302,6 +320,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c282e017e71e432e7016618725287b8b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q188847";
   rdfs:label "CIENCIAS AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/15882e9e78d4fa5ae8bfeb5bf5145a09>
@@ -310,6 +329,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/b60bb73328964ab9d0701498c5b8f342>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q161733";
   rdfs:label "CRIMINOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1593af6f886856f6d8cdff471efab7e6>
@@ -333,6 +353,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2ef103b21297367e3ac5de55574f7124>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11190";
   rdfs:label "MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/16475afd8756e105870ed8f3370c8048>
@@ -349,6 +370,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a7d2fb1a52602097a10fa46b9f408c3b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q188847";
   rdfs:label "CIENCIAS AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/17a38075c71f3ff51456b4e70667b2d4>
@@ -371,6 +393,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a3a5e70d5e77fc807dbe4ad83e61dc02>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q186005";
   rdfs:label "FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/196b6cde8c7d63c5c0683608035b1366>
@@ -379,6 +402,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/9aa71572d6afa1bf26e69a4446f9e874>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q83588";
   rdfs:label "INGENIERÍA QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/19ce3ead51425700c9646c26f30088eb>
@@ -388,6 +412,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/a35a365878acc2731e0e7ea01c0ce378>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q43035";
   rdfs:label "INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/19f9741970ba1684c9204acf54024ada>
@@ -423,6 +448,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a499b92324fcdd8eaddd051eaa1a3c1c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7108";
   rdfs:label "BIOTECNOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1aeb08233b22b818d62ce1b87a2bcad1>
@@ -446,6 +472,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/674b765218481d6f65c7ab0d4c1f3e59>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3381164";
   rdfs:label "FILOLOGÍA HISPÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1b83b3e4d2a79e64271dd24b7269e697>
@@ -454,6 +481,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/5a9af90cce4502dbe45176ba5430a373>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1572493";
   rdfs:label "EDUCACIÓN SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1be8901eef9268cae49ba71a74a6e61d>
@@ -470,6 +498,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/a35a365878acc2731e0e7ea01c0ce378>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5916077";
   rdfs:label "INGENIERÍA ELÉCTRICA + INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1de77f31d1ec0b60b0a38573173ad34c>
@@ -477,6 +506,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/566ba8f08f815ca8b1e48996ad96e7dd>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q207241";
   rdfs:label "BELLAS ARTES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1ded5b0cec3a192891fb5aa143154402>
@@ -492,6 +522,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/8c4d4b205e3d823a41e79c63fc0178a8>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8134";
   rdfs:label "ECONOMÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1e88b27484d098ecdb5077963742c1c1>
@@ -507,6 +538,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1069";
   rdfs:label "GEOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1f3a4892fe97df58e825a925c7cd64e2>
@@ -515,6 +547,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/b60bb73328964ab9d0701498c5b8f342>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1f5c20cc234b972e97909f6dacc82b3b>
@@ -523,6 +556,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/aa1591361dd6e58561fa6faaf922d4f0>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1f76fc187b96de70d2fc2e6d17b12b15>
@@ -548,6 +582,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e60817addf92f77e50c25168e36a04c5>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q43035";
   rdfs:label "INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/1fff27099f413cc43dcd86119e7b5b5e>
@@ -571,6 +606,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/fed7f5c4dc21412058b437f161fe435b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2329";
   rdfs:label "QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/21557c8901922f73d3db5f5d8ee0aee4>
@@ -579,6 +615,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ab67d77ed36b6454dcd6d884ebbd087b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7094";
   rdfs:label "BIOQUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/2174a4fc0115754da5c80dc812c401df>
@@ -604,6 +641,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/4d89494423e03f17d8c9a09daa81d795>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q15851294";
   rdfs:label "TURISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/21c378e7e2c9ade589b89faac566f430>
@@ -612,6 +650,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/7c4c31f5236000ac8228f9ec47de3b27>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q43035";
   rdfs:label "INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/2200b1e476708500afe81c7b6810e614>
@@ -619,6 +658,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ff38ce5b7f7fc1643526fe9f32a479f8>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11190";
   rdfs:label "MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/234a05970123c00c266a16ed582f83b4>
@@ -626,6 +666,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1d52866c5999320f595f4f4a39fa0612>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q121176";
   rdfs:label "ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/235e0c6b9e62fc0365479f8b9ef2e44a>
@@ -643,6 +684,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/ccf907de29f4de20d5cf1b7616beb729>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/239d0ea4ffee09edb94164833e8efad8>
@@ -651,6 +693,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/6325e2896b5cf8311c61fa356582a8d7>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8134";
   rdfs:label "ECONOMÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/23a30dad260d2691f21309c4af78e909>
@@ -682,6 +725,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a5e48985d958d74c234728412652ebc2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q9418";
   rdfs:label "PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/25bb7ae703a551b9dbc9a8cac29d806d>
@@ -698,6 +742,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/22ae3308135210992188f7173cbc6d3c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q156495";
   rdfs:label "FÍSICA + MATEMÁTICAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/262bb7d717a493f60f709df3364e0ab8>
@@ -728,6 +773,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/46ba4a9c745b51a8925d780c6c595ab8>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q80083";
   rdfs:label "HUMANIDADES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/275ef561b62dc5bb53d3a3d260c5dcc9>
@@ -752,6 +798,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/9aa71572d6afa1bf26e69a4446f9e874>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2329";
   rdfs:label "QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/281e3b85343c26d1cfe3a25689720f9f>
@@ -794,6 +841,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/c563c6e988e79f16978dd924491cc8e5>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1298380";
   rdfs:label "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/2a93476d0a2c32ddd377c15f2f026501>
@@ -802,6 +850,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/50e8c45296f44d1aace820e8cc1c4aa2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12159342";
   rdfs:label "INGENIERÍA AGRÍCOLA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/2a96b28cd7deeded19578bf6db54e28f>
@@ -810,6 +859,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/518964e5c59907539863d44b615727dd>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/9d831a51cdac55a08c589c32bb467492>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q186005";
   rdfs:label "FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/2dac904c0a16f57bbbc5676360ae9c7b>
@@ -832,6 +882,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a3a5e70d5e77fc807dbe4ad83e61dc02>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q121176";
   rdfs:label "ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/2eeac8534cf2eec882386d607e838775>
@@ -848,6 +899,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/da1ca996c127c1a006bf78b4c710b043>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3024c0ce96578488a618c3e2d010594b>
@@ -865,6 +917,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/3fd640d579449195dffbcbf27fdf74da>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/30a819276565e0c9a4695a336c4074ca>
@@ -873,6 +926,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/cd006d88bf0e992ac8fcaa07a1fea152>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q77590";
   rdfs:label "INGENIERÍA CIVIL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/31084d0f5f6f7a833e74e3ce994cd866>
@@ -881,6 +935,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/7593f69f3fb40be8999993438d10fc20>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1298380";
   rdfs:label "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/31a28c639fcda76aed6ac21c2e944332>
@@ -897,6 +952,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a5e48985d958d74c234728412652ebc2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1572493";
   rdfs:label "EDUCACIÓN SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3353a4361ecdc0449aae149e1ae49bd6>
@@ -921,6 +977,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/498232f1f8874f6930c2846379905b98>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7922";
   rdfs:label "PEDAGOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3430aa028c4da4b8715621bb524c1172>
@@ -931,6 +988,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/498232f1f8874f6930c2846379905b98>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1572493";
   rdfs:label "EDUCACIÓN SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3439eced72a292e7bdd85b8010853112>
@@ -947,6 +1005,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/74f48767e54883974f2981ec1186f814>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3729854dfabdac9f19675c3ec69149d3>
@@ -956,6 +1015,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/16dd72e1758919ad7a4fe9f10dfe4eca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1298380";
   rdfs:label "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/373f469528377ebacb69744e9915e4ed>
@@ -986,6 +1046,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5891";
   rdfs:label "FILOSOFÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/390f492dd19aa5b853eec8ead954dbc7>
@@ -1000,6 +1061,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/8ccd0e765b6a7d8cabb37a97095ac636>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11190";
   rdfs:label "MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/39986df7d966dba18d9857500458c6bd>
@@ -1008,6 +1070,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ef57e98a98b2ee3f9b489278f3daf1a2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q413";
   rdfs:label "FÍSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/39c0771071d88f88b6bca13f68901a1d>
@@ -1015,6 +1078,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q50641";
   rdfs:label "HISTORIA DEL ARTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/39f845aaf54cdcbe098674ca75fecfee>
@@ -1022,6 +1086,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/828cd3dd14b1fb4bfbc076c7eec7ee72>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q186005";
   rdfs:label "FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3a1499d74bef60627124fe45b59d09d1>
@@ -1030,6 +1095,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f1eadeb74d857ff24c552ed47301ff25>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1803786";
   rdfs:label "INGENIERÍA DE LA ENERGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3a450f92ea191acdc1d0188b9d56d88b>
@@ -1037,6 +1103,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/344fe79e7b7065db7936bf4cc4e9bd35>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3381164";
   rdfs:label "FILOLOGÍA HISPÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3a5d7d216db64fa945ddbff4721d3882>
@@ -1045,6 +1112,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/7c4c31f5236000ac8228f9ec47de3b27>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q101333";
   rdfs:label "INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3aa3fd77a1763b87ee8aebfcb220c0bc>
@@ -1070,6 +1138,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f3a5addd9bad25505fefebadeb82ae1b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5468734";
   rdfs:label "TRABAJO SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3aea10db4ca5be3c53266728775f0948>
@@ -1078,6 +1147,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e99220502238cbaa59045d4e43b5c168>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q428691";
   rdfs:label "INGENIERÍA INFORMÁTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3b44884ff5f8eb9bb6f68634b2db0904>
@@ -1100,6 +1170,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/12d7b84090c6b90ccf40f7be213da71f>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q33226";
   rdfs:label "LOGOPEDIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3c1c36a36fb4020c69168a8de3f072ee>
@@ -1117,6 +1188,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/e99220502238cbaa59045d4e43b5c168>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q43035";
   rdfs:label "INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3c742e5076ed74298c1287e82e918599>
@@ -1132,6 +1204,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2a5a5b7719eae81da8aa8aa41d178fca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q495527";
   rdfs:label "FILOLOGÍA CLÁSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3df955dd36c93700f31566c8ea9f5382>
@@ -1139,6 +1212,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3381164";
   rdfs:label "FILOLOGÍA HISPÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3e991bd97f52684544b1f835553a9214>
@@ -1147,6 +1221,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/5a9af90cce4502dbe45176ba5430a373>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q21201";
   rdfs:label "SOCIOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3efee62e3d0e9f5a1a765df1f5415685>
@@ -1155,6 +1230,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/50e8c45296f44d1aace820e8cc1c4aa2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q101333";
   rdfs:label "INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3f1d43d33eb7088623e08081f4d7d3e3>
@@ -1162,6 +1238,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/5039c33b67043e75f92010caf097930a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3381164";
   rdfs:label "FILOLOGÍA HISPÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/3fe72a7f4b0a82e5a522efb64ceac71c>
@@ -1178,6 +1255,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/4d89494423e03f17d8c9a09daa81d795>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1137608";
   rdfs:label "GESTIÓN Y ADMINISTRACIÓN PÚBLICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/40e1eada2c319a770a59910531a42a6b>
@@ -1186,6 +1264,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c282e017e71e432e7016618725287b8b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2329";
   rdfs:label "QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/40fb2b32cb2884fb07197932b5eb82b2>
@@ -1194,6 +1273,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c282e017e71e432e7016618725287b8b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7108";
   rdfs:label "BIOTECNOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/41ff26ad0682b85fd46c63dc4b92de28>
@@ -1202,6 +1282,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7108";
   rdfs:label "BIOTECNOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/42b7def4bdd29b024c38458ac756ff06>
@@ -1217,6 +1298,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/190e4f49219108a242e32598a67325b8>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12159342";
   rdfs:label "INGENIERÍA AGRÍCOLA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/430dff0153edb910093d246c8ca4e65b>
@@ -1224,6 +1306,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/46ba4a9c745b51a8925d780c6c595ab8>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3381164";
   rdfs:label "FILOLOGÍA HISPÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/44116761c95b13f0942275ab8f6037ec>
@@ -1231,6 +1314,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/463258f0b4d7ed7b96afdacc693ce73b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q9418";
   rdfs:label "PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/45432fe94dab158e4b27e9e56582a4f0>
@@ -1269,6 +1353,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q28598";
   rdfs:label "ANTROPOLOGIA SOCIAL Y CULTURAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/4691aa38e1736e795e01dc53070c0073>
@@ -1285,6 +1370,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q420";
   rdfs:label "BIOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/48b3c16e9854a81e16f4d675970fb896>
@@ -1308,6 +1394,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/674b765218481d6f65c7ab0d4c1f3e59>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1572493";
   rdfs:label "EDUCACIÓN SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/4b9dad5fd3547fff35c127f8e60b6b00>
@@ -1324,6 +1411,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a499b92324fcdd8eaddd051eaa1a3c1c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q188847";
   rdfs:label "CIENCIAS AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/4c9a80d96703a6a37342cf8270bbce86>
@@ -1339,6 +1427,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/da9ed27a3a6c0508d2176a371b06ecec>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q33226";
   rdfs:label "LOGOPEDIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/4e74f357b5caf6203cbf99eba90f0ef3>
@@ -1354,14 +1443,16 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c563c6e988e79f16978dd924491cc8e5>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q186005";
   rdfs:label "FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/4edd3c669b2f79e724d8da80548096a0>
+  a lude:Degree;
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/59ad474bbcb941543a263215cf461120>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
-  a lude:Degree;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q77590";
   rdfs:label "INGENIERÍA CIVIL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/4f379e34b8e6c6b8bb92e44fb029bd45>
@@ -1369,6 +1460,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/d5c6c022f366deacc6cb963c52e03cee>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q9418";
   rdfs:label "PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/4f5c3f0e7579fbef13259d6ea001e95d>
@@ -1401,6 +1493,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/c563c6e988e79f16978dd924491cc8e5>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/50cb2efa6f82c52cd04a452925371b7a>
@@ -1418,6 +1511,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/57860cb79d71e9e693c621a60789c84e>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q428691";
   rdfs:label "INGENIERÍA INFORMÁTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/52cd3d7a31dae7f42a13ea2afcb7b680>
@@ -1426,6 +1520,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/d7066ef4cba78326e4229af628b01da7>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1069";
   rdfs:label "GEOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/531d03c11a517441e2a0484f6ed86679>
@@ -1442,6 +1537,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c563c6e988e79f16978dd924491cc8e5>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q10481248";
   rdfs:label "COMUNICACIÓN DIGITAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/538be2a44d4ab477bd8bf75c398bd82c>
@@ -1449,6 +1545,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/5039c33b67043e75f92010caf097930a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q80083";
   rdfs:label "HUMANIDADES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/544ec2309a3c291b0be36a892f026823>
@@ -1488,6 +1585,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/318cd6ecaed3eba2f7fc785396b27e6e>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q297672";
   rdfs:label "ENOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/55d4a6db5ec27b24a919c1712db273b4>
@@ -1511,6 +1609,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/d7e05e55cc2a3850917269e51084fd93>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5468734";
   rdfs:label "TRABAJO SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/577a83b0f8dc08ac093004fd5a79d713>
@@ -1535,6 +1634,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c282e017e71e432e7016618725287b8b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q395";
   rdfs:label "MATEMÁTICAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/580570e2dd4a384001d02bbe8a784ca5>
@@ -1550,6 +1650,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2a5a5b7719eae81da8aa8aa41d178fca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1450761";
   rdfs:label "ESTUDIOS FRANCESES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/591e280c5566b566c306975d8e60cd97>
@@ -1566,6 +1667,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f5c48761453ea679171661626890731c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/5a1be2bf3962ec23099cf81b7054ae44>
@@ -1590,6 +1692,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/63ab2e7cf28101ea03ef5773d110f565>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q161733";
   rdfs:label "CRIMINOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/5bbfce8b22a71750a4ed30818497042d>
@@ -1605,6 +1708,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/828cd3dd14b1fb4bfbc076c7eec7ee72>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q121176";
   rdfs:label "ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/5c81aaa1f4d8bd430533889fb74a10e9>
@@ -1621,6 +1725,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e60817addf92f77e50c25168e36a04c5>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q533188";
   rdfs:label "INGENIERÍA MECÁNICA + INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/5da5f2958c45e752a551b4b0e945855d>
@@ -1653,6 +1758,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/df88edd4343e30eed247f1c914a16eec>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11030";
   rdfs:label "PERIODISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/5e38de49dff881ca0e4ca6e1536437de>
@@ -1677,6 +1783,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/e99220502238cbaa59045d4e43b5c168>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q101333";
   rdfs:label "INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/5f603ef224ff3f08159ef13c2bd1f88b>
@@ -1709,6 +1816,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f1eadeb74d857ff24c552ed47301ff25>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q43035";
   rdfs:label "INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/61b98d516fde5950b9fa484fac11662c>
@@ -1724,6 +1832,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/7bb1c490392c6ccee25a1c989e16d590>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q9418";
   rdfs:label "PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/63c58ca7511b11fe6a4d84d5618c4917>
@@ -1732,6 +1841,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1a21fc399c3d7b630d8a1db27a8ab0d4>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/4247496c176d8f2248955228c296fc93>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q186005";
   rdfs:label "FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/654475480742abfba58d68d9e5afca8b>
@@ -1740,6 +1850,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/63ab2e7cf28101ea03ef5773d110f565>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q166542";
   rdfs:label "RELACIONES INTERNACIONALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/657e84cd70903d0c0966f197188fc675>
@@ -1768,6 +1879,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/b98ebda2d15c374a6970b4b228a4762c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q614304";
   rdfs:label "FARMACIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/68fd71dfddd58c650d96ecc27625065d>
@@ -1775,6 +1887,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1d486acbba5e87dd0c670547501dce4b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q50641";
   rdfs:label "HISTORIA DEL ARTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/691344ae512a6e81280140aff20ae0eb>
@@ -1800,6 +1913,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/995ff0abf688410d4cb35701954eaf8a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7108";
   rdfs:label "BIOTECNOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/6ae9fa939a1c1f17b0ce908fe9a349b4>
@@ -1909,6 +2023,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/aa1591361dd6e58561fa6faaf922d4f0>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q15851294";
   rdfs:label "TURISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7222b0004c3442179135b0e58887564d>
@@ -1917,6 +2032,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1eaa40b2875691e2f820614c8298707b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8134";
   rdfs:label "ECONOMÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7262fd3bc1b587ca0cf71d5795e25409>
@@ -1925,6 +2041,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a35a365878acc2731e0e7ea01c0ce378>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q77590";
   rdfs:label "INGENIERÍA CIVIL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/731b46bab0902fdd918c6ee7289ed0e5>
@@ -1941,6 +2058,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/6b81eda4d05d7a7962eba4724abcef6c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1298380";
   rdfs:label "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/73aed00fc0f4d05904844f1cd41938ea>
@@ -1957,6 +2075,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a185a4668819c43ab78d4f9caca59f37>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q4027615";
   rdfs:label "INGENIERÍA INFORMÁTICA EN SISTEMAS DE INFORMACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7451fe0bbc82e39b550c4a394f4cde1a>
@@ -1996,6 +2115,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/0605a9139910a1b3204b2dfa84e9d94b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q428691";
   rdfs:label "INGENIERÍA INFORMÁTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/77713767aa2016ee3add590192f8e46e>
@@ -2011,6 +2131,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/0605a9139910a1b3204b2dfa84e9d94b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q43035";
   rdfs:label "INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7a47b829b59155aec7722249ea6ef5ed>
@@ -2026,6 +2147,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2e03a679da7441c1b2104979d2019a81>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7afea64c94fcc5e43891b1bbe4c66407>
@@ -2042,6 +2164,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/0605a9139910a1b3204b2dfa84e9d94b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q101333";
   rdfs:label "INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7b66d6600d61fe51bf7d003a94a849d3>
@@ -2049,6 +2172,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/344fe79e7b7065db7936bf4cc4e9bd35>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q50641";
   rdfs:label "HISTORIA DEL ARTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7b77ba02f5cf11a062bba4255c9fe00e>
@@ -2056,6 +2180,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/70f084ca524cd0dc52434035111b11c4>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q170201";
   rdfs:label "VETERINARIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7b8e0e931cb475c7f82cad20011c3d0e>
@@ -2063,6 +2188,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1d486acbba5e87dd0c670547501dce4b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5891";
   rdfs:label "FILOSOFÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7c2add635a5ad25623f184b13e9cdfcd>
@@ -2079,6 +2205,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ef57e98a98b2ee3f9b489278f3daf1a2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2329";
   rdfs:label "QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7d78b55cdd105aaef2d6bd77c2d9cb9b>
@@ -2093,6 +2220,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a5847b4d382414805bedc05b19a03c4f>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q495527";
   rdfs:label "FILOLOGÍA CLÁSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7dfcf754411ec575a11798c3c115e5a0>
@@ -2101,6 +2229,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/73aabc1e8975e163eae46b9a055af0e0>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1137608";
   rdfs:label "GESTIÓN Y ADMINISTRACIÓN PÚBLICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7e56a73f0eb06928ec6469b64ec58c23>
@@ -2109,6 +2238,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/d7066ef4cba78326e4229af628b01da7>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2329";
   rdfs:label "QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/7f5d60731b0b71933d588bcf2d931ca5>
@@ -2117,6 +2247,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/9aa71572d6afa1bf26e69a4446f9e874>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7094";
   rdfs:label "BIOQUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/81affd0a900bb682c594159e7f06c517>
@@ -2165,6 +2296,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/22ae3308135210992188f7173cbc6d3c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q745328";
   rdfs:label "MATEMÁTICAS + ESTADÍSTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/83aa73e0e1dc7a5fce2fefdeb2fa9f60>
@@ -2189,6 +2321,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e1d0f8f04233b103770582a184a3ddbe>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q161733";
   rdfs:label "CRIMINOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/849c0549bcf1db3bf4a36a3cecde0cb2>
@@ -2205,6 +2338,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ac4707874ca0dc118972aee8f4a2f63b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q21201";
   rdfs:label "SOCIOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8652ac2ed551ce0b7be416350bdb39cf>
@@ -2213,6 +2347,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/995ff0abf688410d4cb35701954eaf8a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q83588";
   rdfs:label "INGENIERÍA QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/871956d51a0f720de3ed6a2aefbe66dd>
@@ -2229,6 +2364,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c9f47eb2970393ef162343a340a00202>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q180165";
   rdfs:label "INGENIERÍA ELECTRÓNICA, ROBÓTICA Y MECATRÓNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8ac4b1e7ad38e8be1af480f7e8162597>
@@ -2245,6 +2381,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a63b580a11bedae164c9f48d5e4df963>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q428691";
   rdfs:label "INGENIERÍA INFORMÁTICA. INGENIERÍA DE COMPUTADORES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8bdf52118bfc0f07935edcf1ea30782c>
@@ -2252,6 +2389,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a5847b4d382414805bedc05b19a03c4f>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1450761";
   rdfs:label "ESTUDIOS FRANCESES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8caf5b69a89deaaf8aa425ce86881384>
@@ -2260,6 +2398,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f5c48761453ea679171661626890731c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8cda0f675bc423de85b2d8a6a61233cd>
@@ -2267,6 +2406,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/d98b52a0c82c27b4cf133572ffdb377d>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q186005";
   rdfs:label "FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8cdd143eb3ad7240051a81bfb7f00441>
@@ -2282,6 +2422,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/674b765218481d6f65c7ab0d4c1f3e59>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q47452440";
   rdfs:label "GEOGRAFÍA E HISTORIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8d28fcb00758420ea5fbeab126f10b77>
@@ -2394,6 +2535,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2329";
   rdfs:label "QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9297b090230784b31539d077216001b0>
@@ -2425,6 +2567,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/d5c6c022f366deacc6cb963c52e03cee>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5468734";
   rdfs:label "TRABAJO SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/946126516d97684384f83fc4985568c1>
@@ -2447,6 +2590,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/12d7b84090c6b90ccf40f7be213da71f>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q9418";
   rdfs:label "PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/976525c1eb76302970f4f492ee58873f>
@@ -2462,6 +2606,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f2a8882139959500a97aa40a597dd331>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11190";
   rdfs:label "MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/982822cceef8ae98cce26a09dc4d3081>
@@ -2469,6 +2614,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/674b765218481d6f65c7ab0d4c1f3e59>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q50641";
   rdfs:label "HISTORIA DEL ARTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/98cd63cefbc74079c8ce39f6a9c7346a>
@@ -2477,6 +2623,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/63ab2e7cf28101ea03ef5773d110f565>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q36442";
   rdfs:label "CIENCIAS POLÍTICAS Y DE LA ADMINISTRACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/991f6abc8a4cd5ee2e49faee6a1b50f2>
@@ -2484,6 +2631,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1d52866c5999320f595f4f4a39fa0612>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11190";
   rdfs:label "MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9964f8ceeafd34b63758b9b17103e1d4>
@@ -2492,6 +2640,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e60817addf92f77e50c25168e36a04c5>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q101333";
   rdfs:label "INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9a14600e853ace4ec657f715c8e75fe4>
@@ -2503,10 +2652,10 @@
   rdfs:label "CIENCIAS AMBIENTALES + INGENIERÍA FORESTAL Y DEL MEDIO NATURAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9c0b55f1bb46f269d305c5c7b5bb9d71>
-  a lude:Degree;
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a5847b4d382414805bedc05b19a03c4f>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  a lude:Degree;
   rdfs:label "LENGUAS MODERNAS, LITERATURAS Y CULTURAS + EDUCACIÓN PRIMARIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9c245a82bf7fd51ff75fe36ef9898a4d>
@@ -2515,6 +2664,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f1eadeb74d857ff24c552ed47301ff25>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q101333";
   rdfs:label "INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9d5e41ef41f33def541c1a598e0120c4>
@@ -2523,6 +2673,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/fc70fda83ab6bfe5b49481839d11edec>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1572493";
   rdfs:label "EDUCACIÓN SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9de6f743b02e697e4fab0c7645390caf>
@@ -2531,6 +2682,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/15c3f49515d82aa0e7aff4f5f47c44b8>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7922";
   rdfs:label "PEDAGOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9e434ecaf27ab836fd66498622aad270>
@@ -2555,6 +2707,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2e03a679da7441c1b2104979d2019a81>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1137608";
   rdfs:label "GESTIÓN Y ADMINISTRACIÓN PÚBLICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/9fc5f5cfcb4f8cb4932944ee53067b13>
@@ -2563,6 +2716,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ac4707874ca0dc118972aee8f4a2f63b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q36442";
   rdfs:label "CIENCIAS POLÍTICAS Y DE LA ADMINISTRACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a0d00a1c45477aacae3383546bad3d13>
@@ -2608,6 +2762,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/51b953a5e823f8514eecadd843e5d68a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5468734";
   rdfs:label "TRABAJO SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a48f22b71dfc8a3d717f5be2a120e28c>
@@ -2616,6 +2771,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ce2267bb33882e7e0e44605c3857459e>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a4fd7a3ad78935f03c4ddb17ca1ea3a3>
@@ -2648,6 +2804,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/270bb4c75d0ffeaa4240cf5a0f0cf81a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q413";
   rdfs:label "FÍSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a67dfef22b1c8b7cda1c53110f1d53de>
@@ -2664,6 +2821,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/27a59b35dfc380a41421a006a30cdb75>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q15851294";
   rdfs:label "TURISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a69d2d458ab719f18aa640a538ed35f9>
@@ -2672,6 +2830,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ab67d77ed36b6454dcd6d884ebbd087b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q420";
   rdfs:label "BIOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a6bc39b070000bb94fbf7f141143f7a2>
@@ -2680,6 +2839,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/74f48767e54883974f2981ec1186f814>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q15851294";
   rdfs:label "TURISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a6f2bc0098235552ba10167b71e26245>
@@ -2704,6 +2864,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q413";
   rdfs:label "FÍSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a9255aedc0a542921a49df12d6c5d5fa>
@@ -2774,6 +2935,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/fed7f5c4dc21412058b437f161fe435b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q188847";
   rdfs:label "CIENCIAS AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ac8e9002299280de3826ead725a0bc8c>
@@ -2781,6 +2943,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/fc36edec44f1b7f0171820c3d5c2f3e2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q207241";
   rdfs:label "BELLAS ARTES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/acca1c611452d236c8417145c45bdae5>
@@ -2797,6 +2960,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/995ff0abf688410d4cb35701954eaf8a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q297672";
   rdfs:label "ENOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ad4eaf63cd6a869c444b457743575b0d>
@@ -2820,6 +2984,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ef57e98a98b2ee3f9b489278f3daf1a2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7094";
   rdfs:label "BIOQUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/aef29a9d4af039c3c39932f555ed96ca>
@@ -2836,6 +3001,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f1eadeb74d857ff24c552ed47301ff25>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q6027873";
   rdfs:label "INGENIERÍA DE ORGANIZACIÓN INDUSTRIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b0423f7b62b559af77f3a12d2f8d69cd>
@@ -2867,6 +3033,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ef57e98a98b2ee3f9b489278f3daf1a2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7108";
   rdfs:label "BIOTECNOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b13d42fc7681fdf921f59fec8dcf2205>
@@ -2874,6 +3041,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a3a5e70d5e77fc807dbe4ad83e61dc02>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11190";
   rdfs:label "MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b14fa5a20333cb449260af775cfb2320>
@@ -2881,6 +3049,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2a5a5b7719eae81da8aa8aa41d178fca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q938318";
   rdfs:label "LINGÜÍSTICA Y LENGUAS APLICADAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b15d8912f1aa067054f48e1990a6fbc7>
@@ -2889,6 +3058,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e1d0f8f04233b103770582a184a3ddbe>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b17d86344354ceb93ec6cfef5a9b1299>
@@ -2897,6 +3067,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e99220502238cbaa59045d4e43b5c168>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3798668";
   rdfs:label "INGENIERÍA AEROESPACIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b1aa507f4afec9dc42b7eabe2798c677>
@@ -2905,6 +3076,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/fc70fda83ab6bfe5b49481839d11edec>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1298380";
   rdfs:label "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b1bd3e1ddd20876fe137e0477c5337b9>
@@ -2943,6 +3115,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2286fb315c17e30f7b3d0e930ca44efb>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12128";
   rdfs:label "ODONTOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b395d4082263318944e1ba309125134d>
@@ -2983,6 +3156,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/995ff0abf688410d4cb35701954eaf8a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2329";
   rdfs:label "QUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b44bf2dc08aa8894a552cf81f78359f6>
@@ -2991,6 +3165,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/9aa71572d6afa1bf26e69a4446f9e874>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q188847";
   rdfs:label "CIENCIAS AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b4ecade214863e574a65eb8ead09c7b2>
@@ -2999,6 +3174,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/7593f69f3fb40be8999993438d10fc20>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1572493";
   rdfs:label "EDUCACIÓN SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b4ff895ea23d3eaf392c1312b947a38e>
@@ -3015,6 +3191,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/b6e93bc5761cbbb6765f2c60033f5f9c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5468734";
   rdfs:label "TRABAJO SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b52b21eb73c4f80f8df322aba803eaf8>
@@ -3054,6 +3231,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/05d52d2d4f0a23aef79fe2b76d6d305b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q207241";
   rdfs:label "BELLAS ARTES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b7380e23d6b8c0455859825dd73bab51>
@@ -3062,6 +3240,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/463258f0b4d7ed7b96afdacc693ce73b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1298380";
   rdfs:label "CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b759fe27eca62000517a809925e1b046>
@@ -3078,6 +3257,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q495527";
   rdfs:label "FILOLOGÍA CLÁSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b8aa3f7501166b67b699f4ef984570ef>
@@ -3093,6 +3273,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/270bb4c75d0ffeaa4240cf5a0f0cf81a>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1710723";
   rdfs:label "INGENIERÍA DE MATERIALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/bbf3d37db54834be9c351ffe6ec63d8b>
@@ -3158,6 +3339,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/16dd72e1758919ad7a4fe9f10dfe4eca>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/37fd527138e6f2f7742a4dccc698e6b6>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q121176";
   rdfs:label "ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/bf454aa0c32a4c9d14949b10283ea31b>
@@ -3197,6 +3379,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q188847";
   rdfs:label "CIENCIAS AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/c204d3b1493b84256f0f5a3695c2d3a6>
@@ -3213,6 +3396,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c9f47eb2970393ef162343a340a00202>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q6027873";
   rdfs:label "INGENIERÍA DE ORGANIZACIÓN INDUSTRIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/c28a5917c7008101dc35e8bec6f99ca0>
@@ -3245,6 +3429,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/0605a9139910a1b3204b2dfa84e9d94b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12159342";
   rdfs:label "INGENIERÍA AGRÍCOLA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/c4035dfe9d0785ec883baaff6cc6664e>
@@ -3260,6 +3445,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/3fd640d579449195dffbcbf27fdf74da>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8134";
   rdfs:label "ECONOMÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/c5a7949c9df6269a8cb5e0e74f1b5806>
@@ -3283,6 +3469,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/7b098619d679001082b5ce34be3833ec>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/8f8432ac85f7e47eb0a13c3f4b1c46fe>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q121176";
   rdfs:label "ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/c61a0550ff059b6e0b6624979f34f93b>
@@ -3305,6 +3492,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/6325e2896b5cf8311c61fa356582a8d7>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/c864b99edfe5a7a7936fd785115f053e>
@@ -3345,6 +3533,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/f38ac11fae31cd39b6aaab98abf67081>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q15851294";
   rdfs:label "TURISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/c9beae4945369b2e1fc4e6c0a14076f5>
@@ -3374,6 +3563,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/8f8432ac85f7e47eb0a13c3f4b1c46fe>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q186005";
   rdfs:label "FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/cb90c1a6826fbb5cba9a68b81400bbc1>
@@ -3389,6 +3579,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2a5a5b7719eae81da8aa8aa41d178fca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3381164";
   rdfs:label "FILOLOGÍA HISPÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/cc09c55a956804f047f001b6bc8997dd>
@@ -3397,6 +3588,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/22ae3308135210992188f7173cbc6d3c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q395";
   rdfs:label "MATEMÁTICAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/cc6fa91c6a583d376c3e211a0e427a48>
@@ -3419,6 +3611,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/e99220502238cbaa59045d4e43b5c168>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q533188";
   rdfs:label "INGENIERÍA MECÁNICA + INGENIERÍA ELÉCTRICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/cd6ce53915a1ae62d19a5bfe69bf700b>
@@ -3426,6 +3619,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/daac7c9a07bfdcb718b84d2761760223>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q162817";
   rdfs:label "ESTUDIOS DE ASIA ORIENTAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/cf2e39d021567a90ce8e1ed6cc01869c>
@@ -3442,6 +3636,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7094";
   rdfs:label "BIOQUÍMICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d13ed8bbfe176c85431f0906837baf45>
@@ -3468,6 +3663,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/f717872ca90fe394c82fe6383867a31b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3755147";
   rdfs:label "COMUNICACIÓN AUDIOVISUAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d3837c60fb549f91beb37d7d1d6c3f7d>
@@ -3492,6 +3688,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/db299ddda483c086423d06ff854c6a86>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q28598";
   rdfs:label "ANTROPOLOGIA SOCIAL Y CULTURAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d5c61428568e3a49ed9175e0bb481514>
@@ -3508,6 +3705,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/16dd72e1758919ad7a4fe9f10dfe4eca>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/88a980a2f87b5605e2d21956f30581aa>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q186005";
   rdfs:label "FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d6d8c4bfbed85a65505e58cf98002014>
@@ -3539,6 +3737,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/828cd3dd14b1fb4bfbc076c7eec7ee72>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11190";
   rdfs:label "MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d7925d7b625c6703010b69f8c93e1ac2>
@@ -3553,6 +3752,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/afee3039bff256a5076ec7146445017f>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12128";
   rdfs:label "ODONTOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d8577c47dd2f227bd11baa27e50fed7c>
@@ -3569,6 +3769,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/db299ddda483c086423d06ff854c6a86>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q50641";
   rdfs:label "HISTORIA DEL ARTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d8a027da0159aab1aceb3b6523baf98a>
@@ -3577,6 +3778,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/aa1591361dd6e58561fa6faaf922d4f0>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d8f9ce9307d3c3fee812e512f6f1a820>
@@ -3585,6 +3787,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/0656c09299cfbc753c23efb95b8eff07>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q6027873";
   rdfs:label "INGENIERÍA DE ORGANIZACIÓN INDUSTRIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d921da29e77e52f6a7e8e89fbbcceb83>
@@ -3601,6 +3804,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ad39535e28937ae682af989876519b96>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q15851294";
   rdfs:label "TURISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/da7a73e36e9016cc17c258cf0c75bf9f>
@@ -3659,6 +3863,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/da1ca996c127c1a006bf78b4c710b043>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q161733";
   rdfs:label "CRIMINOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/df42f57d96090f6f3307e9291a472fd6>
@@ -3666,6 +3871,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/fc70fda83ab6bfe5b49481839d11edec>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q9418";
   rdfs:label "PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/df8c5b6e0f76e3603cf36a49779fd3f7>
@@ -3690,6 +3896,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/8c4d4b205e3d823a41e79c63fc0178a8>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e378630b68c6a96a330fba3ba128715e>
@@ -3698,6 +3905,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/9aa71572d6afa1bf26e69a4446f9e874>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q395";
   rdfs:label "MATEMÁTICAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e3df0c9c54e5e2a64a430b6f91a5a28d>
@@ -3724,6 +3932,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/41fc32c7ff59f91f905010f8e5171223>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e51422ba8642597f77eff3d0efe89091>
@@ -3732,6 +3941,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q395";
   rdfs:label "MATEMÁTICAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e59abb204926f94e2563155d0fb44d27>
@@ -3759,13 +3969,14 @@
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS + DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e66379d287001a2f06fa64599872fc27>
-  a lude:Degree;
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2b49b1119eec53f0d40668f595750d53>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/3ba7353a1a4f2869c07f99a57bd658f5>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/7759267844100004da8d4c3f6735cb64>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/d98b52a0c82c27b4cf133572ffdb377d>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  a lude:Degree;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q121176";
   rdfs:label "ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e6a957c733da1ee70168dfd513f10f1f>
@@ -3789,6 +4000,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a92124b8b675c4eaaf16018d850f7ddf>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q614304";
   rdfs:label "FARMACIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e8770b4aec87f8ead1245dc85136f437>
@@ -3804,6 +4016,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/674b765218481d6f65c7ab0d4c1f3e59>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q23498";
   rdfs:label "ARQUEOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e8c63ca0f13180169f84ceb7c50917c2>
@@ -3812,6 +4025,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/0656c09299cfbc753c23efb95b8eff07>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q428691";
   rdfs:label "INGENIERÍA INFORMÁTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e91acdd2ef5bd461074b968c94133c63>
@@ -3820,6 +4034,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/8c4d4b205e3d823a41e79c63fc0178a8>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q15851294";
   rdfs:label "TURISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e9495d558cb7fed3cc7dc6b4d8e0a78a>
@@ -3828,6 +4043,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/7c4c31f5236000ac8228f9ec47de3b27>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q428691";
   rdfs:label "INGENIERÍA INFORMÁTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e98d8c3b4eb537b5b2e849568e786924>
@@ -3836,6 +4052,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/bbd6b0ecda71c5aa515072d62d1edf4b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3755147";
   rdfs:label "COMUNICACIÓN AUDIOVISUAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e99b1b4f1ee515477d49721ba3c5fdda>
@@ -3859,6 +4076,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/f1eadeb74d857ff24c552ed47301ff25>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q180165";
   rdfs:label "INGENIERÍA ELECTRÓNICA, ROBÓTICA Y MECATRÓNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ea85ad717c87a8d57e21a4a43f894a20>
@@ -3875,6 +4093,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/22ae3308135210992188f7173cbc6d3c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12483";
   rdfs:label "ESTADÍSTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ea9ee83f33e63433dd3e7f110fd6375b>
@@ -3883,6 +4102,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1eaa40b2875691e2f820614c8298707b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q15851294";
   rdfs:label "TURISMO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/eaca7e513c7589825211610dc8bfa755>
@@ -3907,6 +4127,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q156495";
   rdfs:label "MATEMÁTICAS + FÍSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/eb16f5c4c70ac690f8861f7f77cf748e>
@@ -3914,6 +4135,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1d486acbba5e87dd0c670547501dce4b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3381164";
   rdfs:label "FILOLOGÍA HISPÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/eb20285fe002730649076b9e40bf5f54>
@@ -3923,6 +4145,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/a35a365878acc2731e0e7ea01c0ce378>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q101333";
   rdfs:label "INGENIERÍA MECÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ebaf70a5a9c96e748e5d9cf73404ae25>
@@ -3941,6 +4164,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/8133ea3c0c4f0f984c9c1a656dc4c00d>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q8188423";
   rdfs:label "ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ed705f09ffd2ce147d579f11b41815db>
@@ -3981,6 +4205,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/57860cb79d71e9e693c621a60789c84e>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q80993";
   rdfs:label "INGENIERÍA DE SOFTWARE" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/efc60a065143972d6353fbac1cd5831f>
@@ -3988,6 +4213,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/9d831a51cdac55a08c589c32bb467492>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11190";
   rdfs:label "MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f0407decc01072802f430ef8b7cf0a24>
@@ -4034,6 +4260,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q834903";
   rdfs:label "LITERATURAS COMPARADAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f22fbcee0e84a4a8434f10c56e2eb244>
@@ -4042,12 +4269,13 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/7a7678d1b41e061f9f3d0eb6cf4a7b2d>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q295354";
   rdfs:label "DERECHO + ECONOMÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f2338c32b00c944a37df361cb31c7760>
+  a lude:Degree;
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/66a334a08f7d1d245a5463f8032ce596>;
-  a lude:Degree;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   rdfs:label "FINANZAS Y CONTABILIDAD + RELACIONES LABORALES Y RECURSOS HUMANOS" .
@@ -4059,6 +4287,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/f2b91aff1b343f0a81f420058ded1a62>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q7748";
   rdfs:label "DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f348e51b842bca3df70fa248c456b754>
@@ -4093,6 +4322,7 @@
     <http://spanishuniversities.data.es/lude/resource/Faculty/2776cd83381de815f5f73f40a7b569ea>,
     <http://spanishuniversities.data.es/lude/resource/Faculty/4247496c176d8f2248955228c296fc93>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q121176";
   rdfs:label "ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f5756be7184830b8165956c72cf4a127>
@@ -4100,6 +4330,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q23498";
   rdfs:label "ARQUEOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f62dec9e11378d5312fe611a71d2d041>
@@ -4108,6 +4339,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/c282e017e71e432e7016618725287b8b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q747534";
   rdfs:label "ECONOMÍA + MATEMÁTICAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f6d75216925a35fffc5baaec0242c496>
@@ -4150,6 +4382,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1450761";
   rdfs:label "ESTUDIOS FRANCESES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f83f6bf1f2589346e9b3a3108dbc7974>
@@ -4157,6 +4390,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/3197b85d83342874b4cea8f57dd73a9c>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q47452440";
   rdfs:label "GEOGRAFÍA E HISTORIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f84bebc1df2a8d04be4ade19d9cb83b3>
@@ -4165,6 +4399,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ef57e98a98b2ee3f9b489278f3daf1a2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q188847";
   rdfs:label "CIENCIAS AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f9953730a8aa0cc21257a41938a08cbf>
@@ -4180,6 +4415,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/9d831a51cdac55a08c589c32bb467492>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q121176";
   rdfs:label "ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/fa7497f61551502efb02e4398fc011c2>
@@ -4187,6 +4423,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/2a5a5b7719eae81da8aa8aa41d178fca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q80083";
   rdfs:label "HUMANIDADES" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/faa11172bcedbce66100a9ec9fb0cff9>
@@ -4195,6 +4432,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/50e8c45296f44d1aace820e8cc1c4aa2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q428691";
   rdfs:label "INGENIERÍA INFORMÁTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/fb1ee04841776c3063800635453b265c>
@@ -4217,6 +4455,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/daac7c9a07bfdcb718b84d2761760223>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5891";
   rdfs:label "FILOSOFÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/fcb368023a49513e86c90f124df4eeb1>
@@ -4240,6 +4479,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/db299ddda483c086423d06ff854c6a86>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q23498";
   rdfs:label "ARQUEOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/fe1bbba3d7a43cc0a9dbf77349bf6970>
@@ -4248,6 +4488,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/9aa71572d6afa1bf26e69a4446f9e874>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q420";
   rdfs:label "BIOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/feae5e88a9d3f7a9300cf53bd020ff6a>
@@ -4255,6 +4496,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/a5847b4d382414805bedc05b19a03c4f>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3381164";
   rdfs:label "FILOLOGÍA HISPÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/fee174d73a10e171c5c938ee42431e8a>
@@ -4270,6 +4512,7 @@
   lude:academicYear "2024-2025";
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/1d486acbba5e87dd0c670547501dce4b>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q495527";
   rdfs:label "FILOLOGÍA CLÁSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ff588d7f67b5f420fddad07173a6fac1>
@@ -4278,6 +4521,7 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/28b8fba9ba4c5fe48aae8756a164d9ca>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12483";
   rdfs:label "ESTADÍSTICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ffbe283497b53a80509bc9594427f8a6>
@@ -4286,10 +4530,12 @@
   lude:deliveredAt <http://spanishuniversities.data.es/lude/resource/Faculty/ef57e98a98b2ee3f9b489278f3daf1a2>;
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q420";
   rdfs:label "BIOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/03621d51ee8d04361e6cfb5bcfee570d>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q131152459";
   rdfs:label "ESCUELA DE INGENIERÍA NAVAL Y OCEÁNICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/0559ac7143b5586502cd6122f2294e4a>
@@ -4362,6 +4608,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/1d486acbba5e87dd0c670547501dce4b>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5854912";
   rdfs:label "FACULTAD DE FILOSOFÍA Y LETRAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/1d52866c5999320f595f4f4a39fa0612>
@@ -4378,6 +4625,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/22ae3308135210992188f7173cbc6d3c>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q125917268";
   rdfs:label "FACULTAD DE MATEMÁTICAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/24c7e20e3d41ff802edc9103cec70289>
@@ -4390,6 +4638,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/270bb4c75d0ffeaa4240cf5a0f0cf81a>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5854919";
   rdfs:label "FACULTAD DE FÍSICA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/2776cd83381de815f5f73f40a7b569ea>
@@ -4422,6 +4671,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/2b53b19ce21d0c4799e8d870280bef01>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5855164";
   rdfs:label "FACULTAD DE TURISMO Y FINANZAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/2e03a679da7441c1b2104979d2019a81>
@@ -4430,6 +4680,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/2ef103b21297367e3ac5de55574f7124>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5855054";
   rdfs:label "FACULTAD DE MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/3084623f1daf6b94b519d371d557dd03>
@@ -4450,6 +4701,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/344fe79e7b7065db7936bf4cc4e9bd35>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q26223997";
   rdfs:label "FACULTAD DE FILOSOFÍA Y LETRAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/3627c8b6e6df6b71eb90e8ad3be8c1fa>
@@ -4470,6 +4722,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/3fd640d579449195dffbcbf27fdf74da>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q16566009";
   rdfs:label "FACULTAD DE CIENCIAS ECONÓMICAS Y EMPRESARIALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/41a2f650dc6976ed270b37352a3cd667>
@@ -4494,6 +4747,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/463258f0b4d7ed7b96afdacc693ce73b>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q130332679";
   rdfs:label "FACULTAD DE CIENCIAS DE LA EDUCACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/46ba4a9c745b51a8925d780c6c595ab8>
@@ -4502,10 +4756,12 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/498232f1f8874f6930c2846379905b98>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5854761";
   rdfs:label "FACULTAD DE CIENCIAS DE LA EDUCACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/4d89494423e03f17d8c9a09daa81d795>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q131143403";
   rdfs:label "FACULTAD DE CIENCIAS SOCIALES Y DE LA COMUNICACIÓN (JEREZ)" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/501886f616c2dd353c3ad5e0cf458005>
@@ -4558,6 +4814,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/66a334a08f7d1d245a5463f8032ce596>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q123614010";
   rdfs:label "FACULTAD DE CIENCIAS ECONÓMICAS Y EMPRESARIALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/674b765218481d6f65c7ab0d4c1f3e59>
@@ -4566,6 +4823,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/6b81eda4d05d7a7962eba4724abcef6c>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12175032";
   rdfs:label "FACULTAD DE CIENCIAS DEL DEPORTE" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/70f084ca524cd0dc52434035111b11c4>
@@ -4586,6 +4844,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/7593f69f3fb40be8999993438d10fc20>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q111225153";
   rdfs:label "FACULTAD DE CIENCIAS DE LA EDUCACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/7759267844100004da8d4c3f6735cb64>
@@ -4642,6 +4901,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/8ccd0e765b6a7d8cabb37a97095ac636>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5651677";
   rdfs:label "FACULTAD DE MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/8f8432ac85f7e47eb0a13c3f4b1c46fe>
@@ -4654,18 +4914,22 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/9854da100a3f9f3587605112d3d500b9>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q131143840";
   rdfs:label "FACULTAD DE DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/995ff0abf688410d4cb35701954eaf8a>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q131191806";
   rdfs:label "FACULTAD DE CIENCIAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/9aa71572d6afa1bf26e69a4446f9e874>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5854580";
   rdfs:label "FACULTAD DE CIENCIAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/9d831a51cdac55a08c589c32bb467492>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q28517253";
   rdfs:label "FACULTAD DE MEDICINA Y ENFERMERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/a0ee58505d7dc249f6e346e6a5dddbfb>
@@ -4682,6 +4946,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/a3a5e70d5e77fc807dbe4ad83e61dc02>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q111225153";
   rdfs:label "FACULTAD DE CIENCIAS DE LA SALUD" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/a499b92324fcdd8eaddd051eaa1a3c1c>
@@ -4694,6 +4959,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/a5e48985d958d74c234728412652ebc2>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q24019051";
   rdfs:label "FACULTAD DE CIENCIAS DE LA EDUCACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/a63b580a11bedae164c9f48d5e4df963>
@@ -4702,14 +4968,17 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/a663aadb6b4652d04004e9f1119e7021>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5854915";
   rdfs:label "FACULTAD DE FILOSOFÍA Y LETRAS" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/a7d2fb1a52602097a10fa46b9f408c3b>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q131191806";
   rdfs:label "FACULTAD DE CIENCIAS DEL MAR Y AMBIENTALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/a92124b8b675c4eaaf16018d850f7ddf>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5854887";
   rdfs:label "FACULTAD DE FARMACIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/aa1591361dd6e58561fa6faaf922d4f0>
@@ -4734,6 +5003,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/afee3039bff256a5076ec7146445017f>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q16566069";
   rdfs:label "FACULTAD DE ODONTOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/b1c2730fb278f8b8e90cc52b94f0534d>
@@ -4754,10 +5024,12 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/b98ebda2d15c374a6970b4b228a4762c>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q10989145";
   rdfs:label "FACULTAD DE FARMACIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/bbd6b0ecda71c5aa515072d62d1edf4b>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5854800";
   rdfs:label "FACULTAD DE COMUNICACIÓN Y DOCUMENTACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/c282e017e71e432e7016618725287b8b>
@@ -4798,22 +5070,27 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/d7e05e55cc2a3850917269e51084fd93>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5855158";
   rdfs:label "FACULTAD DE TRABAJO SOCIAL" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/d98b52a0c82c27b4cf133572ffdb377d>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q131176586";
   rdfs:label "FACULTAD DE ENFERMERÍA Y FISIOTERAPIA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/da1ca996c127c1a006bf78b4c710b043>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q21870238";
   rdfs:label "FACULTAD DE DERECHO" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/da795256f385e8a3148767b397f2c294>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q29557519";
   rdfs:label "FACULTAD CIENCIAS DE LA EDUCACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/da9ed27a3a6c0508d2176a371b06ecec>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q12175037";
   rdfs:label "FACULTAD DE PSICOLOGÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/daac7c9a07bfdcb718b84d2761760223>
@@ -4846,6 +5123,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/e99220502238cbaa59045d4e43b5c168>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5838902";
   rdfs:label "ESCUELA SUPERIOR DE INGENIERÍA" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/eb8f2cf16a57f859b4d0a12c0fc609e2>
@@ -4858,6 +5136,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/f1eadeb74d857ff24c552ed47301ff25>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q132135183";
   rdfs:label "ESCUELA DE INGENIERÍAS INDUSTRIALES" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/f2a8882139959500a97aa40a597dd331>
@@ -4886,6 +5165,7 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/f717872ca90fe394c82fe6383867a31b>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5854755";
   rdfs:label "FACULTAD DE COMUNICACIÓN" .
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/fc36edec44f1b7f0171820c3d5c2f3e2>
@@ -4902,15 +5182,18 @@
 
 <http://spanishuniversities.data.es/lude/resource/Faculty/ff38ce5b7f7fc1643526fe9f32a479f8>
   a lude:Faculty;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q5855058";
   rdfs:label "FACULTAD DE MEDICINA" .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>
   a lude:KnowledgeArea;
-  rdfs:label "Ciencias Sociales y Jurídicas" .
+  lude:sameAsWikidata "https://wikidata.org/entity/Q34749";
+  rdfs:label "social science" .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>
   a lude:KnowledgeArea;
-  rdfs:label "Ingeniería y Arquitectura" .
+  lude:sameAsWikidata "https://wikidata.org/entity/Q11023";
+  rdfs:label "engineering" .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/3a55b686cea34a8923b6ea395549772e>
   a lude:KnowledgeArea;
@@ -4918,15 +5201,18 @@
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>
   a lude:KnowledgeArea;
-  rdfs:label "Artes y Humanidades" .
+  lude:sameAsWikidata "https://wikidata.org/entity/Q80083";
+  rdfs:label "humanities" .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>
   a lude:KnowledgeArea;
-  rdfs:label "Ciencias de la Salud" .
+  lude:sameAsWikidata "https://wikidata.org/entity/Q843601";
+  rdfs:label "health sciences" .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>
   a lude:KnowledgeArea;
-  rdfs:label "Ciencias" .
+  lude:sameAsWikidata "https://wikidata.org/entity/Q336";
+  rdfs:label "science" .
 
 <http://spanishuniversities.data.es/lude/resource/University/080475033eeb8f14c9bd1119f9fa6871>
   a lude:University;
@@ -4935,10 +5221,11 @@
   lude:email "infouned@adm.uned.es";
   lude:modality "No Presencial";
   lude:publicationYear "1972"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q421739";
   lude:telephone "91398600";
   lude:type "Pública";
   lude:url "www.uned.es"^^xsd:anyURI;
-  rdfs:label "Universidad Nacional de Educación a Distancia" .
+  rdfs:label "National University of Distance Education", "Universidad Nacional de Educación a Distancia" .
 
 <http://spanishuniversities.data.es/lude/resource/University/094757ed9d7e9bb8929a087e18874962>
   a lude:University;
@@ -4947,10 +5234,11 @@
   lude:email "rectorado@uniovi.es";
   lude:modality "Presencial";
   lude:publicationYear "1608"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2303432";
   lude:telephone "985104058";
   lude:type "Pública";
   lude:url "www.uniovi.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Oviedo" .
+  rdfs:label "Universidad de Oviedo", "University of Oviedo" .
 
 <http://spanishuniversities.data.es/lude/resource/University/15d26bf729b84e22210b99d94c66cd90>
   a lude:University;
@@ -4959,10 +5247,11 @@
   lude:email "informacion@uvigo.es";
   lude:modality "Presencial";
   lude:publicationYear "1989"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q666916";
   lude:telephone "986812000";
   lude:type "Pública";
   lude:url "www.uvigo.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Vigo" .
+  rdfs:label "Universidad de Vigo", "Vigo University" .
 
 <http://spanishuniversities.data.es/lude/resource/University/16249b9d3890e9951fa8dcc315733ea8>
   a lude:University;
@@ -4971,10 +5260,11 @@
   lude:email "virtual@unex.es";
   lude:modality "Presencial";
   lude:publicationYear "1973"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q729391";
   lude:telephone "924289300";
   lude:type "Pública";
   lude:url "www.unex.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Extremadura" .
+  rdfs:label "Universidad de Extremadura", "University of Extremadura" .
 
 <http://spanishuniversities.data.es/lude/resource/University/17a1b9e0f1c1e0719761a30d50700965>
   a lude:University;
@@ -4983,10 +5273,11 @@
   lude:email "universidad@ulpgc.es";
   lude:modality "Presencial";
   lude:publicationYear "1989"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q940302";
   lude:telephone "928451000";
   lude:type "Pública";
   lude:url "www.ulpgc.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Las Palmas de Gran Canaria" .
+  rdfs:label "Universidad de Las Palmas de Gran Canaria", "University of Las Palmas de Gran Canaria" .
 
 <http://spanishuniversities.data.es/lude/resource/University/186d47028db001c7a7d88906c21f5fee>
   a lude:University;
@@ -4995,10 +5286,11 @@
   lude:email "info@upc.edu";
   lude:modality "Presencial";
   lude:publicationYear "1971"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1640731";
   lude:telephone "934016200";
   lude:type "Pública";
   lude:url "www.upc.es"^^xsd:anyURI;
-  rdfs:label "Universidad Politécnica de Catalunya" .
+  rdfs:label "Polytechnic University of Catalonia", "Universidad Politécnica de Catalunya" .
 
 <http://spanishuniversities.data.es/lude/resource/University/24e63f7c3d8596b44655e9ad9bfdf5f5>
   a lude:University;
@@ -5007,9 +5299,10 @@
   lude:email "ciu@unizar.es";
   lude:modality "Presencial";
   lude:publicationYear "1542"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q633561";
   lude:telephone "976761001";
   lude:type "Pública";
-  rdfs:label "Universidad de Zaragoza" .
+  rdfs:label "Universidad de Zaragoza", "University of Zaragoza" .
 
 <http://spanishuniversities.data.es/lude/resource/University/26e6f2790707f868f9d05141e6f2f906>
   a lude:University;
@@ -5018,9 +5311,10 @@
   lude:email "informacio@udg.edu";
   lude:modality "Presencial";
   lude:publicationYear "1992"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1814503";
   lude:telephone "972418046";
   lude:type "Pública";
-  rdfs:label "Universitat de Girona" .
+  rdfs:label "Universitat de Girona", "University of Girona" .
 
 <http://spanishuniversities.data.es/lude/resource/University/2ddd97caa885c032af0e206d1a7b5c85>
   a lude:University;
@@ -5029,6 +5323,7 @@
   lude:email "postgrado@unia.es";
   lude:modality "Especial";
   lude:publicationYear "2013"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q4894042";
   lude:telephone "954462299";
   lude:type "Pública";
   rdfs:label "Universidad Internacional de Andalucía" .
@@ -5040,13 +5335,13 @@
   lude:email "informacio@uib.es";
   lude:modality "Presencial";
   lude:publicationYear "1978"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1811146";
   lude:telephone "971173000";
   lude:type "Pública";
   lude:url "www.uib.es/"^^xsd:anyURI;
-  rdfs:label "Universitat de les Illes Balears" .
+  rdfs:label "Universitat de les Illes Balears", "University of the Balearic Islands" .
 
 <http://spanishuniversities.data.es/lude/resource/University/30962703623f1f1d21c737a0c0673761>
-  a lude:University;
   lude:acronym "UMA";
   lude:cif "Q2918001E";
   lude:email "informacion@uma.es";
@@ -5144,11 +5439,13 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/f37488473fe5a711c3cee2beb9922d66>,
     <http://spanishuniversities.data.es/lude/resource/Degree/f7772f0f19cb1836e52d33ffbe536ad4>,
     <http://spanishuniversities.data.es/lude/resource/Degree/f78917e0e52d0021065d2c48f1a92eb9>,
-    <http://spanishuniversities.data.es/lude/resource/Degree/f7a2739bdb103c8b8422591397c394f1>,
-    <http://spanishuniversities.data.es/lude/resource/Degree/fe1bbba3d7a43cc0a9dbf77349bf6970>,
+    <http://spanishuniversities.data.es/lude/resource/Degree/f7a2739bdb103c8b8422591397c394f1>;
+  a lude:University;
+  lude:offers <http://spanishuniversities.data.es/lude/resource/Degree/fe1bbba3d7a43cc0a9dbf77349bf6970>,
     <http://spanishuniversities.data.es/lude/resource/Degree/fee174d73a10e171c5c938ee42431e8a>,
     <http://spanishuniversities.data.es/lude/resource/Degree/ff08060901ffd4bd94b00ed5d84b0c96>;
   lude:publicationYear "1972"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q958650";
   lude:telephone "952131000";
   lude:type "Pública";
   lude:url "www.uma.es"^^xsd:anyURI;
@@ -5161,10 +5458,11 @@
   lude:email "acceso@unican.es";
   lude:modality "Presencial";
   lude:publicationYear "1972"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q766962";
   lude:telephone "942200984";
   lude:type "Pública";
   lude:url "www.unican.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Cantabria" .
+  rdfs:label "Universidad de Cantabria", "University of Cantabria" .
 
 <http://spanishuniversities.data.es/lude/resource/University/330a9bcca27a6c6e467081bfdc1e65cd>
   a lude:University;
@@ -5173,10 +5471,11 @@
   lude:email "ciu@uah.es";
   lude:modality "Presencial";
   lude:publicationYear "1977"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1243904";
   lude:telephone "918854000";
   lude:type "Pública";
   lude:url "www.uah.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Alcalá" .
+  rdfs:label "Universidad de Alcalá", "University of Alcalá" .
 
 <http://spanishuniversities.data.es/lude/resource/University/3bd27a309cbe4e2d7f35ec99b74525c0>
   a lude:University;
@@ -5184,10 +5483,11 @@
   lude:cif "Q5850017D";
   lude:modality "Presencial";
   lude:publicationYear "1990"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q24543";
   lude:telephone "935422000";
   lude:type "Pública";
   lude:url "www.upf.edu"^^xsd:anyURI;
-  rdfs:label "Universidad Pompeu Fabra" .
+  rdfs:label "Pompeu Fabra University", "Universidad Pompeu Fabra" .
 
 <http://spanishuniversities.data.es/lude/resource/University/4bf5231621b187a3ed12c5741fc3f19d>
   a lude:University;
@@ -5196,10 +5496,11 @@
   lude:email "gabinete.rector@upm.es";
   lude:modality "Presencial";
   lude:publicationYear "1971"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q25864";
   lude:telephone "913366200";
   lude:type "Pública";
   lude:url "www.upm.es"^^xsd:anyURI;
-  rdfs:label "Universidad Politécnica de Madrid" .
+  rdfs:label "Technical University of Madrid", "Universidad Politécnica de Madrid" .
 
 <http://spanishuniversities.data.es/lude/resource/University/4d9d7d9cad3c91e4f4fff77c396ee9ee>
   a lude:University;
@@ -5208,10 +5509,11 @@
   lude:email "informacion@upv.es";
   lude:modality "Presencial";
   lude:publicationYear "1971"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2003976";
   lude:telephone "963877000";
   lude:type "Pública";
   lude:url "www.upv.es"^^xsd:anyURI;
-  rdfs:label "Universitat Politècnica de València" .
+  rdfs:label "Technical University of Valencia", "Universitat Politècnica de València" .
 
 <http://spanishuniversities.data.es/lude/resource/University/51dcd00716a08519e65a732cb87c3b71>
   a lude:University;
@@ -5220,10 +5522,11 @@
   lude:email "infogral@usal.es";
   lude:modality "Presencial";
   lude:publicationYear "1218"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q308963";
   lude:telephone "923294400";
   lude:type "Pública";
   lude:url "www.usal.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Salamanca" .
+  rdfs:label "Universidad de Salamanca", "University of Salamanca" .
 
 <http://spanishuniversities.data.es/lude/resource/University/64597f645a8194bb9beed6a3aa675d5b>
   a lude:University;
@@ -5232,10 +5535,11 @@
   lude:email "prensa1@ull.es";
   lude:modality "Presencial";
   lude:publicationYear "1792"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q539881";
   lude:telephone "922319000";
   lude:type "Pública";
   lude:url "www.ull.es"^^xsd:anyURI;
-  rdfs:label "Universidad de La Laguna" .
+  rdfs:label "Universidad de La Laguna", "University of La Laguna" .
 
 <http://spanishuniversities.data.es/lude/resource/University/703d90006d377d97e3212ab3312a4e0d>
   a lude:University;
@@ -5244,10 +5548,11 @@
   lude:email "reitor@usc.es";
   lude:modality "Presencial";
   lude:publicationYear "1504"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1473677";
   lude:telephone "981563100";
   lude:type "Pública";
   lude:url "www.usc.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Santiago de Compostela" .
+  rdfs:label "Universidad de Santiago de Compostela", "University of Santiago de Compostela" .
 
 <http://spanishuniversities.data.es/lude/resource/University/79c02c40f6f40e7dbda1c9193c995152>
   a lude:University;
@@ -5307,10 +5612,11 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/f83f6bf1f2589346e9b3a3108dbc7974>,
     <http://spanishuniversities.data.es/lude/resource/Degree/fb1ee04841776c3063800635453b265c>;
   lude:publicationYear "1997"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q477988";
   lude:telephone "954349200";
   lude:type "Pública";
   lude:url "www.upo.es"^^xsd:anyURI;
-  rdfs:label "Universidad Pablo de Olavide" .
+  rdfs:label "Pablo de Olavide University", "Universidad Pablo de Olavide" .
 
 <http://spanishuniversities.data.es/lude/resource/University/7a90ec99428048f3a58539d18c749ea7>
   a lude:University;
@@ -5319,10 +5625,11 @@
   lude:email "info@urjc.es";
   lude:modality "Presencial";
   lude:publicationYear "1996"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2000629";
   lude:telephone "916655060";
   lude:type "Pública";
   lude:url "www.urjc.es"^^xsd:anyURI;
-  rdfs:label "Universidad Rey Juan Carlos" .
+  rdfs:label "King Juan Carlos University", "Universidad Rey Juan Carlos" .
 
 <http://spanishuniversities.data.es/lude/resource/University/7ce4c67f7247673210d9b6d8aa5e7570>
   a lude:University;
@@ -5331,10 +5638,11 @@
   lude:email "comunicacio@ub.edu";
   lude:modality "Presencial";
   lude:publicationYear "1450"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q219615";
   lude:telephone "934035417";
   lude:type "Pública";
   lude:url "www.ub.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Barcelona" .
+  rdfs:label "Universidad de Barcelona", "University of Barcelona" .
 
 <http://spanishuniversities.data.es/lude/resource/University/871a4d42a733c080da0f1935663a2f05>
   a lude:University;
@@ -5342,6 +5650,7 @@
   lude:cif "Q2818022B";
   lude:modality "Especial";
   lude:publicationYear "1945"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1442385";
   lude:telephone "915920600";
   lude:type "Pública";
   lude:url "www.uimp.es"^^xsd:anyURI;
@@ -5354,10 +5663,11 @@
   lude:email "info@urv.cat";
   lude:modality "Presencial";
   lude:publicationYear "1992"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3133193";
   lude:telephone "977558000";
   lude:type "Pública";
   lude:url "www.urv.cat/ca"^^xsd:anyURI;
-  rdfs:label "Universidad Rovira i Virgili" .
+  rdfs:label "Rovira i Virgili University", "Universidad Rovira i Virgili" .
 
 <http://spanishuniversities.data.es/lude/resource/University/91aa5268851f200c64bd1a238ed37fcf>
   a lude:University;
@@ -5366,10 +5676,11 @@
   lude:email "informacio@uab.es";
   lude:modality "Presencial";
   lude:publicationYear "1968"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q43452";
   lude:telephone "935811000";
   lude:type "Pública";
   lude:url "www.uab.es"^^xsd:anyURI;
-  rdfs:label "Universidad Autónoma de Barcelona" .
+  rdfs:label "Autonomous University of Barcelona", "Universidad Autónoma de Barcelona" .
 
 <http://spanishuniversities.data.es/lude/resource/University/92c081b3e4299316155ea45962241086>
   a lude:University;
@@ -5378,9 +5689,10 @@
   lude:email "valladolid@uva.es";
   lude:modality "Presencial";
   lude:publicationYear "1241"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q768224";
   lude:telephone "983423000";
   lude:type "Pública";
-  rdfs:label "Universidad de Valladolid" .
+  rdfs:label "Universidad de Valladolid", "University of Valladolid" .
 
 <http://spanishuniversities.data.es/lude/resource/University/92c852850da0a33857691151f42ac19a>
   a lude:University;
@@ -5389,12 +5701,14 @@
   lude:email "info@uji.es";
   lude:modality "Presencial";
   lude:publicationYear "1991"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q29718";
   lude:telephone "964728000";
   lude:type "Pública";
   lude:url "www.uji.es"^^xsd:anyURI;
-  rdfs:label "Universidad Jaume I de Castellón" .
+  rdfs:label "Jaume I University", "Universidad Jaume I de Castellón" .
 
 <http://spanishuniversities.data.es/lude/resource/University/9d791fc58c21adf30d157657e55c4355>
+  a lude:University;
   lude:acronym "UCA";
   lude:cif "Q1132001G";
   lude:email "relaciones.institucionales@uca.es";
@@ -5482,17 +5796,17 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/da7a73e36e9016cc17c258cf0c75bf9f>,
     <http://spanishuniversities.data.es/lude/resource/Degree/db284be8f11b906ee41dbaea5b38c000>,
     <http://spanishuniversities.data.es/lude/resource/Degree/e66379d287001a2f06fa64599872fc27>,
-    <http://spanishuniversities.data.es/lude/resource/Degree/ed3379e2c38f6aaf2846000780c8c5d1>;
-  a lude:University;
-  lude:offers <http://spanishuniversities.data.es/lude/resource/Degree/ee48a294f584c13df56a2fe0d0f30bc3>,
+    <http://spanishuniversities.data.es/lude/resource/Degree/ed3379e2c38f6aaf2846000780c8c5d1>,
+    <http://spanishuniversities.data.es/lude/resource/Degree/ee48a294f584c13df56a2fe0d0f30bc3>,
     <http://spanishuniversities.data.es/lude/resource/Degree/f2338c32b00c944a37df361cb31c7760>,
     <http://spanishuniversities.data.es/lude/resource/Degree/f2a9b173e92d43cc3f66543d4aedbb8e>,
     <http://spanishuniversities.data.es/lude/resource/Degree/fa7497f61551502efb02e4398fc011c2>;
   lude:publicationYear "1979"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2000065";
   lude:telephone "956015033";
   lude:type "Pública";
   lude:url "www.uca.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Cádiz" .
+  rdfs:label "Universidad de Cádiz", "University of Cádiz" .
 
 <http://spanishuniversities.data.es/lude/resource/University/a0b65722ec5194abfd7f9ba621a7dd1d>
   a lude:University;
@@ -5554,10 +5868,11 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/f0fd693d0be786cd4a590ad9361fea5c>,
     <http://spanishuniversities.data.es/lude/resource/Degree/f100531367077d39ae51c00dd84962e2>;
   lude:publicationYear "1993"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q573144";
   lude:telephone "953212121";
   lude:type "Pública";
   lude:url "www.ujaen.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Jaén" .
+  rdfs:label "Universidad de Jaén", "University of Jaén" .
 
 <http://spanishuniversities.data.es/lude/resource/University/a62a164f781be26dd225dfda47b78c12>
   a lude:University;
@@ -5566,6 +5881,7 @@
   lude:email "webmaster@uclm.es";
   lude:modality "Presencial";
   lude:publicationYear "1982"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q941806";
   lude:telephone "902204100";
   lude:type "Pública";
   lude:url "www.uclm.es"^^xsd:anyURI;
@@ -5578,10 +5894,11 @@
   lude:email "infoweb@unavarra.es";
   lude:modality "Presencial";
   lude:publicationYear "1987"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q3179598";
   lude:telephone "948169000";
   lude:type "Pública";
   lude:url "www.unavarra.es"^^xsd:anyURI;
-  rdfs:label "Universidad Pública de Navarra" .
+  rdfs:label "Public University of Navarre", "Universidad Pública de Navarra" .
 
 <http://spanishuniversities.data.es/lude/resource/University/bd5d3da0c4dfc8205ca85ea0c1699a62>
   a lude:University;
@@ -5590,10 +5907,11 @@
   lude:email "info@umh.es";
   lude:modality "Presencial";
   lude:publicationYear "1996"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q24676";
   lude:telephone "966658500";
   lude:type "Pública";
   lude:url "www.umh.es"^^xsd:anyURI;
-  rdfs:label "Universidad Miguel Hernández de Elche" .
+  rdfs:label "Miguel Hernández University of Elche", "Universidad Miguel Hernández de Elche" .
 
 <http://spanishuniversities.data.es/lude/resource/University/bf0d31e1fd4ee242c0fe00c2ee08b759>
   a lude:University;
@@ -5602,10 +5920,11 @@
   lude:email "info@udl.cat";
   lude:modality "Presencial";
   lude:publicationYear "1992"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1235594";
   lude:telephone "973702000";
   lude:type "Pública";
   lude:url "www.udl.es/ca/es/"^^xsd:anyURI;
-  rdfs:label "Universidad de Lleida" .
+  rdfs:label "Universidad de Lleida", "University of Lleida" .
 
 <http://spanishuniversities.data.es/lude/resource/University/c50901012309aca2785eb50ea4c8f87b>
   a lude:University;
@@ -5614,6 +5933,7 @@
   lude:email "futurosestudiantes@uc3m.es";
   lude:modality "Presencial";
   lude:publicationYear "1989"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1247135";
   lude:telephone "916249500";
   lude:type "Pública";
   lude:url "www.uc3m.es"^^xsd:anyURI;
@@ -5672,10 +5992,11 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/f130bea8dd02fb6e063c6d8a7009246b>,
     <http://spanishuniversities.data.es/lude/resource/Degree/f62dec9e11378d5312fe611a71d2d041>;
   lude:publicationYear "1993"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1218488";
   lude:telephone "950015570";
   lude:type "Pública";
   lude:url "www.ual.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Almería" .
+  rdfs:label "Universidad de Almería", "University of Almería" .
 
 <http://spanishuniversities.data.es/lude/resource/University/c73f658b0a9e2a5097a9ae889dd56474>
   a lude:University;
@@ -5684,10 +6005,11 @@
   lude:email "servei.estudiants@uv.es";
   lude:modality "Presencial";
   lude:publicationYear "1502"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q383568";
   lude:telephone "963864100";
   lude:type "Pública";
   lude:url "www.uv.es"^^xsd:anyURI;
-  rdfs:label "Universitat de València" .
+  rdfs:label "Universitat de València", "University of Valencia" .
 
 <http://spanishuniversities.data.es/lude/resource/University/c8b4be930789e86c8d8b17d773af6d7e>
   a lude:University;
@@ -5696,10 +6018,11 @@
   lude:email "webmaster@unileon.es";
   lude:modality "Presencial";
   lude:publicationYear "1979"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q781108";
   lude:telephone "987291000";
   lude:type "Pública";
   lude:url "www.unileon.es"^^xsd:anyURI;
-  rdfs:label "Universidad de León" .
+  rdfs:label "Universidad de León", "University of León" .
 
 <http://spanishuniversities.data.es/lude/resource/University/d30bbd19fa77d8470334a259e060006e>
   a lude:University;
@@ -5708,10 +6031,11 @@
   lude:email "rgzadmin@lg.ehu.es";
   lude:modality "Presencial";
   lude:publicationYear "1968"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1232428";
   lude:telephone "946012000";
   lude:type "Pública";
   lude:url "www.ehu.es"^^xsd:anyURI;
-  rdfs:label "Universidad del País Vasco/Euskal Herriko Unibertsitatea" .
+  rdfs:label "Universidad del País Vasco/Euskal Herriko Unibertsitatea", "University of the Basque Country" .
 
 <http://spanishuniversities.data.es/lude/resource/University/d4092e4beec5ade3eb17379b7450f0b9>
   a lude:University;
@@ -5784,10 +6108,11 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/fcb368023a49513e86c90f124df4eeb1>,
     <http://spanishuniversities.data.es/lude/resource/Degree/ffbe283497b53a80509bc9594427f8a6>;
   lude:publicationYear "1972"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q734010";
   lude:telephone "957218000";
   lude:type "Pública";
   lude:url "www.uco.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Córdoba" .
+  rdfs:label "Universidad de Córdoba", "University of Córdoba" .
 
 <http://spanishuniversities.data.es/lude/resource/University/dbca02858a647c576208370194649766>
   a lude:University;
@@ -5916,10 +6241,11 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/f832730c60735cdc9c7a0b36f820f396>,
     <http://spanishuniversities.data.es/lude/resource/Degree/ff588d7f67b5f420fddad07173a6fac1>;
   lude:publicationYear "1531"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1232180";
   lude:telephone "958243000";
   lude:type "Pública";
   lude:url "www.ugr.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Granada" .
+  rdfs:label "Universidad de Granada", "University of Granada" .
 
 <http://spanishuniversities.data.es/lude/resource/University/dcbcd7e79ed9bec816e6a427d84bbf64>
   a lude:University;
@@ -5928,10 +6254,11 @@
   lude:email "sec.general@unirioja.es";
   lude:modality "Presencial";
   lude:publicationYear "1992"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q120795";
   lude:telephone "941299104";
   lude:type "Pública";
   lude:url "www.unirioja.es"^^xsd:anyURI;
-  rdfs:label "Universidad de La Rioja" .
+  rdfs:label "Universidad de La Rioja", "University of La Rioja" .
 
 <http://spanishuniversities.data.es/lude/resource/University/e00161d1619c9c29b683d70c49b1341c>
   a lude:University;
@@ -5940,10 +6267,11 @@
   lude:email "informacio@ua.es";
   lude:modality "Presencial";
   lude:publicationYear "1979"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q2037040";
   lude:telephone "965903400";
   lude:type "Pública";
   lude:url "www.ua.es/"^^xsd:anyURI;
-  rdfs:label "Universidad de Alicante" .
+  rdfs:label "Universidad de Alicante", "University of Alicante" .
 
 <http://spanishuniversities.data.es/lude/resource/University/e2aed65db4fa77f98f5f2990371c7a23>
   a lude:University;
@@ -5952,10 +6280,11 @@
   lude:email "infocom@ucm.es";
   lude:modality "Presencial";
   lude:publicationYear "1836"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q219694";
   lude:telephone "914520400";
   lude:type "Pública";
   lude:url "www.ucm.es"^^xsd:anyURI;
-  rdfs:label "Universidad Complutense de Madrid" .
+  rdfs:label "Complutense University of Madrid", "Universidad Complutense de Madrid" .
 
 <http://spanishuniversities.data.es/lude/resource/University/e4aee90dd75f5fd5dc35bc4653bd9065>
   a lude:University;
@@ -5964,6 +6293,7 @@
   lude:email "gestion.academica@upct.es";
   lude:modality "Presencial";
   lude:publicationYear "1998"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q6156635";
   lude:telephone "968325400";
   lude:type "Pública";
   lude:url "www.upct.es"^^xsd:anyURI;
@@ -5976,10 +6306,11 @@
   lude:email "reitor@udc.es";
   lude:modality "Presencial";
   lude:publicationYear "1989"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q280305";
   lude:telephone "981167000";
   lude:type "Pública";
   lude:url "www.udc.es"^^xsd:anyURI;
-  rdfs:label "Universidad de A Coruña" .
+  rdfs:label "Universidad de A Coruña", "University of A Coruña" .
 
 <http://spanishuniversities.data.es/lude/resource/University/f5636bc297db763f969bab88b5492ba3>
   a lude:University;
@@ -5988,10 +6319,11 @@
   lude:email "rector@um.es";
   lude:modality "Presencial";
   lude:publicationYear "1272"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1236345";
   lude:telephone "968363000";
   lude:type "Pública";
   lude:url "www.um.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Murcia" .
+  rdfs:label "Universidad de Murcia", "University of Murcia" .
 
 <http://spanishuniversities.data.es/lude/resource/University/f6ce2593f6cfc9e08dc9effe2e0077e9>
   a lude:University;
@@ -6049,13 +6381,13 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/f9953730a8aa0cc21257a41938a08cbf>,
     <http://spanishuniversities.data.es/lude/resource/Degree/faa11172bcedbce66100a9ec9fb0cff9>;
   lude:publicationYear "1993"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q478464";
   lude:telephone "959218000";
   lude:type "Pública";
   lude:url "www.uhu.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Huelva" .
+  rdfs:label "Universidad de Huelva", "University of Huelva" .
 
 <http://spanishuniversities.data.es/lude/resource/University/f8c4e120daa6420626c03e582958ebd3>
-  a lude:University;
   lude:acronym "USE";
   lude:cif "Q4118001I";
   lude:email "gabiprensa@us.es";
@@ -6149,8 +6481,9 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/a988b29ec9e70a93455bb7f8b59b4093>,
     <http://spanishuniversities.data.es/lude/resource/Degree/a9a4a356d737f34122751032c3f8c684>,
     <http://spanishuniversities.data.es/lude/resource/Degree/b2ee61a54da8ba5af95f12c6bea7f033>,
-    <http://spanishuniversities.data.es/lude/resource/Degree/b3c06667f4f78a477226c1be6acbd9ea>,
-    <http://spanishuniversities.data.es/lude/resource/Degree/b5c78d2777ea07753e157be15be4e7a5>,
+    <http://spanishuniversities.data.es/lude/resource/Degree/b3c06667f4f78a477226c1be6acbd9ea>;
+  a lude:University;
+  lude:offers <http://spanishuniversities.data.es/lude/resource/Degree/b5c78d2777ea07753e157be15be4e7a5>,
     <http://spanishuniversities.data.es/lude/resource/Degree/b5dcd6dc9b895a11ce3aeb14a17b6cf6>,
     <http://spanishuniversities.data.es/lude/resource/Degree/b6cfd110c93c7dcbaaf5c69ab08900b2>,
     <http://spanishuniversities.data.es/lude/resource/Degree/bae1b0d788b1b93082744e86cebca617>,
@@ -6188,10 +6521,11 @@
     <http://spanishuniversities.data.es/lude/resource/Degree/fe07acf418eb148b918c857ce0ca3991>,
     <http://spanishuniversities.data.es/lude/resource/Degree/feae5e88a9d3f7a9300cf53bd020ff6a>;
   lude:publicationYear "1505"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1229996";
   lude:telephone "954551000";
   lude:type "Pública";
   lude:url "www.us.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Sevilla" .
+  rdfs:label "Universidad de Sevilla", "University of Seville" .
 
 <http://spanishuniversities.data.es/lude/resource/University/f9d30a624b678c838a4bb422a0bc148b>
   a lude:University;
@@ -6200,10 +6534,11 @@
   lude:email "informacion.general@uam.es";
   lude:modality "Presencial";
   lude:publicationYear "1968"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q788091";
   lude:telephone "914975000";
   lude:type "Pública";
   lude:url "www.uam.es"^^xsd:anyURI;
-  rdfs:label "Universidad Autónoma de Madrid" .
+  rdfs:label "Autonomous University of Madrid", "Universidad Autónoma de Madrid" .
 
 <http://spanishuniversities.data.es/lude/resource/University/f9f0a05fbac13ce20a2af52247c2b93f>
   a lude:University;
@@ -6212,7 +6547,8 @@
   lude:email "ubuestudiantes@ubu.es";
   lude:modality "Presencial";
   lude:publicationYear "1994"^^xsd:gYear;
+  lude:sameAsWikidata "https://wikidata.org/entity/Q1510657";
   lude:telephone "947258700";
   lude:type "Pública";
   lude:url "www.ubu.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Burgos" .
+  rdfs:label "Universidad de Burgos", "University of Burgos" .
