@@ -1,6 +1,6 @@
 prefixes:
-  lude:  "https://linkeduniversities.es/vocab/"
-  ex:    "https://linkeduniversities.es/resource/"
+  lude:  "http://spanishuniversities.data.es/lude/ontology#"
+  id:    "http://spanishuniversities.data.es/lude/resource/"
   xsd:   "http://www.w3.org/2001/XMLSchema#"
   rdf:   "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   rdfs:  "http://www.w3.org/2000/01/rdf-schema#"
@@ -46,21 +46,23 @@ mappings:
 
   AcademicLevelMapping:
     sources:
-      - ['data/academic_level-updated.csv~csv']
+      - ['data/academic_level-updated-with-links.csv~csv']
     s: ex:AcademicLevel/$(AcademicLevelID)
     po:
       - [rdf:type, lude:AcademicLevel]
       - [rdfs:label, $(Academic Level)]
       - [lude:code, $(AcademicLevelID)]
+      - [lude:sameAsWikidata, $(same_as_wikidata_academiclevel)]
 
   KnowledgeAreaMapping:
     sources:
-      - ['data/ambit-otros.csv~csv']
+      - ['data/ambit-otros-with-links.csv~csv']
     s: ex:KnowledgeArea/$(id)
     po:
       - [rdf:type, lude:KnowledgeArea]
       - [rdfs:label, $(ambit)]
       - [lude:code, $(id)]
+      - [lude:sameAsWikidata, $(same_as_wikidata_ambit)]
   
   FacultyMappingCastillaLaMancha:
     sources:
@@ -81,7 +83,7 @@ mappings:
   
   UniversityMapping:
     sources:
-      - ['data/universidades-updated.csv~csv']
+      - ['data/universidades-updated-with-links.csv~csv']
     s: ex:University/$(UniversityID)
     po:
       - [rdf:type, lude:University]
@@ -95,3 +97,4 @@ mappings:
       - [lude:email, $(Email)]
       - [lude:telephone, $(Phone)]
       - [lude:publicationYear, $(Year of Publication)]
+      - [lude:sameAsWikidata, $(same_as_wikidata_university)]
