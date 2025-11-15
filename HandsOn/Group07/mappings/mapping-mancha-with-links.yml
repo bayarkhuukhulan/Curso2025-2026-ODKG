@@ -4,6 +4,7 @@ prefixes:
   xsd:   "http://www.w3.org/2001/XMLSchema#"
   rdf:   "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   rdfs:  "http://www.w3.org/2000/01/rdf-schema#"
+  owl:   "http://www.w3.org/2002/07/owl#"
 
 mappings:
   
@@ -52,7 +53,7 @@ mappings:
       - [rdf:type, lude:AcademicLevel]
       - [rdfs:label, $(Academic Level)]
       - [lude:code, $(AcademicLevelID)]
-      - [lude:sameAsWikidata, $(same_as_wikidata_academiclevel)]
+      - [owl:sameAs, $(same_as_wikidata_academiclevel)~iri]
 
   KnowledgeAreaMapping:
     sources:
@@ -62,7 +63,7 @@ mappings:
       - [rdf:type, lude:KnowledgeArea]
       - [rdfs:label, $(ambit)]
       - [lude:code, $(id)]
-      - [lude:sameAsWikidata, $(same_as_wikidata_ambit)]
+      - [owl:sameAs, $(same_as_wikidata_ambit)~iri]
   
   FacultyMappingCastillaLaMancha:
     sources:
@@ -97,4 +98,4 @@ mappings:
       - [lude:email, $(Email)]
       - [lude:telephone, $(Phone)]
       - [lude:publicationYear, $(Year of Publication)]
-      - [lude:sameAsWikidata, $(same_as_wikidata_university)]
+      - [owl:sameAs, $(same_as_wikidata_university)~iri]
