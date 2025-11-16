@@ -207,6 +207,9 @@ owl:sameAs a owl:ObjectProperty ;
         lude:Municipality
         lude:Province
         lude:University
+        lude:Degree
+        lude:KnowledgeArea
+        lude:academicLevel
         )
     ] ;
     rdfs:range rdfs:Resource .
