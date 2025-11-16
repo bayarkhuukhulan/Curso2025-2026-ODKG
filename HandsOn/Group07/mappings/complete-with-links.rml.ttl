@@ -5516,6 +5516,20 @@
 			rml:reference "same_as_wikidata_university";
 			rr:termType rr:IRI
 		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:offers;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <DegreeCastillaLeonMappingLL_0>;
+			rr:joinCondition [
+				rr:child "UniversityID";
+				rr:parent "UniversityID";
+			];
+		];
 	].
 
 
@@ -5608,20 +5622,6 @@
 		rr:objectMap [
 			a rr:RefObjectMap;
 			rr:parentTriplesMap <FacultyMappingCastillaLeonLL_0>;
-			rr:joinCondition [
-				rr:child "FacultyID";
-				rr:parent "FacultyID";
-			];
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:offers;
-		];
-		rr:objectMap [
-			a rr:RefObjectMap;
-			rr:parentTriplesMap <UniversityMappingLL_0>;
 			rr:joinCondition [
 				rr:child "FacultyID";
 				rr:parent "FacultyID";
@@ -6327,6 +6327,20 @@
 			rml:reference "same_as_wikidata_university";
 			rr:termType rr:IRI
 		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:offers;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <DegreeIslasBalearesMapping_0>;
+			rr:joinCondition [
+				rr:child "UniversityID";
+				rr:parent "UniversityID";
+			];
+		];
 	].
 
 
@@ -6408,20 +6422,6 @@
 			rr:joinCondition [
 				rr:child "AmbitID";
 				rr:parent "id";
-			];
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:offers;
-		];
-		rr:objectMap [
-			a rr:RefObjectMap;
-			rr:parentTriplesMap <UniversityMapping_0>;
-			rr:joinCondition [
-				rr:child "UniversityID";
-				rr:parent "UniversityID";
 			];
 		];
 	].
