@@ -22,7 +22,7 @@
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "data/CANTABRIA-degree.csv";
+		rml:source "data/CANTABRIA-degree-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -148,6 +148,17 @@
 		rr:objectMap [
 			a rr:ObjectMap;
 			rml:reference "NewStudentsPosts";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "sameAs";
+			rr:termType rr:IRI
 		];
 	];
 	rr:predicateObjectMap [

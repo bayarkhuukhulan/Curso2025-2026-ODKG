@@ -10,7 +10,7 @@ mappings:
   
   DegreeCantabriaMapping:
     sources:
-      - ['data/CANTABRIA-degree.csv~csv']
+      - ['data/CANTABRIA-degree-with-links.csv~csv']
     s: ex:Degree/$(DegreeID)
     po:
       - [rdf:type, lude:Degree]
@@ -25,6 +25,7 @@ mappings:
       - [lude:teachingModality, $(TeachingModality)]
       - [lude:language, $(Language)]
       - [lude:newStudentsPosts, $(NewStudentsPosts)]
+      - [owl:sameAs, $(sameAs)~iri]
 
       - p: lude:hasAcademicLevel
         o:

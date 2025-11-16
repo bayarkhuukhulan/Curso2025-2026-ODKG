@@ -10,12 +10,13 @@ mappings:
   
   DegreeCastillaLeonMapping:
     sources:
-      - ['data/CASTILLALEON-degree.csv~csv']
+      - ['data/CASTILLALEON-degree-with-links.csv~csv']
     s: ex:Degree/$(DegreeID)
     po:
       - [rdf:type, lude:Degree]
       - [rdfs:label, $(Degree)]
       - [lude:academicYear, $(Academic Year)]
+      - [owl:sameAs, $(sameAs)~iri]
       - p: lude:hasAcademicLevel
         o:
           mapping: AcademicLevelMapping

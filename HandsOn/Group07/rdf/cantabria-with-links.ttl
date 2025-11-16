@@ -43,7 +43,8 @@
   lude:newStudentsPosts "48";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=67";
-  rdfs:label "Física" .
+  rdfs:label "Física";
+  owl:sameAs <https://www.wikidata.org/wiki/Q413> .
 
 <ex:Degree/132499e2ebbfdcfbfc4a5ae5baa2db39> a lude:Degree;
   lude:AnecaAssessmentReportDate "2016-03-05T00:00:00Z";
@@ -59,7 +60,8 @@
   lude:newStudentsPosts "75";
   lude:teachingModality "Presencial";
   lude:url "http://euturismoaltamira.com/";
-  rdfs:label "Gestión Hotelera y Turística" .
+  rdfs:label "Gestión Hotelera y Turística";
+  owl:sameAs <https://www.wikidata.org/wiki/Q64812774> .
 
 <ex:Degree/148497c4b88f96ad1d9251b7c1f70486> a lude:Degree;
   lude:AnecaAssessmentReportDate "2020-09-03T00:00:00Z";
@@ -75,7 +77,8 @@
   lude:newStudentsPosts "60";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=212";
-  rdfs:label "Ingeniería Civil" .
+  rdfs:label "Ingeniería Civil";
+  owl:sameAs <https://www.wikidata.org/wiki/Q77590> .
 
 <ex:Degree/160dbb7be124485a8561f70d835ff426> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-04-06T00:00:00Z";
@@ -91,7 +94,8 @@
   lude:newStudentsPosts "50";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=101";
-  rdfs:label "Ingeniería de los Recursos Energéticos" .
+  rdfs:label "Ingeniería de los Recursos Energéticos";
+  owl:sameAs <https://www.wikidata.org/wiki/Q3353193> .
 
 <ex:Degree/2056639b45edeb3c36fe2ea836ea005b> a lude:Degree;
   lude:AnecaAssessmentReportDate "2009-05-29T00:00:00Z";
@@ -107,7 +111,8 @@
   lude:newStudentsPosts "124";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=66";
-  rdfs:label "Medicina" .
+  rdfs:label "Medicina";
+  owl:sameAs <https://www.wikidata.org/wiki/Q11190> .
 
 <ex:Degree/27826c7a530bdb7ba061f7da5e6dcf64> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-07-16T00:00:00Z";
@@ -139,7 +144,8 @@
   lude:newStudentsPosts "45";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=103";
-  rdfs:label "Ingeniería Eléctrica" .
+  rdfs:label "Ingeniería Eléctrica";
+  owl:sameAs <https://www.wikidata.org/wiki/Q43035> .
 
 <ex:Degree/3080249195dc88a973025d9633c7453f> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-06-21T00:00:00Z";
@@ -187,7 +193,8 @@
   lude:newStudentsPosts "75";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=118";
-  rdfs:label "Relaciones Laborales" .
+  rdfs:label "Relaciones Laborales";
+  owl:sameAs <https://www.wikidata.org/wiki/Q608190> .
 
 <ex:Degree/53249678ad2277e09a9c16353cf0cba5> a lude:Degree;
   lude:AnecaAssessmentReportDate "2009-11-30T00:00:00Z";
@@ -203,7 +210,8 @@
   lude:newStudentsPosts "175";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=116";
-  rdfs:label "Administración y Dirección de Empresas" .
+  rdfs:label "Administración y Dirección de Empresas";
+  owl:sameAs <https://www.wikidata.org/wiki/Q8188423> .
 
 <ex:Degree/61a931c5941d8a3f1d7251a34f3f9310> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-04-29T00:00:00Z";
@@ -219,7 +227,8 @@
   lude:newStudentsPosts "60";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=109";
-  rdfs:label "Ingeniería Mecánica" .
+  rdfs:label "Ingeniería Mecánica";
+  owl:sameAs <https://www.wikidata.org/wiki/Q101333> .
 
 <ex:Degree/61f99c01045bd6035a2c88c9b1081d41> a lude:Degree;
   lude:AnecaAssessmentReportDate "2009-11-30T00:00:00Z";
@@ -235,7 +244,8 @@
   lude:newStudentsPosts "105";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=117";
-  rdfs:label "Economía" .
+  rdfs:label "Economía";
+  owl:sameAs <https://www.wikidata.org/wiki/Q8134> .
 
 <ex:Degree/64d6e72af9e88bea2e3c4135f2830a61> a lude:Degree;
   lude:AnecaAssessmentReportDate "2009-10-06T00:00:00Z";
@@ -251,7 +261,8 @@
   lude:newStudentsPosts "65";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=70";
-  rdfs:label "Historia" .
+  rdfs:label "Historia";
+  owl:sameAs <https://www.wikidata.org/wiki/Q309> .
 
 <ex:Degree/6717f3320d4eaa1741bcb7daffb7ecd5> a lude:Degree;
   lude:AnecaAssessmentReportDate "2009-05-29T00:00:00Z";
@@ -267,7 +278,8 @@
   lude:newStudentsPosts "160";
   lude:teachingModality "Presencial";
   lude:url "https://www.eug.es/estudios/grado-en-fisioterapia-torrelavega";
-  rdfs:label "Fisioterapia" .
+  rdfs:label "Fisioterapia";
+  owl:sameAs <https://www.wikidata.org/wiki/Q186005> .
 
 <ex:Degree/6ee16e4cd1ad37b380298f765ec8b0e4> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-02-03T00:00:00Z";
@@ -283,7 +295,8 @@
   lude:newStudentsPosts "110";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=110";
-  rdfs:label "Magisterio en Educación Infantil" .
+  rdfs:label "Magisterio en Educación Infantil";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1472221> .
 
 <ex:Degree/748a66deafd72c75fc516fba84e48931> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-07-19T00:00:00Z";
@@ -299,7 +312,8 @@
   lude:newStudentsPosts "125";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=119";
-  rdfs:label "Derecho" .
+  rdfs:label "Derecho";
+  owl:sameAs <https://www.wikidata.org/wiki/Q7748> .
 
 <ex:Degree/7769b34d0f5c5c10f8feaec2eabbb752> a lude:Degree;
   lude:AnecaAssessmentReportDate "2020-10-03T00:00:00Z";
@@ -315,7 +329,8 @@
   lude:newStudentsPosts "40";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=211";
-  rdfs:label "Ciencias Biomédicas" .
+  rdfs:label "Ciencias Biomédicas";
+  owl:sameAs <https://www.wikidata.org/wiki/Q13439429> .
 
 <ex:Degree/79d8e72546ef13057aaf32427d83a70c> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-04-29T00:00:00Z";
@@ -331,7 +346,8 @@
   lude:newStudentsPosts "40";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=102";
-  rdfs:label "Ingeniería de los Recursos Mineros" .
+  rdfs:label "Ingeniería de los Recursos Mineros";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1370637> .
 
 <ex:Degree/7bef39d05eae0a480b959e249fefa8fe> a lude:Degree;
   lude:AnecaAssessmentReportDate "2009-11-26T00:00:00Z";
@@ -347,7 +363,8 @@
   lude:newStudentsPosts "83";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=120";
-  rdfs:label "Enfermería" .
+  rdfs:label "Enfermería";
+  owl:sameAs <https://www.wikidata.org/wiki/Q121176> .
 
 <ex:Degree/91673201c6b11833d9e5cda129d48ac9> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-07-16T00:00:00Z";
@@ -363,7 +380,8 @@
   lude:newStudentsPosts "60";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=124";
-  rdfs:label "Ingeniería Marina" .
+  rdfs:label "Ingeniería Marina";
+  owl:sameAs <https://www.wikidata.org/wiki/Q118291> .
 
 <ex:Degree/9b0de0b61649cd6e27756dbf16c8e4c9> a lude:Degree;
   lude:AnecaAssessmentReportDate "2011-05-26T00:00:00Z";
@@ -379,7 +397,8 @@
   lude:newStudentsPosts "50";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=136";
-  rdfs:label "Estudios Hispánicos" .
+  rdfs:label "Estudios Hispánicos";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1109432> .
 
 <ex:Degree/ad890ff02c205a2d05d1570f9dc8a1f8> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-04-29T00:00:00Z";
@@ -395,7 +414,8 @@
   lude:newStudentsPosts "60";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=113";
-  rdfs:label "Ingeniería Química" .
+  rdfs:label "Ingeniería Química";
+  owl:sameAs <https://www.wikidata.org/wiki/Q83588> .
 
 <ex:Degree/af83466224c44f884ccad3db0176bad6> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-04-29T00:00:00Z";
@@ -411,7 +431,8 @@
   lude:newStudentsPosts "60";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=98";
-  rdfs:label "Ingeniería Informática" .
+  rdfs:label "Ingeniería Informática";
+  owl:sameAs <https://www.wikidata.org/wiki/Q428691> .
 
 <ex:Degree/b7eaf5d44406c1c15f56a5726717ca78> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-04-29T00:00:00Z";
@@ -427,7 +448,8 @@
   lude:newStudentsPosts "70";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=99";
-  rdfs:label "Ingeniería de Tecnologías de Telecomunicación" .
+  rdfs:label "Ingeniería de Tecnologías de Telecomunicación";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1061219> .
 
 <ex:Degree/bd6ff0ba38ef577f62ccdbd127186948> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-02-03T00:00:00Z";
@@ -443,7 +465,8 @@
   lude:newStudentsPosts "175";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=111";
-  rdfs:label "Magisterio en Educación Primaria" .
+  rdfs:label "Magisterio en Educación Primaria";
+  owl:sameAs <https://www.wikidata.org/wiki/Q975085> .
 
 <ex:Degree/ccd8de9e96f2dc4b5e2b54162cffb261> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-04-29T00:00:00Z";
@@ -459,7 +482,8 @@
   lude:newStudentsPosts "60";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=108";
-  rdfs:label "Ingeniería en Tecnologías Industriales" .
+  rdfs:label "Ingeniería en Tecnologías Industriales";
+  owl:sameAs <https://www.wikidata.org/wiki/Q4489420> .
 
 <ex:Degree/d680cdf3ade6e18227abf9fdcdb95e30> a lude:Degree;
   lude:AnecaAssessmentReportDate "2011-11-25T00:00:00Z";
@@ -475,7 +499,8 @@
   lude:newStudentsPosts "40";
   lude:teachingModality "Presencial";
   lude:url "https://www.eug.es/estudios/grado-en-logopedia";
-  rdfs:label "Logopedia" .
+  rdfs:label "Logopedia";
+  owl:sameAs <https://www.wikidata.org/wiki/Q33226> .
 
 <ex:Degree/ec41164461c40b94f58a69d8213c529f> a lude:Degree;
   lude:AnecaAssessmentReportDate "2009-05-25T00:00:00Z";
@@ -491,7 +516,8 @@
   lude:newStudentsPosts "48";
   lude:teachingModality "Presencial";
   lude:url "https://web.unican.es/estudios/detalle-estudio?p=68";
-  rdfs:label "Matemáticas" .
+  rdfs:label "Matemáticas";
+  owl:sameAs <https://www.wikidata.org/wiki/Q395> .
 
 <ex:Degree/fefb28b3122d87c5ad7866721835f16e> a lude:Degree;
   lude:AnecaAssessmentReportDate "2010-04-29T00:00:00Z";
@@ -1106,8 +1132,8 @@
   rdfs:label "University of Granada";
   owl:sameAs <https://wikidata.org/entity/Q1232180> .
 
-<ex:University/dcbcd7e79ed9bec816e6a427d84bbf64> lude:acronym "UR";
-  a lude:University;
+<ex:University/dcbcd7e79ed9bec816e6a427d84bbf64> a lude:University;
+  lude:acronym "UR";
   lude:cif "Q2618002F";
   lude:email "sec.general@unirioja.es";
   lude:id "dcbcd7e79ed9bec816e6a427d84bbf64";
