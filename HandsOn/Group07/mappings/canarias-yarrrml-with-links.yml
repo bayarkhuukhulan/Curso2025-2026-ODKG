@@ -12,20 +12,22 @@ prefixes:
   vocab: http://example.org#
   lude: http://spanishuniversities.data.es/lude/ontology#
   id: http://spanishuniversities.data.es/lude/resource/
+  owl: http://www.w3.org/2002/07/owl#
   
 mappings:
-  canaryDegreeDL:
+  canaryDegreeDLwL:
     sources:
-      - [Canarias_listaestudios-Canarias-Degrees-updated.csv~csv]
+      - [Canarias_listaestudios-Canarias-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
       - [rdfs:label,$(Degree),xsd:string]
       - [lude:code,$(Code),xsd:string]
       - [lude:academicYear,$(Academic Year),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
       - p: lude:hasAcademicLevel
         o:
-          mapping: canaryLevelDL
+          mapping: canaryLevelDLwL
           condition:
             function: equal
             parameters:
@@ -33,26 +35,28 @@ mappings:
               - [str2, $(AcademicLevelID)]
 
               
-  canaryLevelDL:
+  canaryLevelDLwL:
     sources:
-      - [academic_level-updated.csv~csv]
+      - [academic_level-updated-with-links.csv~csv]
     s: id:AcademicLevel/$(AcademicLevelID)
     po:
       - [rdf:type, lude:AcademicLevel]
-      - [rdfs:label,$(Academic Level),xsd:string] 
+      - [rdfs:label,$(Academic Level),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_academiclevel)~iri] 
 
-  canaryDegreeDK:
+  canaryDegreeDKwL:
     sources:
-      - [Canarias_listaestudios-Canarias-Degrees-updated.csv~csv]
+      - [Canarias_listaestudios-Canarias-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
       - [rdfs:label,$(Degree),xsd:string]
       - [lude:code,$(Code),xsd:string]
       - [lude:academicYear,$(Academic Year),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
       - p: lude:hasKnowledgeArea
         o:
-          mapping: canariasKnowledgeDK
+          mapping: canariasKnowledgeDKwL
           condition:
             function: equal
             parameters:
@@ -60,18 +64,19 @@ mappings:
               - [str2, $(id)]
 
               
-  canariasKnowledgeDK:
+  canariasKnowledgeDKwL:
     sources:
-      - [ambit-updated.csv~csv]
+      - [ambit-otros-with-links.csv~csv]
     s: id:KnowledgeArea/$(id)
     po:
       - [rdf:type, lude:KnowledgeArea]
-      - [rdfs:label,$(ambit),xsd:string] 
+      - [rdfs:label,$(ambit),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_ambit)~iri] 
 
 
-  canaryUniversityUD:
+  canaryUniversityUDwL:
     sources:
-      - [universidades-updated.csv~csv]
+      - [universidades-updated-with-links.csv~csv]
     s: id:University/$(UniversityID)
     po:
       - [rdf:type,lude:University]
@@ -84,21 +89,23 @@ mappings:
       - [lude:email,$(Email),xsd:string]
       - [lude:telephone,$(Phone),xsd:string]
       - [lude:publicationYear,$(Year of Publication),xsd:gYear]
+      - [owl:sameAs, $(same_as_wikidata_university)~iri]
       - p: lude:offers
         o:
-          mapping: canaryDegreeUD
+          mapping: canaryDegreeUDwL
           condition:
             function: equal
             parameters:
               - [str1, $(UniversityID)]
               - [str2, $(UniversityId)]
 
-  canaryDegreeUD:
+  canaryDegreeUDwL:
     sources:
-      - [Canarias_listaestudios-Canarias-Degrees-updated.csv~csv]
+      - [Canarias_listaestudios-Canarias-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
       - [rdfs:label,$(Degree),xsd:string]
       - [lude:code,$(Code),xsd:string]
       - [lude:academicYear,$(Academic Year),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]

@@ -12,11 +12,12 @@ prefixes:
   vocab: http://example.org#
   lude: http://spanishuniversities.data.es/lude/ontology#
   id: http://spanishuniversities.data.es/lude/resource/
+  owl: http://www.w3.org/2002/07/owl#
   
 mappings:
-  aragonUniversityUF:
+  aragonUniversityUFwL:
     sources:
-      - [universidades-updated.csv~csv]
+      - [universidades-updated-with-links.csv~csv]
     s: id:University/$(UniversityID)
     po:
       - [rdf:type,lude:University]
@@ -29,26 +30,28 @@ mappings:
       - [lude:email,$(Email),xsd:string]
       - [lude:telephone,$(Phone),xsd:string]
       - [lude:publicationYear,$(Year of Publication),xsd:gYear]
+      - [owl:sameAs, $(same_as_wikidata_university)~iri]
       - p: lude:hasFaculty
         o:
-          mapping: aragonFacultyUF
+          mapping: aragonFacultyUFwL
           condition:
             function: equal
             parameters:
               - [str1, $(UniversityID)]
               - [str2, $(UniversityId)]
 
-  aragonFacultyUF:
+  aragonFacultyUFwL:
     sources:
-      - [Aragon_NotasCorte_20232024-Faculty-updated.csv~csv]
+      - [Aragon_NotasCorte_20232024-Faculty-updated-with-links.csv~csv]
     s: id:Faculty/$(FacultyId)
     po:
       - [rdf:type, lude:Faculty]
       - [rdfs:label,$(Faculty),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_faculty)~iri]
       
-  aragonUniversityUD:
+  aragonUniversityUDwL:
     sources:
-      - [universidades-updated.csv~csv]
+      - [universidades-updated-with-links.csv~csv]
     s: id:University/$(UniversityID)
     po:
       - [rdf:type,lude:University]
@@ -61,18 +64,19 @@ mappings:
       - [lude:email,$(Email),xsd:string]
       - [lude:telephone,$(Phone),xsd:string]
       - [lude:publicationYear,$(Year of Publication),xsd:gYear]
+      - [owl:sameAs, $(same_as_wikidata_university)~iri]
       - p: lude:offers
         o:
-          mapping: aragonDegreeUD
+          mapping: aragonDegreeUDwL
           condition:
             function: equal
             parameters:
               - [str1, $(UniversityID)]
               - [str2, $(UniversityId)]
 
-  aragonDegreeUD:
+  aragonDegreeUDwL:
     sources:
-      - [Aragon_NotasCorte_20232024-Degrees-updated.csv~csv]
+      - [Aragon_NotasCorte_20232024-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
@@ -80,10 +84,11 @@ mappings:
       - [lude:academicYear,$(Academic Year),xsd:string]
       - [lude:adjudicationRound,$(Adjudication Quota),xsd:string]
       - [lude:cuffoffGrade,$(Cut Off Grade),xsd:float]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
 
-  aragonDegreeDK:
+  aragonDegreeDKwL:
     sources:
-      - [Aragon_NotasCorte_20232024-Degrees-updated.csv~csv]
+      - [Aragon_NotasCorte_20232024-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
@@ -91,9 +96,10 @@ mappings:
       - [lude:academicYear,$(Academic Year),xsd:string]
       - [lude:adjudicationRound,$(Adjudication Quota),xsd:string]
       - [lude:cuffoffGrade,$(Cut Off Grade),xsd:float]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
       - p: lude:hasKnowledgeArea
         o:
-          mapping: aragonKnowledgeDK
+          mapping: aragonKnowledgeDKwL
           condition:
             function: equal
             parameters:
@@ -101,17 +107,18 @@ mappings:
               - [str2, $(id)]
 
               
-  aragonKnowledgeDK:
+  aragonKnowledgeDKwL:
     sources:
-      - [ambit-updated.csv~csv]
+      - [ambit-otros-with-links.csv~csv]
     s: id:KnowledgeArea/$(id)
     po:
       - [rdf:type, lude:KnowledgeArea]
       - [rdfs:label,$(ambit),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_ambit)~iri]
       
-  aragonDegreeDF:
+  aragonDegreeDFwL:
     sources:
-      - [Aragon_NotasCorte_20232024-Degrees-updated.csv~csv]
+      - [Aragon_NotasCorte_20232024-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
@@ -119,26 +126,28 @@ mappings:
       - [lude:academicYear,$(Academic Year),xsd:string]
       - [lude:adjudicationRound,$(Adjudication Quota),xsd:string]
       - [lude:cuffoffGrade,$(Cut Off Grade),xsd:float]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
       - p: lude:deliveredAt
         o:
-          mapping: aragonFacultyDF
+          mapping: aragonFacultyDFwL
           condition:
             function: equal
             parameters:
               - [str1, $(DegreeId)]
               - [str2, $(DegreeId)]
               
-  aragonFacultyDF:
+  aragonFacultyDFwL:
     sources:
-      - [Aragon_NotasCorte_20232024-Faculty-updated.csv~csv]
+      - [Aragon_NotasCorte_20232024-Faculty-updated-with-links.csv~csv]
     s: id:Faculty/$(FacultyId)
     po:
       - [rdf:type, lude:Faculty]
       - [rdfs:label,$(Faculty),xsd:string] 
+      - [owl:sameAs, $(same_as_wikidata_faculty)~iri]
 
-  aragonDegreeDL:
+  aragonDegreeDLwL:
     sources:
-      - [Aragon_NotasCorte_20232024-Degrees-updated.csv~csv]
+      - [Aragon_NotasCorte_20232024-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
@@ -146,9 +155,10 @@ mappings:
       - [lude:academicYear,$(Academic Year),xsd:string]
       - [lude:adjudicationRound,$(Adjudication Quota),xsd:string]
       - [lude:cuffoffGrade,$(Cut Off Grade),xsd:float]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
       - p: lude:hasAcademicLevel
         o:
-          mapping: aragonLevelDL
+          mapping: aragonLevelDLwL
           condition:
             function: equal
             parameters:
@@ -156,10 +166,11 @@ mappings:
               - [str2, $(AcademicLevelID)]
 
               
-  aragonLevelDL:
+  aragonLevelDLwL:
     sources:
-      - [academic_level-updated.csv~csv]
+      - [academic_level-updated-with-links.csv~csv]
     s: id:AcademicLevel/$(AcademicLevelID)
     po:
       - [rdf:type, lude:AcademicLevel]
-      - [rdfs:label,$(Academic Level),xsd:string] 
+      - [rdfs:label,$(Academic Level),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_academiclevel)~iri] 

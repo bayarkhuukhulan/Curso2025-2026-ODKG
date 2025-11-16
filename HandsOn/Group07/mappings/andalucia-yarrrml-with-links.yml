@@ -12,19 +12,21 @@ prefixes:
   vocab: http://example.org#
   lude: http://spanishuniversities.data.es/lude/ontology#
   id: http://spanishuniversities.data.es/lude/resource/
+  owl: http://www.w3.org/2002/07/owl#
   
 mappings:
-  andaluciaDegreeUD:
+  andaluciaDegreeUDwL:
     sources:
-      - [Andalucia_NotasdeCorte_2024-Degrees-updated.csv~csv]
+      - [Andalucia_NotasdeCorte_2024-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
       - [rdfs:label,$(Degree),xsd:string]
       - [lude:academicYear,$(Academic Year),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
       - p: lude:hasAcademicLevel
         o:
-          mapping: adaluciaLevelDK
+          mapping: adaluciaLevelDKwL
           condition:
             function: equal
             parameters:
@@ -32,50 +34,54 @@ mappings:
               - [str2, $(AcademicLevelID)]
 
               
-  adaluciaLevelDK:
+  adaluciaLevelDKwL:
     sources:
       - [academic_level-updated.csv~csv]
     s: id:AcademicLevel/$(AcademicLevelID)
     po:
       - [rdf:type, lude:AcademicLevel]
-      - [rdfs:label,$(Academic Level),xsd:string] 
+      - [rdfs:label,$(Academic Level),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_academiclevel)~iri] 
 
-  andaluciaDegreeDF:
+  andaluciaDegreeDFwL:
     sources:
-      - [Andalucia_NotasdeCorte_2024-Degrees-updated.csv~csv]
+      - [Andalucia_NotasdeCorte_2024-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
       - [rdfs:label,$(Degree),xsd:string]
       - [lude:academicYear,$(Academic Year),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
       - p: lude:deliveredAt
         o:
-          mapping: andaluciaFacultyDF
+          mapping: andaluciaFacultyDFwL
           condition:
             function: equal
             parameters:
               - [str1, $(DegreeId)]
               - [str2, $(DegreeId)]
               
-  andaluciaFacultyDF:
+  andaluciaFacultyDFwL:
     sources:
-      - [Andalucia_NotasdeCorte_2024-Faculties-updated.csv~csv]
+      - [Andalucia_NotasdeCorte_2024-Faculties-updated-with-links.csv~csv]
     s: id:Faculty/$(FacultyId)
     po:
       - [rdf:type, lude:Faculty]
       - [rdfs:label,$(Faculty),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_faculty)~iri] 
 
-  andaluciaDegreeDK:
+  andaluciaDegreeDKwL:
     sources:
-      - [Andalucia_NotasdeCorte_2024-Degrees-updated.csv~csv]
+      - [Andalucia_NotasdeCorte_2024-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
       - [rdfs:label,$(Degree),xsd:string]
       - [lude:academicYear,$(Academic Year),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
       - p: lude:hasKnowledgeArea
         o:
-          mapping: andaluciaKnowledgeDK
+          mapping: andaluciaKnowledgeDKwL
           condition:
             function: equal
             parameters:
@@ -83,17 +89,18 @@ mappings:
               - [str2, $(id)]
 
               
-  andaluciaKnowledgeDK:
+  andaluciaKnowledgeDKwL:
     sources:
-      - [ambit-updated.csv~csv]
+      - [ambit-otros-with-links.csv~csv]
     s: id:KnowledgeArea/$(id)
     po:
       - [rdf:type, lude:KnowledgeArea]
       - [rdfs:label,$(ambit),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_ambit)~iri]
       
-  anndaluciaUniversityUD:
+  anndaluciaUniversityUDwL:
     sources:
-      - [universidades-updated.csv~csv]
+      - [universidades-updated-with-links.csv~csv]
     s: id:University/$(UniversityID)
     po:
       - [rdf:type,lude:University]
@@ -106,25 +113,27 @@ mappings:
       - [lude:email,$(Email),xsd:string]
       - [lude:telephone,$(Phone),xsd:string]
       - [lude:publicationYear,$(Year of Publication),xsd:gYear]
+      - [owl:sameAs, $(same_as_wikidata_university)~iri]
       - p: lude:offers
         o:
-          mapping: andaluciaDegreeUD
+          mapping: andaluciaDegreeUDwL
           condition:
             function: equal
             parameters:
               - [str1, $(UniversityID)]
               - [str2, $(UniversityId)]
 
-  andaluciaDegreeUF:
+  andaluciaDegreeUFwL:
     sources:
-      - [Andalucia_NotasdeCorte_2024-Degrees-updated.csv~csv]
+      - [Andalucia_NotasdeCorte_2024-Degrees-updated-with-links.csv~csv]
     s: id:Degree/$(DegreeId)
     po:
       - [rdf:type,lude:Degree]
       - [rdfs:label,$(Degree),xsd:string]
       - [lude:academicYear,$(Academic Year),xsd:string]
+      - [owl:sameAs, $(same_as_wikidata_degree)~iri]
 
-  andaluciaUniversityUF:
+  andaluciaUniversityUFwL:
     sources:
       - [universidades-updated.csv~csv]
     s: id:University/$(UniversityID)
@@ -139,19 +148,21 @@ mappings:
       - [lude:email,$(Email),xsd:string]
       - [lude:telephone,$(Phone),xsd:string]
       - [lude:publicationYear,$(Year of Publication),xsd:gYear]
+      - [owl:sameAs, $(same_as_wikidata_university)~iri]
       - p: lude:hasFaculty
         o:
-          mapping: andaluciaFacultyUF
+          mapping: andaluciaFacultyUFwL
           condition:
             function: equal
             parameters:
               - [str1, $(UniversityID)]
               - [str2, $(UniversityId)]
 
-  andaluciaFacultyUF:
+  andaluciaFacultyUFwL:
     sources:
-      - [Andalucia_NotasdeCorte_2024-Faculties-updated.csv~csv]
+      - [Andalucia_NotasdeCorte_2024-Faculties-updated-with-links.csv~csv]
     s: id:Faculty/$(FacultyId)
     po:
       - [rdf:type, lude:Faculty]
       - [rdfs:label,$(Faculty),xsd:string] 
+      - [owl:sameAs, $(same_as_wikidata_faculty)~iri]

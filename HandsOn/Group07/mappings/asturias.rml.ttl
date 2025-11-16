@@ -9,8 +9,8 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix vocab: <http://example.org#>.
-@prefix lude: <https://spanishuniversities.data/ontology/lude#>.
-@prefix id: <https://spanishuniversities.data/id/lude/>.
+@prefix lude: <http://spanishuniversities.data.es/lude/ontology#>.
+@prefix id: <http://spanishuniversities.data.es/lude/resource/>.
 @prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#>.
 @prefix formats: <http://www.w3.org/ns/formats/>.
 @prefix comp: <http://semweb.mmlab.be/ns/rml-compression#>.
@@ -30,7 +30,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversities.data/id/lude/University/{UniversityID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -167,7 +167,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversities.data/id/lude/Degree/{DegreeId}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeId}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -224,7 +224,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversities.data/id/lude/Degree/{DegreeId}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeId}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -295,7 +295,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversities.data/id/lude/KnowledgeArea/{id}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/KnowledgeArea/{id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -330,7 +330,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversities.data/id/lude/Degree/{DegreeId}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeId}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -401,7 +401,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "https://spanishuniversities.data/id/lude/AcademicLevel/{AcademicLevelID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/AcademicLevel/{AcademicLevelID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [

@@ -7,6 +7,7 @@
 @prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
 @prefix id: <http://spanishuniversities.data.es/lude/resource/> .
 @prefix lude: <http://spanishuniversities.data.es/lude/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rev: <http://purl.org/stuff/rev#> .
@@ -18,15 +19,18 @@
 
 <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>
   a lude:AcademicLevel;
-  rdfs:label "Grado" .
+  rdfs:label "bachelor's degree";
+  owl:sameAs <https://wikidata.org/entity/Q163727> .
 
 <http://spanishuniversities.data.es/lude/resource/AcademicLevel/eb0a191797624dd3a48fa681d3061212>
   a lude:AcademicLevel;
-  rdfs:label "Máster" .
+  rdfs:label "master's degree";
+  owl:sameAs <https://wikidata.org/entity/Q183816> .
 
 <http://spanishuniversities.data.es/lude/resource/AcademicLevel/fba30e9ec1935ca7d36277ba76dddbba>
   a lude:AcademicLevel;
-  rdfs:label "Doble Grado" .
+  rdfs:label "double degree";
+  owl:sameAs <https://wikidata.org/entity/Q716855> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/012c5c84ec1e53fe97112bf627b2832b>
   a lude:Degree;
@@ -99,7 +103,8 @@
   lude:code "2500731";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
-  rdfs:label "Enfermería" .
+  rdfs:label "Enfermería";
+  owl:sameAs <https://wikidata.org/entity/Q4838827> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/14fdc9a7eb7a5358d31dc56f9509e613>
   a lude:Degree;
@@ -203,7 +208,8 @@
   lude:code "2501629";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
-  rdfs:label "Educación Social" .
+  rdfs:label "Educación Social";
+  owl:sameAs <https://wikidata.org/entity/Q110316942> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/34f0d9f7405f89e6f361a0d6c368b6f9>
   a lude:Degree;
@@ -300,7 +306,8 @@
   lude:code "2500952";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
-  rdfs:label "Biología" .
+  rdfs:label "Biología";
+  owl:sameAs <https://wikidata.org/entity/Q99658993> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/54b85766f83dc3251bc3013ae441fca0>
   a lude:Degree;
@@ -340,7 +347,8 @@
   lude:code "2501060";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
-  rdfs:label "Matemáticas" .
+  rdfs:label "Matemáticas";
+  owl:sameAs <https://wikidata.org/entity/Q133865334> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/6340726a7930395ae8e8c93b2b65fc01>
   a lude:Degree;
@@ -348,7 +356,8 @@
   lude:code "2500954";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
-  rdfs:label "Química" .
+  rdfs:label "Química";
+  owl:sameAs <https://wikidata.org/entity/Q53775321> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/66478d5666f6ccaf8769fb82e8acedcf>
   a lude:Degree;
@@ -420,7 +429,8 @@
   lude:code "2502365";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
-  rdfs:label "Geología" .
+  rdfs:label "Geología";
+  owl:sameAs <https://wikidata.org/entity/Q95564761> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8f84586ec48880e64461fcd8009f0797>
   a lude:Degree;
@@ -428,7 +438,8 @@
   lude:code "2500816";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
-  rdfs:label "Filosofía" .
+  rdfs:label "Filosofía";
+  owl:sameAs <https://wikidata.org/entity/Q50357727> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/8fc2b5a0444d32780fcbdcc1fea1e052>
   a lude:Degree;
@@ -500,7 +511,8 @@
   lude:code "2501525";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
-  rdfs:label "Economía" .
+  rdfs:label "Economía";
+  owl:sameAs <https://wikidata.org/entity/Q10752757> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a49fbfd2d1284034e72c80b2e572dea0>
   a lude:Degree;
@@ -532,7 +544,8 @@
   lude:code "2500785";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
-  rdfs:label "Historia" .
+  rdfs:label "Historia";
+  owl:sameAs <https://wikidata.org/entity/Q72317748> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/a9b9e2e9222e4ccd5c3614cfbd882a4f>
   a lude:Degree;
@@ -588,7 +601,8 @@
   lude:code "2501059";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
-  rdfs:label "Física" .
+  rdfs:label "Física";
+  owl:sameAs <https://wikidata.org/entity/Q125342576> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/b6b0e0da6d7b876efad46c9b50c26e41>
   a lude:Degree;
@@ -676,7 +690,8 @@
   lude:code "2502362";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
-  rdfs:label "Derecho" .
+  rdfs:label "Derecho";
+  owl:sameAs <https://wikidata.org/entity/Q69384136> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/d2011bc9b2e76c77c169569c1c10041a>
   a lude:Degree;
@@ -732,7 +747,8 @@
   lude:code "2502033";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
-  rdfs:label "Medicina" .
+  rdfs:label "Medicina";
+  owl:sameAs <https://wikidata.org/entity/Q64869217> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/e68ceb769c27b84a0e0377134d6b4c32>
   a lude:Degree;
@@ -756,7 +772,8 @@
   lude:code "2501626";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
-  rdfs:label "Psicología" .
+  rdfs:label "Psicología";
+  owl:sameAs <https://wikidata.org/entity/Q64019347> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ea617299d0a4c3e3de6b3530af741a62>
   a lude:Degree;
@@ -780,7 +797,8 @@
   lude:code "4312884";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/eb0a191797624dd3a48fa681d3061212>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
-  rdfs:label "Ingeniería Informática" .
+  rdfs:label "Ingeniería Informática";
+  owl:sameAs <https://wikidata.org/entity/Q111032178> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/f3732c84ca70c7fa5c675586ebe70bdd>
   a lude:Degree;
@@ -812,7 +830,8 @@
   lude:code "2502586";
   lude:hasAcademicLevel <http://spanishuniversities.data.es/lude/resource/AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
-  rdfs:label "Ingeniería Civil" .
+  rdfs:label "Ingeniería Civil";
+  owl:sameAs <https://wikidata.org/entity/Q56760985> .
 
 <http://spanishuniversities.data.es/lude/resource/Degree/ff36845a0af6f5c6f8793b5a35be12ec>
   a lude:Degree;
@@ -832,11 +851,13 @@
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>
   a lude:KnowledgeArea;
-  rdfs:label "Ciencias Sociales y Jurídicas" .
+  rdfs:label "social science";
+  owl:sameAs <https://wikidata.org/entity/Q34749> .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>
   a lude:KnowledgeArea;
-  rdfs:label "Ingeniería y Arquitectura" .
+  rdfs:label "engineering";
+  owl:sameAs <https://wikidata.org/entity/Q11023> .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/3a55b686cea34a8923b6ea395549772e>
   a lude:KnowledgeArea;
@@ -844,15 +865,18 @@
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>
   a lude:KnowledgeArea;
-  rdfs:label "Artes y Humanidades" .
+  rdfs:label "humanities";
+  owl:sameAs <https://wikidata.org/entity/Q80083> .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>
   a lude:KnowledgeArea;
-  rdfs:label "Ciencias de la Salud" .
+  rdfs:label "health sciences";
+  owl:sameAs <https://wikidata.org/entity/Q843601> .
 
 <http://spanishuniversities.data.es/lude/resource/KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>
   a lude:KnowledgeArea;
-  rdfs:label "Ciencias" .
+  rdfs:label "science";
+  owl:sameAs <https://wikidata.org/entity/Q336> .
 
 <http://spanishuniversities.data.es/lude/resource/University/080475033eeb8f14c9bd1119f9fa6871>
   a lude:University;
@@ -864,7 +888,8 @@
   lude:telephone "91398600";
   lude:type "Pública";
   lude:url "www.uned.es"^^xsd:anyURI;
-  rdfs:label "Universidad Nacional de Educación a Distancia" .
+  rdfs:label "National University of Distance Education";
+  owl:sameAs <https://wikidata.org/entity/Q421739> .
 
 <http://spanishuniversities.data.es/lude/resource/University/094757ed9d7e9bb8929a087e18874962>
   a lude:University;
@@ -976,7 +1001,8 @@
   lude:telephone "985104058";
   lude:type "Pública";
   lude:url "www.uniovi.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Oviedo" .
+  rdfs:label "University of Oviedo";
+  owl:sameAs <https://wikidata.org/entity/Q2303432> .
 
 <http://spanishuniversities.data.es/lude/resource/University/15d26bf729b84e22210b99d94c66cd90>
   a lude:University;
@@ -988,7 +1014,8 @@
   lude:telephone "986812000";
   lude:type "Pública";
   lude:url "www.uvigo.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Vigo" .
+  rdfs:label "Vigo University";
+  owl:sameAs <https://wikidata.org/entity/Q666916> .
 
 <http://spanishuniversities.data.es/lude/resource/University/16249b9d3890e9951fa8dcc315733ea8>
   a lude:University;
@@ -1000,7 +1027,8 @@
   lude:telephone "924289300";
   lude:type "Pública";
   lude:url "www.unex.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Extremadura" .
+  rdfs:label "University of Extremadura";
+  owl:sameAs <https://wikidata.org/entity/Q729391> .
 
 <http://spanishuniversities.data.es/lude/resource/University/17a1b9e0f1c1e0719761a30d50700965>
   a lude:University;
@@ -1012,7 +1040,8 @@
   lude:telephone "928451000";
   lude:type "Pública";
   lude:url "www.ulpgc.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Las Palmas de Gran Canaria" .
+  rdfs:label "University of Las Palmas de Gran Canaria";
+  owl:sameAs <https://wikidata.org/entity/Q940302> .
 
 <http://spanishuniversities.data.es/lude/resource/University/186d47028db001c7a7d88906c21f5fee>
   a lude:University;
@@ -1024,7 +1053,8 @@
   lude:telephone "934016200";
   lude:type "Pública";
   lude:url "www.upc.es"^^xsd:anyURI;
-  rdfs:label "Universidad Politécnica de Catalunya" .
+  rdfs:label "Polytechnic University of Catalonia";
+  owl:sameAs <https://wikidata.org/entity/Q1640731> .
 
 <http://spanishuniversities.data.es/lude/resource/University/24e63f7c3d8596b44655e9ad9bfdf5f5>
   a lude:University;
@@ -1035,7 +1065,8 @@
   lude:publicationYear "1542"^^xsd:gYear;
   lude:telephone "976761001";
   lude:type "Pública";
-  rdfs:label "Universidad de Zaragoza" .
+  rdfs:label "University of Zaragoza";
+  owl:sameAs <https://wikidata.org/entity/Q633561> .
 
 <http://spanishuniversities.data.es/lude/resource/University/26e6f2790707f868f9d05141e6f2f906>
   a lude:University;
@@ -1046,7 +1077,8 @@
   lude:publicationYear "1992"^^xsd:gYear;
   lude:telephone "972418046";
   lude:type "Pública";
-  rdfs:label "Universitat de Girona" .
+  rdfs:label "University of Girona";
+  owl:sameAs <https://wikidata.org/entity/Q1814503> .
 
 <http://spanishuniversities.data.es/lude/resource/University/2ddd97caa885c032af0e206d1a7b5c85>
   a lude:University;
@@ -1057,7 +1089,8 @@
   lude:publicationYear "2013"^^xsd:gYear;
   lude:telephone "954462299";
   lude:type "Pública";
-  rdfs:label "Universidad Internacional de Andalucía" .
+  rdfs:label "Universidad Internacional de Andalucía";
+  owl:sameAs <https://wikidata.org/entity/Q4894042> .
 
 <http://spanishuniversities.data.es/lude/resource/University/2f0fa6cb7c08610911b3258fd5f2738a>
   a lude:University;
@@ -1069,7 +1102,8 @@
   lude:telephone "971173000";
   lude:type "Pública";
   lude:url "www.uib.es/"^^xsd:anyURI;
-  rdfs:label "Universitat de les Illes Balears" .
+  rdfs:label "University of the Balearic Islands";
+  owl:sameAs <https://wikidata.org/entity/Q1811146> .
 
 <http://spanishuniversities.data.es/lude/resource/University/30962703623f1f1d21c737a0c0673761>
   a lude:University;
@@ -1081,7 +1115,8 @@
   lude:telephone "952131000";
   lude:type "Pública";
   lude:url "www.uma.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Málaga" .
+  rdfs:label "Universidad de Málaga";
+  owl:sameAs <https://wikidata.org/entity/Q958650> .
 
 <http://spanishuniversities.data.es/lude/resource/University/3105c9fd85b6cfd224f8d1b92970ab2f>
   a lude:University;
@@ -1093,7 +1128,8 @@
   lude:telephone "942200984";
   lude:type "Pública";
   lude:url "www.unican.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Cantabria" .
+  rdfs:label "University of Cantabria";
+  owl:sameAs <https://wikidata.org/entity/Q766962> .
 
 <http://spanishuniversities.data.es/lude/resource/University/330a9bcca27a6c6e467081bfdc1e65cd>
   a lude:University;
@@ -1105,7 +1141,8 @@
   lude:telephone "918854000";
   lude:type "Pública";
   lude:url "www.uah.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Alcalá" .
+  rdfs:label "University of Alcalá";
+  owl:sameAs <https://wikidata.org/entity/Q1243904> .
 
 <http://spanishuniversities.data.es/lude/resource/University/3bd27a309cbe4e2d7f35ec99b74525c0>
   a lude:University;
@@ -1116,7 +1153,8 @@
   lude:telephone "935422000";
   lude:type "Pública";
   lude:url "www.upf.edu"^^xsd:anyURI;
-  rdfs:label "Universidad Pompeu Fabra" .
+  rdfs:label "Pompeu Fabra University";
+  owl:sameAs <https://wikidata.org/entity/Q24543> .
 
 <http://spanishuniversities.data.es/lude/resource/University/4bf5231621b187a3ed12c5741fc3f19d>
   a lude:University;
@@ -1128,7 +1166,8 @@
   lude:telephone "913366200";
   lude:type "Pública";
   lude:url "www.upm.es"^^xsd:anyURI;
-  rdfs:label "Universidad Politécnica de Madrid" .
+  rdfs:label "Technical University of Madrid";
+  owl:sameAs <https://wikidata.org/entity/Q25864> .
 
 <http://spanishuniversities.data.es/lude/resource/University/4d9d7d9cad3c91e4f4fff77c396ee9ee>
   a lude:University;
@@ -1140,7 +1179,8 @@
   lude:telephone "963877000";
   lude:type "Pública";
   lude:url "www.upv.es"^^xsd:anyURI;
-  rdfs:label "Universitat Politècnica de València" .
+  rdfs:label "Technical University of Valencia";
+  owl:sameAs <https://wikidata.org/entity/Q2003976> .
 
 <http://spanishuniversities.data.es/lude/resource/University/51dcd00716a08519e65a732cb87c3b71>
   a lude:University;
@@ -1152,7 +1192,8 @@
   lude:telephone "923294400";
   lude:type "Pública";
   lude:url "www.usal.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Salamanca" .
+  rdfs:label "University of Salamanca";
+  owl:sameAs <https://wikidata.org/entity/Q308963> .
 
 <http://spanishuniversities.data.es/lude/resource/University/64597f645a8194bb9beed6a3aa675d5b>
   a lude:University;
@@ -1164,7 +1205,8 @@
   lude:telephone "922319000";
   lude:type "Pública";
   lude:url "www.ull.es"^^xsd:anyURI;
-  rdfs:label "Universidad de La Laguna" .
+  rdfs:label "University of La Laguna";
+  owl:sameAs <https://wikidata.org/entity/Q539881> .
 
 <http://spanishuniversities.data.es/lude/resource/University/703d90006d377d97e3212ab3312a4e0d>
   a lude:University;
@@ -1176,7 +1218,8 @@
   lude:telephone "981563100";
   lude:type "Pública";
   lude:url "www.usc.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Santiago de Compostela" .
+  rdfs:label "University of Santiago de Compostela";
+  owl:sameAs <https://wikidata.org/entity/Q1473677> .
 
 <http://spanishuniversities.data.es/lude/resource/University/79c02c40f6f40e7dbda1c9193c995152>
   a lude:University;
@@ -1187,7 +1230,8 @@
   lude:telephone "954349200";
   lude:type "Pública";
   lude:url "www.upo.es"^^xsd:anyURI;
-  rdfs:label "Universidad Pablo de Olavide" .
+  rdfs:label "Pablo de Olavide University";
+  owl:sameAs <https://wikidata.org/entity/Q477988> .
 
 <http://spanishuniversities.data.es/lude/resource/University/7a90ec99428048f3a58539d18c749ea7>
   a lude:University;
@@ -1199,7 +1243,8 @@
   lude:telephone "916655060";
   lude:type "Pública";
   lude:url "www.urjc.es"^^xsd:anyURI;
-  rdfs:label "Universidad Rey Juan Carlos" .
+  rdfs:label "King Juan Carlos University";
+  owl:sameAs <https://wikidata.org/entity/Q2000629> .
 
 <http://spanishuniversities.data.es/lude/resource/University/7ce4c67f7247673210d9b6d8aa5e7570>
   a lude:University;
@@ -1211,7 +1256,8 @@
   lude:telephone "934035417";
   lude:type "Pública";
   lude:url "www.ub.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Barcelona" .
+  rdfs:label "University of Barcelona";
+  owl:sameAs <https://wikidata.org/entity/Q219615> .
 
 <http://spanishuniversities.data.es/lude/resource/University/871a4d42a733c080da0f1935663a2f05>
   a lude:University;
@@ -1222,10 +1268,10 @@
   lude:telephone "915920600";
   lude:type "Pública";
   lude:url "www.uimp.es"^^xsd:anyURI;
-  rdfs:label "Universidad Internacional Menéndez Pelayo" .
+  rdfs:label "Universidad Internacional Menéndez Pelayo";
+  owl:sameAs <https://wikidata.org/entity/Q1442385> .
 
 <http://spanishuniversities.data.es/lude/resource/University/8841d88268e139663a8723e418715e78>
-  a lude:University;
   lude:acronym "URV";
   lude:cif "Q9350003A";
   lude:email "info@urv.cat";
@@ -1234,7 +1280,9 @@
   lude:telephone "977558000";
   lude:type "Pública";
   lude:url "www.urv.cat/ca"^^xsd:anyURI;
-  rdfs:label "Universidad Rovira i Virgili" .
+  a lude:University;
+  rdfs:label "Rovira i Virgili University";
+  owl:sameAs <https://wikidata.org/entity/Q3133193> .
 
 <http://spanishuniversities.data.es/lude/resource/University/91aa5268851f200c64bd1a238ed37fcf>
   a lude:University;
@@ -1246,7 +1294,8 @@
   lude:telephone "935811000";
   lude:type "Pública";
   lude:url "www.uab.es"^^xsd:anyURI;
-  rdfs:label "Universidad Autónoma de Barcelona" .
+  rdfs:label "Autonomous University of Barcelona";
+  owl:sameAs <https://wikidata.org/entity/Q43452> .
 
 <http://spanishuniversities.data.es/lude/resource/University/92c081b3e4299316155ea45962241086>
   a lude:University;
@@ -1257,7 +1306,8 @@
   lude:publicationYear "1241"^^xsd:gYear;
   lude:telephone "983423000";
   lude:type "Pública";
-  rdfs:label "Universidad de Valladolid" .
+  rdfs:label "University of Valladolid";
+  owl:sameAs <https://wikidata.org/entity/Q768224> .
 
 <http://spanishuniversities.data.es/lude/resource/University/92c852850da0a33857691151f42ac19a>
   a lude:University;
@@ -1269,7 +1319,8 @@
   lude:telephone "964728000";
   lude:type "Pública";
   lude:url "www.uji.es"^^xsd:anyURI;
-  rdfs:label "Universidad Jaume I de Castellón" .
+  rdfs:label "Jaume I University";
+  owl:sameAs <https://wikidata.org/entity/Q29718> .
 
 <http://spanishuniversities.data.es/lude/resource/University/9d791fc58c21adf30d157657e55c4355>
   a lude:University;
@@ -1281,18 +1332,20 @@
   lude:telephone "956015033";
   lude:type "Pública";
   lude:url "www.uca.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Cádiz" .
+  rdfs:label "University of Cádiz";
+  owl:sameAs <https://wikidata.org/entity/Q2000065> .
 
 <http://spanishuniversities.data.es/lude/resource/University/a0b65722ec5194abfd7f9ba621a7dd1d>
+  a lude:University;
   lude:acronym "UJA";
   lude:cif "Q7350006H";
   lude:modality "Presencial";
   lude:publicationYear "1993"^^xsd:gYear;
   lude:telephone "953212121";
-  a lude:University;
   lude:type "Pública";
   lude:url "www.ujaen.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Jaén" .
+  rdfs:label "University of Jaén";
+  owl:sameAs <https://wikidata.org/entity/Q573144> .
 
 <http://spanishuniversities.data.es/lude/resource/University/a62a164f781be26dd225dfda47b78c12>
   a lude:University;
@@ -1304,7 +1357,8 @@
   lude:telephone "902204100";
   lude:type "Pública";
   lude:url "www.uclm.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Castilla-La Mancha" .
+  rdfs:label "Universidad de Castilla-La Mancha";
+  owl:sameAs <https://wikidata.org/entity/Q941806> .
 
 <http://spanishuniversities.data.es/lude/resource/University/aeaa439db599d073395f84fb7fa10a54>
   a lude:University;
@@ -1316,7 +1370,8 @@
   lude:telephone "948169000";
   lude:type "Pública";
   lude:url "www.unavarra.es"^^xsd:anyURI;
-  rdfs:label "Universidad Pública de Navarra" .
+  rdfs:label "Public University of Navarre";
+  owl:sameAs <https://wikidata.org/entity/Q3179598> .
 
 <http://spanishuniversities.data.es/lude/resource/University/bd5d3da0c4dfc8205ca85ea0c1699a62>
   a lude:University;
@@ -1328,7 +1383,8 @@
   lude:telephone "966658500";
   lude:type "Pública";
   lude:url "www.umh.es"^^xsd:anyURI;
-  rdfs:label "Universidad Miguel Hernández de Elche" .
+  rdfs:label "Miguel Hernández University of Elche";
+  owl:sameAs <https://wikidata.org/entity/Q24676> .
 
 <http://spanishuniversities.data.es/lude/resource/University/bf0d31e1fd4ee242c0fe00c2ee08b759>
   a lude:University;
@@ -1340,7 +1396,8 @@
   lude:telephone "973702000";
   lude:type "Pública";
   lude:url "www.udl.es/ca/es/"^^xsd:anyURI;
-  rdfs:label "Universidad de Lleida" .
+  rdfs:label "University of Lleida";
+  owl:sameAs <https://wikidata.org/entity/Q1235594> .
 
 <http://spanishuniversities.data.es/lude/resource/University/c50901012309aca2785eb50ea4c8f87b>
   a lude:University;
@@ -1352,7 +1409,8 @@
   lude:telephone "916249500";
   lude:type "Pública";
   lude:url "www.uc3m.es"^^xsd:anyURI;
-  rdfs:label "Universidad Carlos III de Madrid" .
+  rdfs:label "Universidad Carlos III de Madrid";
+  owl:sameAs <https://wikidata.org/entity/Q1247135> .
 
 <http://spanishuniversities.data.es/lude/resource/University/c6abab9cddd0b921adc603debfcca50e>
   a lude:University;
@@ -1364,7 +1422,8 @@
   lude:telephone "950015570";
   lude:type "Pública";
   lude:url "www.ual.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Almería" .
+  rdfs:label "University of Almería";
+  owl:sameAs <https://wikidata.org/entity/Q1218488> .
 
 <http://spanishuniversities.data.es/lude/resource/University/c73f658b0a9e2a5097a9ae889dd56474>
   a lude:University;
@@ -1376,7 +1435,8 @@
   lude:telephone "963864100";
   lude:type "Pública";
   lude:url "www.uv.es"^^xsd:anyURI;
-  rdfs:label "Universitat de València" .
+  rdfs:label "University of Valencia";
+  owl:sameAs <https://wikidata.org/entity/Q383568> .
 
 <http://spanishuniversities.data.es/lude/resource/University/c8b4be930789e86c8d8b17d773af6d7e>
   a lude:University;
@@ -1388,7 +1448,8 @@
   lude:telephone "987291000";
   lude:type "Pública";
   lude:url "www.unileon.es"^^xsd:anyURI;
-  rdfs:label "Universidad de León" .
+  rdfs:label "University of León";
+  owl:sameAs <https://wikidata.org/entity/Q781108> .
 
 <http://spanishuniversities.data.es/lude/resource/University/d30bbd19fa77d8470334a259e060006e>
   a lude:University;
@@ -1400,7 +1461,8 @@
   lude:telephone "946012000";
   lude:type "Pública";
   lude:url "www.ehu.es"^^xsd:anyURI;
-  rdfs:label "Universidad del País Vasco/Euskal Herriko Unibertsitatea" .
+  rdfs:label "University of the Basque Country";
+  owl:sameAs <https://wikidata.org/entity/Q1232428> .
 
 <http://spanishuniversities.data.es/lude/resource/University/d4092e4beec5ade3eb17379b7450f0b9>
   a lude:University;
@@ -1412,7 +1474,8 @@
   lude:telephone "957218000";
   lude:type "Pública";
   lude:url "www.uco.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Córdoba" .
+  rdfs:label "University of Córdoba";
+  owl:sameAs <https://wikidata.org/entity/Q734010> .
 
 <http://spanishuniversities.data.es/lude/resource/University/dbca02858a647c576208370194649766>
   a lude:University;
@@ -1424,7 +1487,8 @@
   lude:telephone "958243000";
   lude:type "Pública";
   lude:url "www.ugr.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Granada" .
+  rdfs:label "University of Granada";
+  owl:sameAs <https://wikidata.org/entity/Q1232180> .
 
 <http://spanishuniversities.data.es/lude/resource/University/dcbcd7e79ed9bec816e6a427d84bbf64>
   a lude:University;
@@ -1436,7 +1500,8 @@
   lude:telephone "941299104";
   lude:type "Pública";
   lude:url "www.unirioja.es"^^xsd:anyURI;
-  rdfs:label "Universidad de La Rioja" .
+  rdfs:label "University of La Rioja";
+  owl:sameAs <https://wikidata.org/entity/Q120795> .
 
 <http://spanishuniversities.data.es/lude/resource/University/e00161d1619c9c29b683d70c49b1341c>
   a lude:University;
@@ -1448,7 +1513,8 @@
   lude:telephone "965903400";
   lude:type "Pública";
   lude:url "www.ua.es/"^^xsd:anyURI;
-  rdfs:label "Universidad de Alicante" .
+  rdfs:label "University of Alicante";
+  owl:sameAs <https://wikidata.org/entity/Q2037040> .
 
 <http://spanishuniversities.data.es/lude/resource/University/e2aed65db4fa77f98f5f2990371c7a23>
   a lude:University;
@@ -1460,7 +1526,8 @@
   lude:telephone "914520400";
   lude:type "Pública";
   lude:url "www.ucm.es"^^xsd:anyURI;
-  rdfs:label "Universidad Complutense de Madrid" .
+  rdfs:label "Complutense University of Madrid";
+  owl:sameAs <https://wikidata.org/entity/Q219694> .
 
 <http://spanishuniversities.data.es/lude/resource/University/e4aee90dd75f5fd5dc35bc4653bd9065>
   a lude:University;
@@ -1472,7 +1539,8 @@
   lude:telephone "968325400";
   lude:type "Pública";
   lude:url "www.upct.es"^^xsd:anyURI;
-  rdfs:label "Universidad Politécnica de Cartagena" .
+  rdfs:label "Universidad Politécnica de Cartagena";
+  owl:sameAs <https://wikidata.org/entity/Q6156635> .
 
 <http://spanishuniversities.data.es/lude/resource/University/e97892b0ccf3c19ce40f9ef9d8ac91ef>
   a lude:University;
@@ -1484,7 +1552,8 @@
   lude:telephone "981167000";
   lude:type "Pública";
   lude:url "www.udc.es"^^xsd:anyURI;
-  rdfs:label "Universidad de A Coruña" .
+  rdfs:label "University of A Coruña";
+  owl:sameAs <https://wikidata.org/entity/Q280305> .
 
 <http://spanishuniversities.data.es/lude/resource/University/f5636bc297db763f969bab88b5492ba3>
   a lude:University;
@@ -1496,7 +1565,8 @@
   lude:telephone "968363000";
   lude:type "Pública";
   lude:url "www.um.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Murcia" .
+  rdfs:label "University of Murcia";
+  owl:sameAs <https://wikidata.org/entity/Q1236345> .
 
 <http://spanishuniversities.data.es/lude/resource/University/f6ce2593f6cfc9e08dc9effe2e0077e9>
   a lude:University;
@@ -1508,7 +1578,8 @@
   lude:telephone "959218000";
   lude:type "Pública";
   lude:url "www.uhu.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Huelva" .
+  rdfs:label "University of Huelva";
+  owl:sameAs <https://wikidata.org/entity/Q478464> .
 
 <http://spanishuniversities.data.es/lude/resource/University/f8c4e120daa6420626c03e582958ebd3>
   a lude:University;
@@ -1520,7 +1591,8 @@
   lude:telephone "954551000";
   lude:type "Pública";
   lude:url "www.us.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Sevilla" .
+  rdfs:label "University of Seville";
+  owl:sameAs <https://wikidata.org/entity/Q1229996> .
 
 <http://spanishuniversities.data.es/lude/resource/University/f9d30a624b678c838a4bb422a0bc148b>
   a lude:University;
@@ -1532,7 +1604,8 @@
   lude:telephone "914975000";
   lude:type "Pública";
   lude:url "www.uam.es"^^xsd:anyURI;
-  rdfs:label "Universidad Autónoma de Madrid" .
+  rdfs:label "Autonomous University of Madrid";
+  owl:sameAs <https://wikidata.org/entity/Q788091> .
 
 <http://spanishuniversities.data.es/lude/resource/University/f9f0a05fbac13ce20a2af52247c2b93f>
   a lude:University;
@@ -1544,4 +1617,5 @@
   lude:telephone "947258700";
   lude:type "Pública";
   lude:url "www.ubu.es"^^xsd:anyURI;
-  rdfs:label "Universidad de Burgos" .
+  rdfs:label "University of Burgos";
+  owl:sameAs <https://wikidata.org/entity/Q1510657> .

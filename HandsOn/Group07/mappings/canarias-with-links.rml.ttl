@@ -11,6 +11,7 @@
 @prefix vocab: <http://example.org#>.
 @prefix lude: <http://spanishuniversities.data.es/lude/ontology#>.
 @prefix id: <http://spanishuniversities.data.es/lude/resource/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#>.
 @prefix formats: <http://www.w3.org/ns/formats/>.
 @prefix comp: <http://semweb.mmlab.be/ns/rml-compression#>.
@@ -20,11 +21,11 @@
 @base <http://example.com/ns#>.
 
 
-<andaluciaDegreeUD_0> a rr:TriplesMap;
+<canaryDegreeDLwL_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "Andalucia_NotasdeCorte_2024-Degrees-updated.csv";
+		rml:source "Canarias_listaestudios-Canarias-Degrees-updated-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -56,6 +57,17 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Code";
+			rr:datatype xsd:string
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
 			rr:constant lude:academicYear;
 		];
 		rr:objectMap [
@@ -67,11 +79,22 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_degree";
+			rr:termType rr:IRI
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
 			rr:constant lude:hasAcademicLevel;
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <adaluciaLevelDK_0>;
+			rr:parentTriplesMap <canaryLevelDLwL_0>;
 			rr:joinCondition [
 				rr:child "Academic Level Id";
 				rr:parent "AcademicLevelID";
@@ -80,11 +103,11 @@
 	].
 
 
-<adaluciaLevelDK_0> a rr:TriplesMap;
+<canaryLevelDLwL_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "academic_level-updated.csv";
+		rml:source "academic_level-updated-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -112,14 +135,25 @@
 			rml:reference "Academic Level";
 			rr:datatype xsd:string
 		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_academiclevel";
+			rr:termType rr:IRI
+		];
 	].
 
 
-<andaluciaDegreeDF_0> a rr:TriplesMap;
+<canaryDegreeDKwL_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "Andalucia_NotasdeCorte_2024-Degrees-updated.csv";
+		rml:source "Canarias_listaestudios-Canarias-Degrees-updated-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -151,95 +185,11 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:academicYear;
+			rr:constant lude:code;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rml:reference "Academic Year";
-			rr:datatype xsd:string
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:deliveredAt;
-		];
-		rr:objectMap [
-			a rr:RefObjectMap;
-			rr:parentTriplesMap <andaluciaFacultyDF_0>;
-			rr:joinCondition [
-				rr:child "DegreeId";
-				rr:parent "DegreeId";
-			];
-		];
-	].
-
-
-<andaluciaFacultyDF_0> a rr:TriplesMap;
-
-	rml:logicalSource [
-		a rml:LogicalSource;
-		rml:source "Andalucia_NotasdeCorte_2024-Faculties-updated.csv";
-		rml:referenceFormulation ql:CSV
-
-	];
-	rr:subjectMap [
-		a rr:SubjectMap;
-		rr:template "http://spanishuniversities.data.es/lude/resource/Faculty/{FacultyId}";
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant rdf:type;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rr:constant lude:Faculty;
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant rdfs:label;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Faculty";
-			rr:datatype xsd:string
-		];
-	].
-
-
-<andaluciaDegreeDK_0> a rr:TriplesMap;
-
-	rml:logicalSource [
-		a rml:LogicalSource;
-		rml:source "Andalucia_NotasdeCorte_2024-Degrees-updated.csv";
-		rml:referenceFormulation ql:CSV
-
-	];
-	rr:subjectMap [
-		a rr:SubjectMap;
-		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeId}";
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant rdf:type;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rr:constant lude:Degree;
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant rdfs:label;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Degree";
+			rml:reference "Code";
 			rr:datatype xsd:string
 		];
 	];
@@ -252,6 +202,17 @@
 			a rr:ObjectMap;
 			rml:reference "Academic Year";
 			rr:datatype xsd:string
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_degree";
+			rr:termType rr:IRI
 		];
 	];
 	rr:predicateObjectMap [
@@ -261,7 +222,7 @@
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <andaluciaKnowledgeDK_0>;
+			rr:parentTriplesMap <canariasKnowledgeDKwL_0>;
 			rr:joinCondition [
 				rr:child "AmbitId";
 				rr:parent "id";
@@ -270,11 +231,11 @@
 	].
 
 
-<andaluciaKnowledgeDK_0> a rr:TriplesMap;
+<canariasKnowledgeDKwL_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "ambit-updated.csv";
+		rml:source "ambit-otros-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -302,14 +263,25 @@
 			rml:reference "ambit";
 			rr:datatype xsd:string
 		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_ambit";
+			rr:termType rr:IRI
+		];
 	].
 
 
-<anndaluciaUniversityUD_0> a rr:TriplesMap;
+<canaryUniversityUDwL_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "universidades-updated.csv";
+		rml:source "universidades-updated-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -429,11 +401,22 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_university";
+			rr:termType rr:IRI
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
 			rr:constant lude:offers;
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <andaluciaDegreeUD_0>;
+			rr:parentTriplesMap <canaryDegreeUDwL_0>;
 			rr:joinCondition [
 				rr:child "UniversityID";
 				rr:parent "UniversityId";
@@ -442,11 +425,11 @@
 	].
 
 
-<andaluciaDegreeUF_0> a rr:TriplesMap;
+<canaryDegreeUDwL_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "Andalucia_NotasdeCorte_2024-Degrees-updated.csv";
+		rml:source "Canarias_listaestudios-Canarias-Degrees-updated-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -478,6 +461,17 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Code";
+			rr:datatype xsd:string
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
 			rr:constant lude:academicYear;
 		];
 		rr:objectMap [
@@ -485,177 +479,16 @@
 			rml:reference "Academic Year";
 			rr:datatype xsd:string
 		];
-	].
-
-
-<andaluciaUniversityUF_0> a rr:TriplesMap;
-
-	rml:logicalSource [
-		a rml:LogicalSource;
-		rml:source "universidades-updated.csv";
-		rml:referenceFormulation ql:CSV
-
-	];
-	rr:subjectMap [
-		a rr:SubjectMap;
-		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant rdf:type;
+			rr:constant owl:sameAs;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:constant lude:University;
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant rdfs:label;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "University";
-			rr:datatype xsd:string
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:acronym;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Acronym";
-			rr:datatype xsd:string
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:type;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Type";
-			rr:datatype xsd:string
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:cif;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "CIF";
-			rr:datatype xsd:string
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:modality;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Modality";
-			rr:datatype xsd:string
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:url;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "URL";
-			rr:datatype xsd:anyURI
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:email;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Email";
-			rr:datatype xsd:string
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:telephone;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Phone";
-			rr:datatype xsd:string
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:publicationYear;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Year of Publication";
-			rr:datatype xsd:gYear
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant lude:hasFaculty;
-		];
-		rr:objectMap [
-			a rr:RefObjectMap;
-			rr:parentTriplesMap <andaluciaFacultyUF_0>;
-			rr:joinCondition [
-				rr:child "UniversityID";
-				rr:parent "UniversityId";
-			];
-		];
-	].
-
-
-<andaluciaFacultyUF_0> a rr:TriplesMap;
-
-	rml:logicalSource [
-		a rml:LogicalSource;
-		rml:source "Andalucia_NotasdeCorte_2024-Faculties-updated.csv";
-		rml:referenceFormulation ql:CSV
-
-	];
-	rr:subjectMap [
-		a rr:SubjectMap;
-		rr:template "http://spanishuniversities.data.es/lude/resource/Faculty/{FacultyId}";
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant rdf:type;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rr:constant lude:Faculty;
-		];
-	];
-	rr:predicateObjectMap [
-		rr:predicateMap [
-			a rr:PredicateMap;
-			rr:constant rdfs:label;
-		];
-		rr:objectMap [
-			a rr:ObjectMap;
-			rml:reference "Faculty";
-			rr:datatype xsd:string
+			rml:reference "same_as_wikidata_degree";
+			rr:termType rr:IRI
 		];
 	].
 

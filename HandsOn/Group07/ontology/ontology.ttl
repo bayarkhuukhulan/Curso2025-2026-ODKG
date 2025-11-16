@@ -143,7 +143,7 @@ lude:hasKnowledgeArea a owl:ObjectProperty ;
 lude:hasAcademicLevel a owl:ObjectProperty ;
     rdfs:label "has academic level" ;
     rdfs:domain lude:Degree ;
-    rdfs:range lude:academicLevel .
+    rdfs:range lude:AcademicLevel .
 
 lude:id a owl:DatatypeProperty ;
     rdfs:label "id" ;
@@ -158,7 +158,7 @@ lude:id a owl:DatatypeProperty ;
             lude:Municipality
             lude:Province
             lude:University
-            lude:academicLevel
+            lude:AcademicLevel
         )
     ] ;
     rdfs:range xsd:string .
@@ -271,7 +271,7 @@ rdfs:Resource a owl:Class ;
 lude:KnowledgeArea a owl:Class ;
     rdfs:label "Knowledge Area" .
 
-lude:academicLevel a owl:Class;
+lude:AcademicLevel a owl:Class;
     rdfs:label "academic Level";
     rdfs:range xsd:string .
 
