@@ -2554,7 +2554,7 @@
 	].
 
 
-<DegreeMappingGVU_0> a rr:TriplesMap;
+<DegreeMappingMGV_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
@@ -2564,7 +2564,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:Degree/{DegreeID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -2626,7 +2626,7 @@
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <AcademicLevelMappingGVU_0>;
+			rr:parentTriplesMap <AcademicLevelMappingMGV_0>;
 			rr:joinCondition [
 				rr:child "AcademicLevelID";
 				rr:parent "AcademicLevelID";
@@ -2640,7 +2640,7 @@
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <KnowledgeAreaMappingGVU_0>;
+			rr:parentTriplesMap <KnowledgeAreaMappingMGV_0>;
 			rr:joinCondition [
 				rr:child "AmbitId";
 				rr:parent "id";
@@ -2649,7 +2649,7 @@
 	].
 
 
-<MadridDegreeMappingGVU_0> a rr:TriplesMap;
+<MadridDegreeMappingMGV_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
@@ -2659,7 +2659,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:Degree/{DegreeID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -2711,7 +2711,7 @@
 		rr:objectMap [
 			a rr:ObjectMap;
 			rml:reference "ectsCredits";
-			rr:datatype xsd:integer
+			rr:datatype xsd:decimal
 		];
 	];
 	rr:predicateObjectMap [
@@ -2754,7 +2754,7 @@
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <AcademicLevelMappingGVU_0>;
+			rr:parentTriplesMap <AcademicLevelMappingMGV_0>;
 			rr:joinCondition [
 				rr:child "AcademicLevelId";
 				rr:parent "AcademicLevelID";
@@ -2768,7 +2768,7 @@
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <KnowledgeAreaMappingGVU_0>;
+			rr:parentTriplesMap <KnowledgeAreaMappingMGV_0>;
 			rr:joinCondition [
 				rr:child "AmbitId";
 				rr:parent "id";
@@ -2782,7 +2782,7 @@
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <FacultyMappingGVU_0>;
+			rr:parentTriplesMap <FacultyMappingMGV_0>;
 			rr:joinCondition [
 				rr:child "FacultyId";
 				rr:parent "FacultyId";
@@ -2791,7 +2791,7 @@
 	].
 
 
-<AcademicLevelMappingGVU_0> a rr:TriplesMap;
+<AcademicLevelMappingMGV_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
@@ -2801,7 +2801,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:AcademicLevel/{AcademicLevelID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/AcademicLevel/{AcademicLevelID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -2836,7 +2836,7 @@
 	].
 
 
-<KnowledgeAreaMappingGVU_0> a rr:TriplesMap;
+<KnowledgeAreaMappingMGV_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
@@ -2846,7 +2846,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:KnowledgeArea/{id}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/KnowledgeArea/{id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -2881,7 +2881,7 @@
 	].
 
 
-<FacultyMappingGVU_0> a rr:TriplesMap;
+<FacultyMappingMGV_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
@@ -2891,7 +2891,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:Faculty/{FacultyId}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Faculty/{FacultyId}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -2925,7 +2925,7 @@
 	].
 
 
-<UniversityMappingGVU_0> a rr:TriplesMap;
+<UniversityMappingMGV_0> a rr:TriplesMap;
 
 	rml:logicalSource [
 		a rml:LogicalSource;
@@ -2935,7 +2935,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:University/{UniversityID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -2982,7 +2982,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:URL;
+			rr:constant lude:url;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -3004,7 +3004,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:Phone;
+			rr:constant lude:telephone;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -3037,7 +3037,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:Type;
+			rr:constant lude:type;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -3063,7 +3063,7 @@
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <MadridDegreeMappingGVU_0>;
+			rr:parentTriplesMap <MadridDegreeMappingMGV_0>;
 			rr:joinCondition [
 				rr:child "UniversityID";
 				rr:parent "UniversityID";
@@ -3071,7 +3071,7 @@
 		];
 		rr:objectMap [
 			a rr:RefObjectMap;
-			rr:parentTriplesMap <DegreeMappingGVU_0>;
+			rr:parentTriplesMap <DegreeMappingMGV_0>;
 			rr:joinCondition [
 				rr:child "UniversityID";
 				rr:parent "UniversityID";
@@ -5033,6 +5033,1640 @@
 		rr:objectMap [
 			a rr:ObjectMap;
 			rml:reference "Same_as_Wikidata_University";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<DegreeCantabriaMappingCL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "CANTABRIA-degree-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:Degree;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Degree";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:academicYear;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Academic Year";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:ectsCredits;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "ectsCredits";
+			rr:datatype xsd:decimal
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Code";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:AnecaAssessmentReportDate;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "AnecaAssessmentReportDate";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:url;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "url";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:basicTrainingCredits;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "BasicTrainingCredits";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:councilOfUniversitiesReportDate;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "CouncilOfUniversitiesReportDate";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:teachingModality;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "TeachingModality";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:language;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Language";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:newStudentsPosts;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "NewStudentsPosts";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "sameAs";
+			rr:termType rr:IRI
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasAcademicLevel;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <AcademicLevelMappingCL_0>;
+			rr:joinCondition [
+				rr:child "AcademicLevelID";
+				rr:parent "AcademicLevelID";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasKnowledgeArea;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <KnowledgeAreaMappingCL_0>;
+			rr:joinCondition [
+				rr:child "AmbitID";
+				rr:parent "id";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:deliveredAt;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <FacultyMappingCantabriaCL_0>;
+			rr:joinCondition [
+				rr:child "FacultyID";
+				rr:parent "FacultyID";
+			];
+		];
+	].
+
+
+<AcademicLevelMappingCL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "academic_level-updated-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/AcademicLevel/{AcademicLevelID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:AcademicLevel;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Academic Level";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "AcademicLevelID";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_academiclevel";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<KnowledgeAreaMappingCL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "ambit-otros-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/KnowledgeArea/{id}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:KnowledgeArea;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "ambit";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "id";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_ambit";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<FacultyMappingCantabriaCL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "CANTABRIA-faculty.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/Faculty/{FacultyID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:Faculty;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Faculty";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasFaculty;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <UniversityMappingCL_0>;
+			rr:joinCondition [
+				rr:child "UniversityID";
+				rr:parent "UniversityID";
+			];
+		];
+	].
+
+
+<UniversityMappingCL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "universidades-updated-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:University;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "University";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:id;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "UniversityID";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:acronym;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Acronym";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:cif;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "CIF";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Type";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:modality;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Modality";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:url;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "URL";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:email;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Email";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:telephone;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Phone";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:publicationYear;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Year of Publication";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_university";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<DegreeCastillaLeonMappingLL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "CASTILLALEON-degree-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:Degree;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Degree";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:academicYear;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Academic Year";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "sameAs";
+			rr:termType rr:IRI
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasAcademicLevel;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <AcademicLevelMappingLL_0>;
+			rr:joinCondition [
+				rr:child "AcademicLevelID";
+				rr:parent "AcademicLevelID";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasKnowledgeArea;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <KnowledgeAreaMappingLL_0>;
+			rr:joinCondition [
+				rr:child "AmbitID";
+				rr:parent "id";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:deliveredAt;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <FacultyMappingCastillaLeonLL_0>;
+			rr:joinCondition [
+				rr:child "FacultyID";
+				rr:parent "FacultyID";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:offers;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <UniversityMappingLL_0>;
+			rr:joinCondition [
+				rr:child "FacultyID";
+				rr:parent "FacultyID";
+			];
+		];
+	].
+
+
+<AcademicLevelMappingLL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "academic_level-updated-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/AcademicLevel/{AcademicLevelID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:AcademicLevel;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Academic Level";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "AcademicLevelID";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_academiclevel";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<KnowledgeAreaMappingLL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "ambit-otros-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/KnowledgeArea/{id}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:KnowledgeArea;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "ambit";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "id";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_ambit";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<FacultyMappingCastillaLeonLL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "CASTILLALEON-faculty.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/Faculty/{FacultyID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:Faculty;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Faculty";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:campus;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Campus";
+		];
+	].
+
+
+<UniversityMappingLL_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "universidades-updated-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:University;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "University";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:id;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "UniversityID";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:acronym;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Acronym";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:cif;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "CIF";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Type";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:modality;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Modality";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:url;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "URL";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:email;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Email";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:telephone;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Phone";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:publicationYear;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Year of Publication";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_university";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<DegreeCastillaLaManchaMappingML_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "CASTILLALAMANCHA-degree-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:Degree;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Degree";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:academicYear;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Academic Year";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:ectsCredits;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Credits";
+			rr:datatype xsd:decimal
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:offeredCredits;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Offered Credits";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "sameAs";
+			rr:termType rr:IRI
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasAcademicLevel;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <AcademicLevelMappingML_0>;
+			rr:joinCondition [
+				rr:child "AcademicLevelID";
+				rr:parent "AcademicLevelID";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasKnowledgeArea;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <KnowledgeAreaMappingML_0>;
+			rr:joinCondition [
+				rr:child "Ambit-id";
+				rr:parent "id";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:deliveredAt;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <FacultyMappingCastillaLaManchaML_0>;
+			rr:joinCondition [
+				rr:child "FacultyID";
+				rr:parent "FacultyID";
+			];
+		];
+	].
+
+
+<AcademicLevelMappingML_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "academic_level-updated-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/AcademicLevel/{AcademicLevelID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:AcademicLevel;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Academic Level";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "AcademicLevelID";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_academiclevel";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<KnowledgeAreaMappingML_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "ambit-otros-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/KnowledgeArea/{id}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:KnowledgeArea;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "ambit";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "id";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_ambit";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<FacultyMappingCastillaLaManchaML_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "CASTILLALAMANCHA-faculty.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/Faculty/{FacultyID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:Faculty;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Faculty";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasFaculty;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <UniversityMappingML_0>;
+			rr:joinCondition [
+				rr:child "UniversityID";
+				rr:parent "UniversityID";
+			];
+		];
+	].
+
+
+<UniversityMappingML_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "universidades-updated-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:University;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "University";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:id;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "UniversityID";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:acronym;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Acronym";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:cif;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "CIF";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Type";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:modality;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Modality";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:url;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "URL";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:email;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Email";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:telephone;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Phone";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:publicationYear;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Year of Publication";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_university";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<DegreeIslasBalearesMapping_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "ISLASBALEARES-degree-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:Degree;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Degree";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Code";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "sameAs";
+			rr:termType rr:IRI
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasAcademicLevel;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <AcademicLevelMapping_0>;
+			rr:joinCondition [
+				rr:child "AcademicLevelID";
+				rr:parent "AcademicLevelID";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:hasKnowledgeArea;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <KnowledgeAreaMapping_0>;
+			rr:joinCondition [
+				rr:child "AmbitID";
+				rr:parent "id";
+			];
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:offers;
+		];
+		rr:objectMap [
+			a rr:RefObjectMap;
+			rr:parentTriplesMap <UniversityMapping_0>;
+			rr:joinCondition [
+				rr:child "UniversityID";
+				rr:parent "UniversityID";
+			];
+		];
+	].
+
+
+<AcademicLevelMapping_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "academic_level-updated-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/AcademicLevel/{AcademicLevelID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:AcademicLevel;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Academic Level";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "AcademicLevelID";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_academiclevel";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<KnowledgeAreaMapping_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "ambit-otros-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/KnowledgeArea/{id}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:KnowledgeArea;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "ambit";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:code;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "id";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_ambit";
+			rr:termType rr:IRI
+		];
+	].
+
+
+<UniversityMapping_0> a rr:TriplesMap;
+
+	rml:logicalSource [
+		a rml:LogicalSource;
+		rml:source "universidades-updated-with-links.csv";
+		rml:referenceFormulation ql:CSV
+
+	];
+	rr:subjectMap [
+		a rr:SubjectMap;
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdf:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rr:constant lude:University;
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant rdfs:label;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "University";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:id;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "UniversityID";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:acronym;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Acronym";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:cif;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "CIF";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:type;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Type";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:modality;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Modality";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:url;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "URL";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:email;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Email";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:telephone;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Phone";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant lude:publicationYear;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "Year of Publication";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "same_as_wikidata_university";
 			rr:termType rr:IRI
 		];
 	].
