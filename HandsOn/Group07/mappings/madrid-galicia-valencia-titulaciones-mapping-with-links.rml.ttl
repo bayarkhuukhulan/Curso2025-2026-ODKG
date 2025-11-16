@@ -28,7 +28,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:Degree/{DegreeID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -123,7 +123,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:Degree/{DegreeID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Degree/{DegreeID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -265,7 +265,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:AcademicLevel/{AcademicLevelID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/AcademicLevel/{AcademicLevelID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -310,7 +310,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:KnowledgeArea/{id}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/KnowledgeArea/{id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -355,7 +355,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:Faculty/{FacultyId}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/Faculty/{FacultyId}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -399,7 +399,7 @@
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "ex:University/{UniversityID}";
+		rr:template "http://spanishuniversities.data.es/lude/resource/University/{UniversityID}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -446,7 +446,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:URL;
+			rr:constant lude:url;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -457,7 +457,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:Email;
+			rr:constant lude:email;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -468,7 +468,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:Phone;
+			rr:constant lude:telephone;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -479,7 +479,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:CIF;
+			rr:constant lude:cif;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -490,7 +490,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:Acronym;
+			rr:constant lude:acronym;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
@@ -501,7 +501,7 @@
 	rr:predicateObjectMap [
 		rr:predicateMap [
 			a rr:PredicateMap;
-			rr:constant lude:Type;
+			rr:constant lude:type;
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
