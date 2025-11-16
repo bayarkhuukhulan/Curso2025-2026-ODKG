@@ -48,7 +48,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Odontología" .
+  rdfs:label "Odontología";
+  owl:sameAs <http://example.com/ns#dentistry> .
 
 <ex:Degree/11adcd0111a53477db21e5926b648385> a lude:Degree;
   lude:code "4310717";
@@ -97,7 +98,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Historia" .
+  rdfs:label "Historia";
+  owl:sameAs <http://example.com/ns#history> .
 
 <ex:Degree/290cf33303fac29f7abdfd03707e63d8> a lude:Degree;
   lude:code "4317180";
@@ -111,7 +113,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>, <ex:AcademicLevel/eb0a191797624dd3a48fa681d3061212>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Filosofía" .
+  rdfs:label "Filosofía";
+  owl:sameAs <http://example.com/ns#philosophy> .
 
 <ex:Degree/2c0afcff85c59d37061a1a887b248378> a lude:Degree;
   lude:code "4313436";
@@ -132,7 +135,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Turismo" .
+  rdfs:label "Turismo";
+  owl:sameAs <http://example.com/ns#Turismo> .
 
 <ex:Degree/2f3150502c507977812bb702226fba36> a lude:Degree;
   lude:code "3500129";
@@ -153,7 +157,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Derecho" .
+  rdfs:label "Derecho";
+  owl:sameAs <http://example.com/ns#law> .
 
 <ex:Degree/375908768e34b833ee6576b588e02283> a lude:Degree;
   lude:code "2502133";
@@ -167,7 +172,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Biología" .
+  rdfs:label "Biología";
+  owl:sameAs <http://example.com/ns#biology> .
 
 <ex:Degree/3e3d158d1d7e1a1140151ef674331199> a lude:Degree;
   lude:code "3500129";
@@ -195,7 +201,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Geografía" .
+  rdfs:label "Geografía";
+  owl:sameAs <http://example.com/ns#geography> .
 
 <ex:Degree/4a698d87cb1262292c0f2657917e5d42> a lude:Degree;
   lude:code "4317705";
@@ -223,7 +230,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Economía" .
+  rdfs:label "Economía";
+  owl:sameAs <http://example.com/ns#economics> .
 
 <ex:Degree/59c5bcd8ad8b9de8160f03614c408b1c> a lude:Degree;
   lude:code "4314273";
@@ -237,7 +245,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Medicina" .
+  rdfs:label "Medicina";
+  owl:sameAs <http://example.com/ns#medicine> .
 
 <ex:Degree/5c413124c8e3a04fca0fd60d3f39afd9> a lude:Degree;
   lude:code "4317924";
@@ -300,7 +309,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Enfermería" .
+  rdfs:label "Enfermería";
+  owl:sameAs <http://example.com/ns#nursing> .
 
 <ex:Degree/6d2e0cd07950abfd291faa75e0d1a70b> a lude:Degree;
   lude:code "4314277";
@@ -328,7 +338,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Fisioterapia" .
+  rdfs:label "Fisioterapia";
+  owl:sameAs <http://example.com/ns#physiotherapy> .
 
 <ex:Degree/7669be948e0d8804611fff2f31269abe> a lude:Degree;
   lude:code "3500062";
@@ -370,7 +381,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/eb0a191797624dd3a48fa681d3061212>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Investigación Biomédica" .
+  rdfs:label "Investigación Biomédica";
+  owl:sameAs <http://example.com/ns#biomedicine> .
 
 <ex:Degree/8548432be234ac39752b7dd23bed5f4e> a lude:Degree;
   lude:code "2502136";
@@ -398,14 +410,16 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Psicología" .
+  rdfs:label "Psicología";
+  owl:sameAs <http://example.com/ns#psychology> .
 
 <ex:Degree/8b2c675630d10420b6b91d7b8cd5e2d2> a lude:Degree;
   lude:code "2500704";
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Bioquímica" .
+  rdfs:label "Bioquímica";
+  owl:sameAs <http://example.com/ns#biochemistry> .
 
 <ex:Degree/8e079d52c327b2d4073749a16b53e600> a lude:Degree;
   lude:code "3500667";
@@ -468,7 +482,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Química" .
+  rdfs:label "Química";
+  owl:sameAs <http://example.com/ns#chemistry> .
 
 <ex:Degree/a4eee238b2022c90f996fe455f435e2e> a lude:Degree;
   lude:code "3500129";
@@ -503,7 +518,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Farmacia" .
+  rdfs:label "Farmacia";
+  owl:sameAs <http://example.com/ns#pharmacy> .
 
 <ex:Degree/ad0e4f3bad02d7efb8625fd510436df4> a lude:Degree;
   lude:code "2503837";
@@ -601,7 +617,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/eb0a191797624dd3a48fa681d3061212>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Neurociencias" .
+  rdfs:label "Neurociencias";
+  owl:sameAs <http://example.com/ns#neuroscience> .
 
 <ex:Degree/c327e4483f30269fe5144ca7cf54c108> a lude:Degree;
   lude:code "2502134";
@@ -650,14 +667,16 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Física" .
+  rdfs:label "Física";
+  owl:sameAs <http://example.com/ns#physics> .
 
 <ex:Degree/d7031ec4ae67b04a4896271d7aae9a93> a lude:Degree;
   lude:code "4313607";
   lude:hasAcademicLevel <ex:AcademicLevel/eb0a191797624dd3a48fa681d3061212>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Microbiología Avanzada por la Universidad de las Illes Balears" .
+  rdfs:label "Microbiología Avanzada";
+  owl:sameAs <http://example.com/ns#microbiology> .
 
 <ex:Degree/d7c4d13fd1160f3858f58937f7241846> a lude:Degree;
   lude:code "4314273";
@@ -720,7 +739,8 @@
   lude:hasAcademicLevel <ex:AcademicLevel/d6d85d89b4612501521435bd3f620a9a>;
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offers <ex:University/2f0fa6cb7c08610911b3258fd5f2738a>;
-  rdfs:label "Matemáticas" .
+  rdfs:label "Matemáticas";
+  owl:sameAs <http://example.com/ns#mathematics> .
 
 <ex:Degree/e60403162413167845796aa67f572501> a lude:Degree;
   lude:code "2504028";
@@ -1126,14 +1146,14 @@
   rdfs:label "Autonomous University of Barcelona";
   owl:sameAs <https://wikidata.org/entity/Q43452> .
 
-<ex:University/92c081b3e4299316155ea45962241086> a lude:University;
-  lude:acronym "UVA";
+<ex:University/92c081b3e4299316155ea45962241086> lude:acronym "UVA";
   lude:cif "Q4718001C";
   lude:email "valladolid@uva.es";
   lude:id "92c081b3e4299316155ea45962241086";
   lude:modality "Presencial";
   lude:publicationYear "1241";
   lude:telephone "983423000";
+  a lude:University;
   lude:type "Pública";
   rdfs:label "University of Valladolid";
   owl:sameAs <https://wikidata.org/entity/Q768224> .
@@ -1151,11 +1171,11 @@
   rdfs:label "Jaume I University";
   owl:sameAs <https://wikidata.org/entity/Q29718> .
 
-<ex:University/9d791fc58c21adf30d157657e55c4355> lude:acronym "UCA";
+<ex:University/9d791fc58c21adf30d157657e55c4355> a lude:University;
+  lude:acronym "UCA";
   lude:cif "Q1132001G";
   lude:email "relaciones.institucionales@uca.es";
   lude:id "9d791fc58c21adf30d157657e55c4355";
-  a lude:University;
   lude:modality "Presencial";
   lude:publicationYear "1979";
   lude:telephone "956015033";

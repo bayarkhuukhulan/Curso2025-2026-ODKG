@@ -31,7 +31,6 @@
 
 <ex:Degree/020abbaeb3455045b900a89c8a695ec3> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/529bf45fb09c7ba0a809d81d1e4073af>, <ex:Faculty/caf2e5f367db0b89c2367977d9eb0f47>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "330", "334.5";
@@ -39,16 +38,14 @@
 
 <ex:Degree/04fd0d8a547a17bf0ee061c8270e1972> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/7dc6cb24b94c45a0e20b1c5db16ad0aa>, <ex:Faculty/8f9bbe7dec21c8246b41f0db7bd7dccc>,
-    <ex:Faculty/c9891c9f552c81afdac7332a7ae347de>, <ex:Faculty/e0c7d5efce79bec35bb7ed5a63ad5f5e>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "447", "459";
-  rdfs:label "EDUCACION INFANTIL" .
+  rdfs:label "EDUCACION INFANTIL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q3396243> .
 
 <ex:Degree/0d7d597deabce99f92c79f1d365bd606> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/2bb9feb806365c3b04472e640521bdc6>;
   lude:ectsCredits "373.5";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "469.5";
@@ -56,23 +53,22 @@
 
 <ex:Degree/114768b1b9684c363fc152fb7c16d8b0> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/90d6377df46f95e2662752e8f5de88a3>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offeredCredits "264";
-  rdfs:label "QUIMICA" .
+  rdfs:label "QUIMICA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q2329> .
 
 <ex:Degree/15d30e6e472f20a004e9bc665d540ba6> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/46452214e03b89d343d3db84a0d62ad3>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offeredCredits "120";
-  rdfs:label "MATEMATICAS" .
+  rdfs:label "MATEMATICAS";
+  owl:sameAs <https://www.wikidata.org/wiki/Q395> .
 
 <ex:Degree/1a200709326382531526481104fbe329> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/46452214e03b89d343d3db84a0d62ad3>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "246";
@@ -80,16 +76,14 @@
 
 <ex:Degree/1a74ce6b723d82c0f73476ec86676917> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/37bcc067431cbe0206232ec1619aa991>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "262.5";
-  rdfs:label "LOGOPEDIA" .
+  rdfs:label "LOGOPEDIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q33226> .
 
 <ex:Degree/1c6ef536a721e6a27f674a015578b9fd> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/06435c4dc5341a06a9b3eab937912c42>, <ex:Faculty/29fc99a356e36c4c71a93cec39bb0b4e>,
-    <ex:Faculty/2bb9feb806365c3b04472e640521bdc6>;
   lude:ectsCredits "360";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "247.5", "250.5", "256.5";
@@ -97,7 +91,6 @@
 
 <ex:Degree/20fbbf7aa3571b964957e62badddf828> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "246";
@@ -105,75 +98,70 @@
 
 <ex:Degree/2843c030da1905904f4778f472e5ad89> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/afd229aa6772e6ece69b726f2eaf351c>, <ex:Faculty/c51ed8918eefbc2c836517e5b4e8a0ed>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "270", "294";
-  rdfs:label "EDUCACION SOCIAL" .
+  rdfs:label "EDUCACION SOCIAL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1572493> .
 
 <ex:Degree/3a8aa47b6b1c1e5aa2bcd01f24ced891> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/08de2a84d280d6be869c42d863a7129a>, <ex:Faculty/91fea5aa7206a75c553d8ad2516db35f>,
-    <ex:Faculty/96ffcb842e69358691bb9d242c344811>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "271.5", "282", "312";
-  rdfs:label "INGENIERIA MECANICA" .
+  rdfs:label "INGENIERIA MECANICA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q101333> .
 
 <ex:Degree/3b23d069ecf536226bd207af0827e75e> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/06435c4dc5341a06a9b3eab937912c42>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "264";
-  rdfs:label "TURISMO" .
+  rdfs:label "TURISMO";
+  owl:sameAs <https://www.wikidata.org/wiki/Q976962> .
 
 <ex:Degree/3b66122460ef83b17f68c51237c37590> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "354";
-  rdfs:label "ESPAÑOL: LENGUA Y LITERATURA" .
+  rdfs:label "ESPAÑOL: LENGUA Y LITERATURA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q3381164> .
 
 <ex:Degree/3cb85806f8b41509279bbfc6aba08107> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/90d6377df46f95e2662752e8f5de88a3>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "282";
-  rdfs:label "INGENIERIA QUIMICA" .
+  rdfs:label "INGENIERIA QUIMICA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q83588> .
 
 <ex:Degree/402c2c235be6d27bd0b3641e7c50ae7f> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/06435c4dc5341a06a9b3eab937912c42>, <ex:Faculty/095666c08b0f872219abd1fc8c311df6>,
-    <ex:Faculty/29fc99a356e36c4c71a93cec39bb0b4e>, <ex:Faculty/2bb9feb806365c3b04472e640521bdc6>,
-    <ex:Faculty/afd229aa6772e6ece69b726f2eaf351c>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "297", "322.5";
-  rdfs:label "ADMINISTRACION Y DIRECCION DE EMPRESAS" .
+  rdfs:label "ADMINISTRACION Y DIRECCION DE EMPRESAS";
+  owl:sameAs <https://www.wikidata.org/wiki/Q8188423> .
 
 <ex:Degree/48911faba98caae5186106f6b70fc32f> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/90d6377df46f95e2662752e8f5de88a3>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offeredCredits "258";
-  rdfs:label "CIENCIA Y TECNOLOGIA DE LOS ALIMENTOS" .
+  rdfs:label "CIENCIA Y TECNOLOGIA DE LOS ALIMENTOS";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1039642> .
 
 <ex:Degree/4a3a00a6a21ec6c225c470b015de43c1> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/06435c4dc5341a06a9b3eab937912c42>, <ex:Faculty/29fc99a356e36c4c71a93cec39bb0b4e>,
-    <ex:Faculty/2bb9feb806365c3b04472e640521bdc6>, <ex:Faculty/5894a3cf48c4549d514bb8ec3295355e>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "291", "300", "307.5", "318";
-  rdfs:label "DERECHO" .
+  rdfs:label "DERECHO";
+  owl:sameAs <https://www.wikidata.org/wiki/Q7748> .
 
 <ex:Degree/4dbfcc5399670790df2c11aaaa46faec> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "360";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "396";
@@ -181,23 +169,22 @@
 
 <ex:Degree/53eea58048b158c254ca293baecff382> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/1ec4f16736cbe11775a6035d70832f81>;
   lude:ectsCredits "300";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "322.5";
-  rdfs:label "FARMACIA" .
+  rdfs:label "FARMACIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q614304> .
 
 <ex:Degree/5964c6cfa3c80a441788e26bc49d2d20> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/9c454daad86c6055c41b95a29527cf55>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "246";
-  rdfs:label "COMUNICACION AUDIOVISUAL" .
+  rdfs:label "COMUNICACION AUDIOVISUAL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q3755147> .
 
 <ex:Degree/5aba92a0bab0a43ef490f33a91043fab> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/2bb9feb806365c3b04472e640521bdc6>;
   lude:ectsCredits "385.5";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "498";
@@ -205,50 +192,46 @@
 
 <ex:Degree/5ca20f7d80a85f8c950517da6c72bc72> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/53a41229d36be1772bcb121fa53d0d72>, <ex:Faculty/afd229aa6772e6ece69b726f2eaf351c>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "285", "294";
-  rdfs:label "TRABAJO SOCIAL" .
+  rdfs:label "TRABAJO SOCIAL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q205398> .
 
 <ex:Degree/64e36d464ba01fbe2788a793acd102b8> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/2a5ac0c17bfc78f3b120116be4a96d01>, <ex:Faculty/35985cc08ce06cf619d79ac89e5fbee6>,
-    <ex:Faculty/37bcc067431cbe0206232ec1619aa991>, <ex:Faculty/dfa2af31f882d73897139f71c72138e7>,
-    <ex:Faculty/e69ce0ff797b70665d4e614aaaae01b3>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "252", "258";
-  rdfs:label "ENFERMERIA" .
+  rdfs:label "ENFERMERIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q121176> .
 
 <ex:Degree/65ab56e3c3d69536956bd53a1a885f1f> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "330";
-  rdfs:label "ESTUDIOS INGLESES" .
+  rdfs:label "ESTUDIOS INGLESES";
+  owl:sameAs <https://www.wikidata.org/wiki/Q27968> .
 
 <ex:Degree/66c206794f40906b1c5393c4496d2706> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/7dc6cb24b94c45a0e20b1c5db16ad0aa>, <ex:Faculty/8f9bbe7dec21c8246b41f0db7bd7dccc>,
-    <ex:Faculty/c9891c9f552c81afdac7332a7ae347de>, <ex:Faculty/e0c7d5efce79bec35bb7ed5a63ad5f5e>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "432", "450";
-  rdfs:label "EDUCACION PRIMARIA" .
+  rdfs:label "EDUCACION PRIMARIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q975085> .
 
 <ex:Degree/6934eace5195aa66924eb7dfb980e09d> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/8f9bbe7dec21c8246b41f0db7bd7dccc>, <ex:Faculty/e0c7d5efce79bec35bb7ed5a63ad5f5e>;
   lude:ectsCredits "363";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "441", "453";
-  rdfs:label "EDUCACION PRIMARIA-EDUCACION INFANTIL" .
+  rdfs:label "EDUCACION PRIMARIA-EDUCACION INFANTIL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1472221> .
 
 <ex:Degree/71490765dd8a90402bd320f4c09aaff1> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/06435c4dc5341a06a9b3eab937912c42>;
   lude:ectsCredits "330";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "330";
@@ -256,23 +239,22 @@
 
 <ex:Degree/717e4b87179df0bed55c9525b8c57fb0> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/095666c08b0f872219abd1fc8c311df6>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "318";
-  rdfs:label "ECONOMIA" .
+  rdfs:label "ECONOMIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q8134> .
 
 <ex:Degree/72f1a42b217997a3af8ce4a4f9ea0384> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/4f13fa00099e4b1d5ba245b0d1fdd00e>;
   lude:ectsCredits "300";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "312";
-  rdfs:label "ARQUITECTURA" .
+  rdfs:label "ARQUITECTURA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q12271> .
 
 <ex:Degree/72f501e0f19c0e02a746104fe90d6027> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "294";
@@ -280,23 +262,22 @@
 
 <ex:Degree/769f7d386fd3d50b0c94ee3a8ab0987c> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/c51ed8918eefbc2c836517e5b4e8a0ed>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "270";
-  rdfs:label "HUMANIDADES: HISTORIA CULTURAL" .
+  rdfs:label "HUMANIDADES: HISTORIA CULTURAL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q858517> .
 
 <ex:Degree/777c0366e959bb1eedcc43200291b8a8> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/095666c08b0f872219abd1fc8c311df6>;
   lude:ectsCredits "372";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "388.5";
-  rdfs:label "ECONOMIA-DERECHO" .
+  rdfs:label "ECONOMIA-DERECHO";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1752579> .
 
 <ex:Degree/77e72cbff00ba16a4701d8bafb35f7f0> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "0";
@@ -304,7 +285,6 @@
 
 <ex:Degree/78bba9df2e180d0e9e4f1217000d8753> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "360";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "372";
@@ -312,88 +292,86 @@
 
 <ex:Degree/79abf602471fc674f24f35d66cc9e9f1> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/fdf4f70725be6b45f44430cd82ef0368>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "246";
-  rdfs:label "INGENIERIA AEROESPACIAL" .
+  rdfs:label "INGENIERIA AEROESPACIAL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q3798668> .
 
 <ex:Degree/7eae20306d21583402ceb70efb50c264> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/e06dec56df4f54d9c69091f24a851a28>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "120";
-  rdfs:label "INGENIERIA BIOMEDICA" .
+  rdfs:label "INGENIERIA BIOMEDICA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q327092> .
 
 <ex:Degree/83362e3f4f6affe972232bb17ced6dd2> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/b6a5417870cf169c3a8580a07d59cb69>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offeredCredits "120";
-  rdfs:label "FISICA" .
+  rdfs:label "FISICA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q413> .
 
 <ex:Degree/8690993afee999ffcecd1477e49e4dd2> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/9c454daad86c6055c41b95a29527cf55>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "258";
-  rdfs:label "PERIODISMO" .
+  rdfs:label "PERIODISMO";
+  owl:sameAs <https://www.wikidata.org/wiki/Q11030> .
 
 <ex:Degree/884d78a2c8c46ff98230cec6f535a38a> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5894a3cf48c4549d514bb8ec3295355e>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "246";
-  rdfs:label "CRIMINOLOGIA" .
+  rdfs:label "CRIMINOLOGIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q161733> .
 
 <ex:Degree/913f98876dfaed45ddd54ba53c6783e1> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/a4468489923a2330152c62f16c927775>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "282";
-  rdfs:label "HUMANIDADES Y ESTUDIOS SOCIALES" .
+  rdfs:label "HUMANIDADES Y ESTUDIOS SOCIALES";
+  owl:sameAs <https://www.wikidata.org/wiki/Q14565700> .
 
 <ex:Degree/926a4e70eca5973f6b49640e14e4d397> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/e69ce0ff797b70665d4e614aaaae01b3>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "258";
-  rdfs:label "FISIOTERAPIA" .
+  rdfs:label "FISIOTERAPIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q186005> .
 
 <ex:Degree/946ea4fa77544db06e11369f90e0998d> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "486";
-  rdfs:label "HISTORIA" .
+  rdfs:label "HISTORIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q309> .
 
 <ex:Degree/952eb335f9ec53b9408b1c70e2db27c2> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/b6a5417870cf169c3a8580a07d59cb69>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offeredCredits "271.5";
-  rdfs:label "BIOQUIMICA" .
+  rdfs:label "BIOQUIMICA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q7094> .
 
 <ex:Degree/9ddf6d02aa6b4444f97e0ef96176ed1d> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/529bf45fb09c7ba0a809d81d1e4073af>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "252";
-  rdfs:label "BIOTECNOLOGIA" .
+  rdfs:label "BIOTECNOLOGIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q7108> .
 
 <ex:Degree/a07fd94e64750913f82adfb8599e24bb> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/08de2a84d280d6be869c42d863a7129a>, <ex:Faculty/91fea5aa7206a75c553d8ad2516db35f>,
-    <ex:Faculty/fdf4f70725be6b45f44430cd82ef0368>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "252", "270", "294";
@@ -401,41 +379,38 @@
 
 <ex:Degree/ae46d1baf91065adc798c35b3ce71355> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/095666c08b0f872219abd1fc8c311df6>, <ex:Faculty/5894a3cf48c4549d514bb8ec3295355e>;
   lude:ectsCredits "372", "376.5";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "144", "388.5";
-  rdfs:label "DERECHO-ECONOMIA" .
+  rdfs:label "DERECHO-ECONOMIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1752579> .
 
 <ex:Degree/aeaf273714f68e4689416f9985eeca67> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/5c14362f7406a2442d6deb3f3a110b8f>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "462";
-  rdfs:label "HISTORIA DEL ARTE" .
+  rdfs:label "HISTORIA DEL ARTE";
+  owl:sameAs <https://www.wikidata.org/wiki/Q50641> .
 
 <ex:Degree/b9f1f54140aae74012dc5768ba59c3cc> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/4a3effd00277d6ebeba287b35c4e0010>, <ex:Faculty/ae4b495e41f0e7a7d845ee53a2e695cf>,
-    <ex:Faculty/afd229aa6772e6ece69b726f2eaf351c>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "276", "492", "498";
-  rdfs:label "INGENIERIA INFORMATICA" .
+  rdfs:label "INGENIERIA INFORMATICA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q428691> .
 
 <ex:Degree/bc45aaa4147ceda4f08978fbc34cf4c5> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/e56a8ff34be1c2ccc391429603a08c95>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "306";
-  rdfs:label "HUMANIDADES Y PATRIMONIO" .
+  rdfs:label "HUMANIDADES Y PATRIMONIO";
+  owl:sameAs <https://www.wikidata.org/wiki/Q25101906> .
 
 <ex:Degree/c3bf0872c66988b882d13d23fd540acc> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/06435c4dc5341a06a9b3eab937912c42>, <ex:Faculty/29fc99a356e36c4c71a93cec39bb0b4e>,
-    <ex:Faculty/a6091dcf32320f14f03b7e404d8894f5>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "264", "291";
@@ -443,24 +418,22 @@
 
 <ex:Degree/c78e4fc14202a66833622815086de20c> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/2bb9feb806365c3b04472e640521bdc6>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "270";
-  rdfs:label "ESTUDIOS INTERNACIONALES" .
+  rdfs:label "ESTUDIOS INTERNACIONALES";
+  owl:sameAs <https://www.wikidata.org/wiki/Q166542> .
 
 <ex:Degree/c8b05a3e95265c905506a96507dbb560> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/08de2a84d280d6be869c42d863a7129a>, <ex:Faculty/91fea5aa7206a75c553d8ad2516db35f>,
-    <ex:Faculty/96ffcb842e69358691bb9d242c344811>, <ex:Faculty/fdf4f70725be6b45f44430cd82ef0368>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "264", "270", "271.5", "276";
-  rdfs:label "INGENIERIA ELECTRICA" .
+  rdfs:label "INGENIERIA ELECTRICA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q43035> .
 
 <ex:Degree/cbeed336381bdf2d851a1c9ab647dbe4> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/e06dec56df4f54d9c69091f24a851a28>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "288";
@@ -468,15 +441,14 @@
 
 <ex:Degree/cc34e1aae20ed20334369353fe5e0236> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/e06dec56df4f54d9c69091f24a851a28>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "267";
-  rdfs:label "INGENIERIA DE EDIFICACION" .
+  rdfs:label "INGENIERIA DE EDIFICACION";
+  owl:sameAs <https://www.wikidata.org/wiki/Q150737> .
 
 <ex:Degree/d1f57858a054797c6821de9b7c26a6e6> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/9c454daad86c6055c41b95a29527cf55>;
   lude:ectsCredits "324";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "342";
@@ -484,15 +456,14 @@
 
 <ex:Degree/d231ad8ba72cc5b23ae24e0aa51696c3> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/d766f0955f8d341c7667aa9793b1e6c8>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "120";
-  rdfs:label "PSICOLOGIA" .
+  rdfs:label "PSICOLOGIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q9418> .
 
 <ex:Degree/d2aad29982a5c54e85914c9e5d52a386> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/37bcc067431cbe0206232ec1619aa991>;
   lude:ectsCredits "408";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "414";
@@ -500,23 +471,22 @@
 
 <ex:Degree/d443044b1c2afff5acc94bf8eaf521be> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/c67388e685d270e7866388977807f448>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "301.5";
-  rdfs:label "CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE" .
+  rdfs:label "CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1298380> .
 
 <ex:Degree/d9a97e6f8b15f7f701678534568e4a7c> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/37bcc067431cbe0206232ec1619aa991>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "264";
-  rdfs:label "TERAPIA OCUPACIONAL" .
+  rdfs:label "TERAPIA OCUPACIONAL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q380141> .
 
 <ex:Degree/e7e4355b3c3d58cf9d66b07c7c055271> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/529bf45fb09c7ba0a809d81d1e4073af>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "276";
@@ -524,23 +494,22 @@
 
 <ex:Degree/ee4064cf4a9209bf369023716a0220eb> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/8f8a707c625676c7af62e83b94a0d2d3>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/72ceb55b13672d5fdbac7ce07f1e85a8>;
   lude:offeredCredits "390";
-  rdfs:label "BELLAS ARTES" .
+  rdfs:label "BELLAS ARTES";
+  owl:sameAs <https://www.wikidata.org/wiki/Q219625> .
 
 <ex:Degree/f0d97bfc519bf192897d09e29d1c537d> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/caf2e5f367db0b89c2367977d9eb0f47>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offeredCredits "246";
-  rdfs:label "ENOLOGIA" .
+  rdfs:label "ENOLOGIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q297672> .
 
 <ex:Degree/f5c3abd4a31cda52ab09ea91498e3d1f> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/96ffcb842e69358691bb9d242c344811>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/0957ac6a7296b4e6ef4d4e8d25691025>;
   lude:offeredCredits "288";
@@ -548,35 +517,35 @@
 
 <ex:Degree/f90164f12a9c293db9afeda70b07b9d9> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/7dc6cb24b94c45a0e20b1c5db16ad0aa>;
   lude:ectsCredits "363";
   lude:hasKnowledgeArea <ex:KnowledgeArea/03b7c4d6f22bd8efa1659d8e6a06d97e>;
   lude:offeredCredits "459";
-  rdfs:label "EDUCACION PRIMARIA-EDUCACION INFANTIL" .
+  rdfs:label "EDUCACION PRIMARIA-EDUCACION INFANTIL";
+  owl:sameAs <https://www.wikidata.org/wiki/Q1472221> .
 
 <ex:Degree/f9ba38892c9a4f315ea0ae7d512e79e7> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/169b6c6234b6b3a24525295eaefb9aae>, <ex:Faculty/d766f0955f8d341c7667aa9793b1e6c8>;
   lude:ectsCredits "360";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "378", "384";
-  rdfs:label "MEDICINA" .
+  rdfs:label "MEDICINA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q11190> .
 
 <ex:Degree/f9ed34cb9ca61226fbcb32acf1abb766> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/b6a5417870cf169c3a8580a07d59cb69>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/cca488c1d5d31aa9a4c4356b47f75ebd>;
   lude:offeredCredits "291";
-  rdfs:label "CIENCIAS AMBIENTALES" .
+  rdfs:label "CIENCIAS AMBIENTALES";
+  owl:sameAs <https://www.wikidata.org/wiki/Q188847> .
 
 <ex:Degree/fa64f2edeced3f94a0b6143168dbd817> a lude:Degree;
   lude:academicYear "2024-25";
-  lude:deliveredAt <ex:Faculty/37bcc067431cbe0206232ec1619aa991>;
   lude:ectsCredits "240";
   lude:hasKnowledgeArea <ex:KnowledgeArea/afc4b5d3b7e78e8fb66cf859c95aaefe>;
   lude:offeredCredits "246";
-  rdfs:label "PODOLOGIA" .
+  rdfs:label "PODOLOGIA";
+  owl:sameAs <https://www.wikidata.org/wiki/Q52862> .
 
 <ex:Faculty/06435c4dc5341a06a9b3eab937912c42> a lude:Faculty;
   lude:hasFaculty <ex:University/a62a164f781be26dd225dfda47b78c12>;
@@ -1098,7 +1067,8 @@
   rdfs:label "University of Valladolid";
   owl:sameAs <https://wikidata.org/entity/Q768224> .
 
-<ex:University/92c852850da0a33857691151f42ac19a> lude:acronym "UJI";
+<ex:University/92c852850da0a33857691151f42ac19a> a lude:University;
+  lude:acronym "UJI";
   lude:cif "Q6250003H";
   lude:email "info@uji.es";
   lude:id "92c852850da0a33857691151f42ac19a";
@@ -1107,7 +1077,6 @@
   lude:telephone "964728000";
   lude:type "Pública";
   lude:url "www.uji.es";
-  a lude:University;
   rdfs:label "Jaume I University";
   owl:sameAs <https://wikidata.org/entity/Q29718> .
 
@@ -1162,11 +1131,11 @@
   rdfs:label "Public University of Navarre";
   owl:sameAs <https://wikidata.org/entity/Q3179598> .
 
-<ex:University/bd5d3da0c4dfc8205ca85ea0c1699a62> a lude:University;
-  lude:acronym "UMH";
+<ex:University/bd5d3da0c4dfc8205ca85ea0c1699a62> lude:acronym "UMH";
   lude:cif "Q5350015C";
   lude:email "info@umh.es";
   lude:id "bd5d3da0c4dfc8205ca85ea0c1699a62";
+  a lude:University;
   lude:modality "Presencial";
   lude:publicationYear "1996";
   lude:telephone "966658500";

@@ -10,12 +10,13 @@ mappings:
 
   DegreeIslasBalearesMapping:
     sources:
-      - ['data/ISLASBALEARES-degree.csv~csv']
+      - ['data/ISLASBALEARES-degree-with-links.csv~csv']
     s: ex:Degree/$(DegreeID)
     po:
       - [rdf:type, lude:Degree]
       - [rdfs:label, $(Degree)]
       - [lude:code, $(Code)]
+      - [owl:sameAs, $(sameAs)~iri]
       - p: lude:hasAcademicLevel
         o:
           mapping: AcademicLevelMapping

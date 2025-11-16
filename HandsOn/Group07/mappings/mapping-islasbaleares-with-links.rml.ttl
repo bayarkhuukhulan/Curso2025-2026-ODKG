@@ -22,7 +22,7 @@
 
 	rml:logicalSource [
 		a rml:LogicalSource;
-		rml:source "data/ISLASBALEARES-degree.csv";
+		rml:source "data/ISLASBALEARES-degree-with-links.csv";
 		rml:referenceFormulation ql:CSV
 
 	];
@@ -58,6 +58,17 @@
 		rr:objectMap [
 			a rr:ObjectMap;
 			rml:reference "Code";
+		];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [
+			a rr:PredicateMap;
+			rr:constant owl:sameAs;
+		];
+		rr:objectMap [
+			a rr:ObjectMap;
+			rml:reference "sameAsWikidata";
+			rr:termType rr:IRI
 		];
 	];
 	rr:predicateObjectMap [
